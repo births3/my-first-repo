@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Gaokao Math Question",
+  "type": "object",
+  "required": ["id", "year", "subject", "exam_type", "paper", "regions", "question_no", "question_type", "stem", "source"],
+  "properties": {
+    "id": {"type": "string"},
+    "year": {"type": "integer"},
+    "subject": {"const": "数学"},
+    "exam_type": {"type": "string"},
+    "paper": {"type": "string"},
+    "regions": {"type": "array", "items": {"type": "string"}},
+    "question_no": {"type": ["integer", "string"]},
+    "question_type": {"type": "string", "enum": ["single_choice", "multiple_choice", "fill_blank", "solution", "unknown"]},
+    "stem": {"type": "string"},
+    "options": {"type": ["object", "null"], "additionalProperties": {"type": "string"}},
+    "answer": {"type": ["string", "array", "null"]},
+    "analysis": {"type": ["string", "null"]},
+    "knowledge_points": {"type": "array", "items": {"type": "string"}},
+    "difficulty": {"type": ["string", "number", "null"]},
+    "source": {
+      "type": "object",
+      "required": ["repository", "file"],
+      "properties": {
+        "repository": {"type": "string"},
+        "file": {"type": "string"},
+        "sha": {"type": ["string", "null"]}
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}
