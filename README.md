@@ -5,33 +5,33 @@
 ## 数据结构
 
 - `data/<year>/<paper>.jsonl`：逐题数据，每行一道题
+- `analysis/<year>-<paper>.json`：逐题解题思路/解析
 - `metadata/papers.json`：试卷元数据索引
 - `schema.json`：题目字段规范
 - `SOURCE_ATTRIBUTION.md`：来源与许可说明
 
 ## 单题字段
 
-核心字段包括：
-
-- `id`
-- `year`
-- `subject`
-- `exam_type`
-- `paper`
-- `regions`
-- `question_no`
-- `question_type`
-- `stem`
-- `options`
-- `answer`
-- `analysis`
-- `knowledge_points`
-- `difficulty`
-- `source`
+核心字段包括：`id`、`year`、`subject`、`exam_type`、`paper`、`regions`、`question_no`、`question_type`、`stem`、`options`、`answer`、`analysis`、`knowledge_points`、`difficulty`、`source`。
 
 ## 当前进度
 
-已建立基础结构，并登记 2024 年新高考 I 卷（适用地区包含浙江）的源文件信息。题目内容将按试卷逐步拆分并校验后写入 JSONL。
+### 2024 新高考 I 卷（浙江适用）
+- 19 道题已完成题目级结构化：`data/2024/new-gaokao-1.jsonl`
+- 19 道题已建立解析：`analysis/2024-new-gaokao-1.json`
+- 第 11、17 题含原卷示意图，已保留 `needs_figure` 标记，待补图资源。
+
+### 2023 新高考 I 卷（浙江适用）
+- 已确认源卷并登记到 `metadata/papers.json`
+- 已建立 `data/2023/new-gaokao-1.jsonl`
+- 待进行逐题提取、答案校验和解析。
+
+## 浙江适用卷
+
+- 2024：新高考 I 卷
+- 2023：新高考 I 卷
+
+后续将继续向前整理 2022、2021 等浙江高考数学试卷，并逐步补齐详细解析、知识点标签和图形资源。
 
 ## 数据来源
 
