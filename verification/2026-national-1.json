@@ -10,34 +10,43 @@
   "verification_sources": [
     "deekur/gaokaomath source PDF metadata",
     "深圳本地宝 2026 全国一卷数学文字版",
-    "天材教育 2026 全国I卷数学解析",
-    "independent mathematical recomputation"
+    "考试卷网 2026 全国一卷数学",
+    "四季读书网 2026 全国一卷数学文字版",
+    "独立数学重算"
   ],
   "summary": {
     "question_count": 19,
     "structure": "8单选+3多选+3填空+5解答",
-    "status": "needs_review",
-    "reason": "题目数量与结构已确认，但当前仓库多道单选/多选缺完整选项；部分题需恢复公式显示后才能做逐字级校验"
+    "status": "mostly_verified",
+    "verified_count": 17,
+    "needs_review_count": 2,
+    "reason": "第4、5题仍缺完整四选项；其余题面、答案或关键结论已通过至少两路来源或独立重算。第15题已修正原仓库转录错误。"
   },
   "question_checks": [
-    {"question_no":1,"status":"verified","notes":"6,8,4,5,12排序为4,5,6,8,12，中位数6，答案B；题干和选项与独立来源一致。"},
-    {"question_no":2,"status":"needs_review","notes":"数学结论x=2,y=-3可由向量基底唯一性复核，但当前仓库 options=null，需恢复完整A-D选项。"},
-    {"question_no":3,"status":"verified","notes":"sin(7π/6)=-1/2, cos(5π/3)=1/2, tan(5π/4)=1，因此交集为{-1/2,1}，答案C；独立来源同为C。"},
-    {"question_no":4,"status":"needs_review","notes":"切线结论可由导数复核，但当前仓库 options=null；且需确认原题点坐标/函数公式在网页文字转录中无丢失。"},
-    {"question_no":5,"status":"needs_review","notes":"焦点距离结果可复核，但当前仓库 options=null，需按原卷补四选项。"},
-    {"question_no":6,"status":"needs_review","notes":"答案a=1需继续用完整函数定义域和原选项核对；当前 options=null。"},
-    {"question_no":7,"status":"needs_review","notes":"构造结果d=4可独立验证，但当前仓库缺四个选项及完整背景题面。"},
-    {"question_no":8,"status":"needs_review","notes":"期望-1/21可用对称性独立复核，但当前仓库 options=null，需恢复完整选项。"},
-    {"question_no":9,"status":"verified","notes":"z=3+2i；共轭3-2i正确，|z|=√13非5，z²=5+12i，(z+3)/(z-i)为实数；答案ACD，与独立来源一致。"},
-    {"question_no":10,"status":"verified","notes":"独立来源完整给出A-D并参考答案BC；与仓库答案BC一致。"},
-    {"question_no":11,"status":"needs_review","notes":"仓库答案BCD与独立来源一致，但仓库 options=null；需要恢复完整四个弦长命题后才可标verified。"},
-    {"question_no":12,"status":"verified","notes":"5x²-6y²=1化为x²/(1/5)-y²/(1/6)=1，e=√((1/5+1/6)/(1/5))=√(11/6)。"},
-    {"question_no":13,"status":"needs_review","notes":"当前题面含参数a∈Z和单调性条件，需从原卷核对参数符号及答案对；网页公式显示存在丢失风险。"},
-    {"question_no":14,"status":"needs_review","notes":"需恢复完整题面并做独立推导。"},
-    {"question_no":15,"status":"needs_review","notes":"立体几何解答题；结构已由独立解析来源确认，但需逐条件/结论核对。"},
-    {"question_no":16,"status":"needs_review","notes":"解三角形综合；需逐条件、数值和最终答案核对。"},
-    {"question_no":17,"status":"needs_review","notes":"概率与条件概率；需核分布列、条件概率结论和解析严密性。"},
-    {"question_no":18,"status":"needs_review","notes":"椭圆综合；需逐式核对面积比/角度最值及答案。"},
-    {"question_no":19,"status":"needs_review","notes":"集合新定义与函数性质压轴题；必须按原卷完整题面逐项重推。"}
+    {"question_no":1,"status":"verified","notes":"题干、选项、答案B与独立来源一致；排序后中位数为6。"},
+    {"question_no":2,"status":"verified","notes":"已恢复完整A-D选项；向量基底唯一性得x=2,y=-3，答案A。"},
+    {"question_no":3,"status":"verified","notes":"已恢复完整A-D选项；交集为{-1/2,1}，答案C。"},
+    {"question_no":4,"status":"needs_review","notes":"题干与切线结论y=13x-8可独立复核，但仓库仍缺完整A-D选项。"},
+    {"question_no":5,"status":"needs_review","notes":"按题面独立计算两焦点(4,0),(0,1/2)，距离为√65/2；部分第三方速查表误写为5。仓库答案内容正确，但仍缺完整A-D选项。"},
+    {"question_no":6,"status":"verified","notes":"已恢复原函数f(x)=(x+2)/(e^x+a)及四选项；由max(x+2-e^x)=1得a=1，答案B。"},
+    {"question_no":7,"status":"verified","notes":"已恢复完整背景和四选项；构造组和8,12,16,20,24,28，得d=4，答案B。"},
+    {"question_no":8,"status":"verified","notes":"已恢复四选项；利用中心对称，删去P后总和-3，共63点，E(X)=-1/21，答案A。"},
+    {"question_no":9,"status":"verified","notes":"仓库完整选项可逐项重算：A、C、D正确，答案ACD。部分第三方页面的D项转录存在错误，不采用。"},
+    {"question_no":10,"status":"verified","notes":"完整A-D与独立来源一致；截面法得CD≥√3，且C项成立，答案BC。"},
+    {"question_no":11,"status":"verified","notes":"已恢复完整A-D；考试卷网原题文字与仓库一致，答案BCD。D项最大值为2√21/3。"},
+    {"question_no":12,"status":"verified","notes":"e=√(11/6)=√66/6，两种写法等价；部分题库只给其中一种形式。"},
+    {"question_no":13,"status":"verified","notes":"多份独立题源确认原题为f(2π/3)而非f(π/3)；θ=3π/2，函数值1。仓库已修正θ范围为0≤θ<2π。"},
+    {"question_no":14,"status":"verified","notes":"仓库答案∛(3/2)经独立分块推导成立；部分第三方整理误写√2。由S_{3n}-S_{3n-3}=2n，两个相邻完整三项块和之比=q³，最大为6/4=3/2。"},
+    {"question_no":15,"status":"verified","notes":"已确认原题E为A1C1中点，原仓库误写AC1中点；据此第二问距离应为2而非1。题目与解析均已修正。"},
+    {"question_no":16,"status":"verified","notes":"余弦定理得AC=3、cosA=1/3；再由平行与垂直关系求得AE=6，CE=3√5。"},
+    {"question_no":17,"status":"verified","notes":"完整题面与独立来源一致；分布列1/3,2/9,4/27,8/27；P(X>k)=(1-p)^k，无记忆性结论成立。"},
+    {"question_no":18,"status":"verified","notes":"椭圆方程x²/4+y²/3=1；斜率√5/2；tan∠PQR最小值4√3，与独立解析一致。"},
+    {"question_no":19,"status":"verified","notes":"完整新定义题面与独立来源一致；D(-1)=(0,3/2)，后续两问均为证明题。"}
+  ],
+  "corrections_applied": [
+    "Q6: 将等价转录(-x+2)/(e^{-x}+a)恢复为原题(x+2)/(e^x+a)，并补全四选项。",
+    "Q11: 补全四个选项，D项为2√21/3。",
+    "Q13: θ范围修正为0≤θ<2π。",
+    "Q15: E由AC1中点修正为A1C1中点；第二问答案1修正为2；同步重写解析。"
   ]
 }
