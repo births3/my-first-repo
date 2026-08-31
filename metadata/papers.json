@@ -1,5 +1,27 @@
 [
   {
+    "year": 2026,
+    "subject": "数学",
+    "exam_type": "普通高考",
+    "paper": "全国1卷",
+    "regions": ["山东", "广东", "湖南", "湖北", "河北", "江苏", "福建", "浙江", "河南", "江西", "安徽"],
+    "source_repository": "deekur/gaokaomath",
+    "source_file": "普通高考/2026/2026全国1(山东,广东,湖南,湖北,河北,江苏,福建,浙江,河南,江西,安徽).pdf",
+    "source_sha": "520ab76bc3becadb8246705d261f4562f7d62e12",
+    "status": "pending_extraction"
+  },
+  {
+    "year": 2025,
+    "subject": "数学",
+    "exam_type": "普通高考",
+    "paper": "全国1卷",
+    "regions": ["山东", "广东", "湖南", "湖北", "河北", "江苏", "福建", "浙江", "河南", "江西", "安徽"],
+    "source_repository": "deekur/gaokaomath",
+    "source_file": "普通高考/2025/2025全国1(山东,广东,湖南,湖北,河北,江苏,福建,浙江,河南,江西,安徽).pdf",
+    "source_sha": "4a5702dda207a470840a62c982ab2392362a404e",
+    "status": "pending_extraction"
+  },
+  {
     "year": 2024,
     "subject": "数学",
     "exam_type": "普通高考",
