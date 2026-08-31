@@ -1,21 +1,310 @@
 [
-  {"question_no":1,"analysis":"由 -5<x^3<5 得 -∛5<x<∛5，故 B 中仅 -1、0 落在 A 内，所以 A∩B={-1,0}。"},
-  {"question_no":2,"analysis":"由 z=(1+i)(z-1)，整理得 -iz=-(1+i)，故 z=(1+i)/i=1-i。"},
-  {"question_no":3,"analysis":"b·(b-4a)=0，即 (2,x)·(2,x-4)=4+x(x-4)=0，得 (x-2)^2=0，所以 x=2。"},
-  {"question_no":4,"analysis":"cos(α-β)=cosαcosβ+sinαsinβ=cosαcosβ(1+tanαtanβ)=3cosαcosβ；而 cos(α+β)=cosαcosβ(1-tanαtanβ)=-cosαcosβ=m，故 cos(α-β)=-3m。"},
-  {"question_no":5,"analysis":"设公共底面半径为 r，圆柱侧面积 2πr√3，圆锥侧面积 πrl，相等得 l=2√3。圆锥高为 √3，故 r²=l²-h²=12-3=9，r=3。体积=(1/3)πr²h=3√3π。"},
-  {"question_no":6,"analysis":"x<0 时 f'(x)=-2x-2a。要在 (-∞,0) 上非负，须 a≤0；同时跨越分界点单调还需左极限 f(0-)=-a≤f(0)=1，即 a≥-1。故 a∈[-1,0]。"},
-  {"question_no":7,"analysis":"把交点条件化为 sin x=2sin(3x-π/6)。可按三角函数零点和单调区间分段比较，或利用图象在 [0,2π] 上逐段计数，恰有 6 个交点。"},
-  {"question_no":8,"analysis":"由 x<3 时 f(x)=x，可从 f(x)>f(x-1)+f(x-2) 递推得到整数点下界，增长速度快于斐波那契型递推。逐步估计可得 f(20)>1000；其余给出的上界或较弱下界均不能由条件必然推出。"},
-  {"question_no":9,"analysis":"X~N(1.8,0.1²)，2 比均值高 2 个标准差，因此 P(X>2) 很小，必小于 0.5，B 对。Y~N(2.1,0.1²)，2 比均值低 1 个标准差，所以 P(Y>2)=P(Y<2.2)≈0.8413>0.5，C 对，同时不小于 0.8，D 错。"},
-  {"question_no":10,"analysis":"f(x)=(x-1)²(x-4)，求导 f'(x)=3(x-1)(x-3)，故 x=3 为极小值点，A 对。再结合各区间单调性与代入区间 2x-1、2-x 比较，可判 C、D 正确，B 错。"},
-  {"question_no":11,"analysis":"把点 (x,y) 到 F(2,0) 的距离与到直线 x=a 的距离乘积写成方程。代入原点可先确定 a=-2；再代入 (2√2,0) 验证 B。由所得曲线方程整理并估计 y 的上界，可得 D；第一象限纵坐标最大值并非 1，故 C 错。"},
-  {"question_no":12,"analysis":"设 F2=(c,0)，过 F2 的竖线与双曲线交点纵坐标为 ±b²/a，因此 |AB|=2b²/a=10，得 b²=5a。又双曲线定义给 |F1A|-|F2A|=2a，而 |F2A|=5，所以 13-5=2a，a=4，b²=20，c²=a²+b²=36，故 e=c/a=3/2。"},
-  {"question_no":13,"analysis":"曲线 y=e^x+x 在 x=0 处导数为 2，切线为 y=2x+1。若它也是 y=ln(x+1)+a 的切线，则需 1/(x+1)=2，得切点 x=-1/2。代入切线相等：ln(1/2)+a=0，所以 a=ln2。"},
-  {"question_no":14,"analysis":"把乙方出牌顺序固定后，甲方 4 张牌的随机排列共有 24 种且等可能。逐一按每轮大小比较计分，统计甲至少得 2 分的排列数为 12，因此概率为 12/24=1/2。"},
-  {"question_no":15,"analysis":"由 a²+b²-c²=2ab cosC=√2ab，得 cosC=√2/2。再结合 sinC=√2 cosB，可求得 B=π/3。第二问用面积公式 S=(1/2)ac sinB（或等价组合正弦、余弦定理）联立边角关系，解得 c=2√2。"},
-  {"question_no":16,"analysis":"A(0,3) 在椭圆上给 b=3；P(3,3/2) 代入求得 a²=12，因此 e=√(a²-b²)/a=1/2。第二问设过 P 的直线与椭圆再交 B，利用弦参数或直线代入椭圆，再把三角形 ABP 面积条件写成关于斜率的方程，解得两条直线 3x-2y-6=0 或 x-2y=0。"},
-  {"question_no":17,"analysis":"第一问利用 PA⊥底面，结合 AD⊥PB 建立空间垂直关系，可证 AD 同时与平面 PBC 内两条相交直线满足所需关系，从而 AD∥平面 PBC。第二问建立以 A 为原点的空间直角坐标系，把二面角转化为两法向量夹角，代入其正弦值 √42/7，解得 AD=√3。"},
-  {"question_no":18,"analysis":"定义域为 (0,2)。第一问 b=0 时 f'(x)=1/x+1/(2-x)+a=2/[x(2-x)]+a；因 x(2-x)≤1，故前项≥2，要使导数恒非负需 a≥-2，最小值 -2。第二问令 t=x-1，可验证 f(1+t)+f(1-t)=2a，因此图象关于 (1,a) 中心对称。第三问结合中心对称、边界值和导数单调性，把“f(x)>-2 当且仅当 1<x<2”转化为参数约束，最终得到 b≥-2/3。"},
-  {"question_no":19,"analysis":"等差数列的具体首项、公差不影响可分性，本质只与下标集合有关。第一问枚举 1~6 删除两项后余下 4 个下标是否成等差数列，得 (1,2)、(1,6)、(5,6)。第二问对删除 2、13 后的下标集合给出分组构造，每组 4 个下标构成等差数列。第三问通过构造一大类必为可分的 (i,j) 并计数，所得有利对数除以 C(4m+2,2) 后可严格估计大于 1/8。"}
+  {
+    "question_id": "2024-new-gaokao-1-01",
+    "analysis": "因为 $1<\\sqrt[3]{5}<2$，所以 $$ -\\sqrt[3]{5}<-1<0<\\sqrt[3]{5} $$ 而 $-3$，$2$，$3$ 都不在区间 $\\left(-\\sqrt[3]{5},\\sqrt[3]{5}\\right)$ 内，因此 $A\\cap B=\\{-1,0\\}$. 故选 A.",
+    "analysis_source": "existing_analysis_checked_against_reference",
+    "reference_solution": "因为 $1<\\sqrt[3]{5}<2$，所以 $$ -\\sqrt[3]{5}<-1<0<\\sqrt[3]{5} $$ 而 $-3$，$2$，$3$ 都不在区间 $\\left(-\\sqrt[3]{5},\\sqrt[3]{5}\\right)$ 内，因此 $A\\cap B=\\{-1,0\\}$. 故选 A.",
+    "reference_solution_latex": "因为 \\(1<\\sqrt[3]{5}<2\\)，所以\n\\[\n-\\sqrt[3]{5}<-1<0<\\sqrt[3]{5}\n\\]\n而 \\(-3\\)，\\(2\\)，\\(3\\) 都不在区间 \\(\\left(-\\sqrt[3]{5},\\sqrt[3]{5}\\right)\\) 内，因此\n\\(A\\cap B=\\{-1,0\\}\\).\n故选 A.",
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2024/new_gaokao_paper_1.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "77b974d8d692363d60c8d436b6c8624428bb0108",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2024-new-gaokao-1-02",
+    "analysis": "由 $\\frac{z}{z-1}=1+\\mathrm{i}$ 得 $z=(1+\\mathrm{i})(z-1)$. 所以 $\\mathrm{i} z=-(1+\\mathrm{i})$， 从而 $z=\\frac{-(1+\\mathrm{i})}{\\mathrm{i}}=1-\\mathrm{i}$. 故选 C.",
+    "analysis_source": "existing_analysis_checked_against_reference",
+    "reference_solution": "由 $\\frac{z}{z-1}=1+\\mathrm{i}$ 得 $z=(1+\\mathrm{i})(z-1)$. 所以 $\\mathrm{i} z=-(1+\\mathrm{i})$， 从而 $z=\\frac{-(1+\\mathrm{i})}{\\mathrm{i}}=1-\\mathrm{i}$. 故选 C.",
+    "reference_solution_latex": "由\n\\(\\frac{z}{z-1}=1+\\i\\)\n得\n\\(z=(1+\\i)(z-1)\\).\n所以\n\\(\\i z=-(1+\\i)\\)，\n从而\n\\(z=\\frac{-(1+\\i)}{\\i}=1-\\i\\).\n故选 C.",
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2024/new_gaokao_paper_1.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "77b974d8d692363d60c8d436b6c8624428bb0108",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2024-new-gaokao-1-03",
+    "analysis": "由 $\\bs b\\perp (\\bs b-4\\bs a)$，得 $\\bs b\\cdot (\\bs b-4\\bs a)=0$. 即 $(2,x)\\cdot\\left(2,x-4\\right)=4+x(x-4)=0$. 故 $x^2-4x+4=0$，所以 $x=2$（题中仅有一个取值）. 故选 D.",
+    "analysis_source": "existing_analysis_checked_against_reference",
+    "reference_solution": "由 $\\bs b\\perp (\\bs b-4\\bs a)$，得 $\\bs b\\cdot (\\bs b-4\\bs a)=0$. 即 $(2,x)\\cdot\\left(2,x-4\\right)=4+x(x-4)=0$. 故 $x^2-4x+4=0$，所以 $x=2$（题中仅有一个取值）. 故选 D.",
+    "reference_solution_latex": "由 \\(\\bs b\\perp (\\bs b-4\\bs a)\\)，得\n\\(\\bs b\\cdot (\\bs b-4\\bs a)=0\\).\n即\n\\((2,x)\\cdot\\left(2,x-4\\right)=4+x(x-4)=0\\).\n故 \\(x^2-4x+4=0\\)，所以 \\(x=2\\)（题中仅有一个取值）. 故选 D.",
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2024/new_gaokao_paper_1.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "77b974d8d692363d60c8d436b6c8624428bb0108",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2024-new-gaokao-1-04",
+    "analysis": "由 $\\cos(\\alpha+\\beta)=m$ 得 $\\cos\\alpha\\cos\\beta-\\sin\\alpha\\sin\\beta=m$. 又 $\\tan\\alpha\\tan\\beta=2$，故 $\\sin\\alpha\\sin\\beta=2\\cos\\alpha\\cos\\beta$. 于是 $\\cos\\alpha\\cos\\beta-2\\cos\\alpha\\cos\\beta=-m$ 即 $\\cos\\alpha\\cos\\beta=-m$. 从而 $$ \\cos(\\alpha-\\beta)=\\cos\\alpha\\cos\\beta+\\sin\\alpha\\sin\\beta=(-m)+2(-m)=-3m $$ 故选 A.",
+    "analysis_source": "pinned_reference_solution",
+    "reference_solution": "由 $\\cos(\\alpha+\\beta)=m$ 得 $\\cos\\alpha\\cos\\beta-\\sin\\alpha\\sin\\beta=m$. 又 $\\tan\\alpha\\tan\\beta=2$，故 $\\sin\\alpha\\sin\\beta=2\\cos\\alpha\\cos\\beta$. 于是 $\\cos\\alpha\\cos\\beta-2\\cos\\alpha\\cos\\beta=-m$ 即 $\\cos\\alpha\\cos\\beta=-m$. 从而 $$ \\cos(\\alpha-\\beta)=\\cos\\alpha\\cos\\beta+\\sin\\alpha\\sin\\beta=(-m)+2(-m)=-3m $$ 故选 A.",
+    "reference_solution_latex": "由 \\(\\cos(\\alpha+\\beta)=m\\) 得\n\\(\\cos\\alpha\\cos\\beta-\\sin\\alpha\\sin\\beta=m\\).\n又 \\(\\tan\\alpha\\tan\\beta=2\\)，故\n\\(\\sin\\alpha\\sin\\beta=2\\cos\\alpha\\cos\\beta\\).\n于是\n\\(\\cos\\alpha\\cos\\beta-2\\cos\\alpha\\cos\\beta=-m\\)\n即 \\(\\cos\\alpha\\cos\\beta=-m\\). 从而\n\\[\n\\cos(\\alpha-\\beta)=\\cos\\alpha\\cos\\beta+\\sin\\alpha\\sin\\beta=(-m)+2(-m)=-3m\n\\]\n故选 A.",
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2024/new_gaokao_paper_1.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "77b974d8d692363d60c8d436b6c8624428bb0108",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2024-new-gaokao-1-05",
+    "analysis": "设圆柱和圆锥的底面半径都为 $r$. 圆锥的母线长为 $l=\\sqrt{r^2+(\\sqrt3)^2}=\\sqrt{r^2+3}$. 侧面积相等给出 $2\\pi r\\cdot \\sqrt3=\\pi rl$ 即 $\\sqrt{r^2+3}=2\\sqrt3$， 故 $r^2=9$. 所以 $r=3$. 圆锥体积 $$ V=\\frac13\\pi r^2\\cdot \\sqrt3=\\frac13\\pi\\cdot 9\\cdot \\sqrt3=3\\sqrt3\\pi $$ 故选 B.",
+    "analysis_source": "pinned_reference_solution",
+    "reference_solution": "设圆柱和圆锥的底面半径都为 $r$. 圆锥的母线长为 $l=\\sqrt{r^2+(\\sqrt3)^2}=\\sqrt{r^2+3}$. 侧面积相等给出 $2\\pi r\\cdot \\sqrt3=\\pi rl$ 即 $\\sqrt{r^2+3}=2\\sqrt3$， 故 $r^2=9$. 所以 $r=3$. 圆锥体积 $$ V=\\frac13\\pi r^2\\cdot \\sqrt3=\\frac13\\pi\\cdot 9\\cdot \\sqrt3=3\\sqrt3\\pi $$ 故选 B.",
+    "reference_solution_latex": "设圆柱和圆锥的底面半径都为 \\(r\\). 圆锥的母线长为\n\\(l=\\sqrt{r^2+(\\sqrt3)^2}=\\sqrt{r^2+3}\\).\n侧面积相等给出\n\\(2\\pi r\\cdot \\sqrt3=\\pi rl\\)\n即\n\\(\\sqrt{r^2+3}=2\\sqrt3\\)，\n故\n\\(r^2=9\\).\n所以 \\(r=3\\). 圆锥体积\n\\[\nV=\\frac13\\pi r^2\\cdot \\sqrt3=\\frac13\\pi\\cdot 9\\cdot \\sqrt3=3\\sqrt3\\pi\n\\]\n故选 B.",
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2024/new_gaokao_paper_1.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "77b974d8d692363d60c8d436b6c8624428bb0108",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2024-new-gaokao-1-06",
+    "analysis": "当 $x\\ge 0$ 时， $f(x)=\\mathrm{e}^x+\\ln(x+1)$， 故 $f'(x)=\\mathrm{e}^x+\\frac1{x+1}>0$， 于是右侧部分严格递增. 对 $x<0$，有 $f'(x)=-2x-2a$. 要使该部分单调递增需 $f'(x)\\ge 0$，即 $-2x-2a\\ge 0$，对 $x<0$ 最严格在 $x\\to0^-$ 时取到，故 $-2a\\ge 0$，即 $a\\le0$. 此外，单调性要求左侧极限不超过右侧端点值，即 $$ \\lim\\limits_{x\\to0^-}f(x)=-a\\le f(0)=\\mathrm{e}+\\ln1=1 $$ 故 $-a\\le1$，即 $a\\ge-1$. 故 $a\\mathrm{i}n[-1,0]$.",
+    "analysis_source": "pinned_reference_solution",
+    "reference_solution": "当 $x\\ge 0$ 时， $f(x)=\\mathrm{e}^x+\\ln(x+1)$， 故 $f'(x)=\\mathrm{e}^x+\\frac1{x+1}>0$， 于是右侧部分严格递增. 对 $x<0$，有 $f'(x)=-2x-2a$. 要使该部分单调递增需 $f'(x)\\ge 0$，即 $-2x-2a\\ge 0$，对 $x<0$ 最严格在 $x\\to0^-$ 时取到，故 $-2a\\ge 0$，即 $a\\le0$. 此外，单调性要求左侧极限不超过右侧端点值，即 $$ \\lim\\limits_{x\\to0^-}f(x)=-a\\le f(0)=\\mathrm{e}+\\ln1=1 $$ 故 $-a\\le1$，即 $a\\ge-1$. 故 $a\\mathrm{i}n[-1,0]$.",
+    "reference_solution_latex": "当 \\(x\\ge 0\\) 时，\n\\(f(x)=\\e^x+\\ln(x+1)\\)，\n故\n\\(f'(x)=\\e^x+\\frac1{x+1}>0\\)，\n于是右侧部分严格递增.\n\n对 \\(x<0\\)，有\n\\(f'(x)=-2x-2a\\).\n要使该部分单调递增需 \\(f'(x)\\ge 0\\)，即 \\(-2x-2a\\ge 0\\)，对 \\(x<0\\) 最严格在 \\(x\\to0^-\\) 时取到，故 \\(-2a\\ge 0\\)，即 \\(a\\le0\\).\n\n此外，单调性要求左侧极限不超过右侧端点值，即\n\\[\n\\lim\\limits_{x\\to0^-}f(x)=-a\\le f(0)=\\e+\\ln1=1\n\\]\n故 \\(-a\\le1\\)，即 \\(a\\ge-1\\). 故 \\(a\\in[-1,0]\\).",
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2024/new_gaokao_paper_1.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "77b974d8d692363d60c8d436b6c8624428bb0108",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2024-new-gaokao-1-07",
+    "analysis": "设 $h(x)=\\sin x-2\\sin\\left(3x-\\frac{\\pi}{6}\\right)$. 题目所求即为方程 $h(x)=0$ 在 $[0,2\\pi]$ 上解的个数. 因为 $h(x+\\pi)=\\sin(x+\\pi)-2\\sin\\left(3x+\\frac{17\\pi}{6}\\right)=-h(x)$， 所以 $h(x)=0$ 的解关于平移 $\\pi$ 成对出现，只需考察区间 $[0,\\pi]$. 当 $x\\mathrm{i}n\\left[\\frac{\\pi}{6},\\frac{\\pi}{3}\\right]$ 时，$\\sin x\\le \\frac{\\sqrt3}{2}$，且 $3x-\\frac{\\pi}{6}\\mathrm{i}n\\left[\\frac{\\pi}{3},\\frac{5\\pi}{6}\\right]$，从而 $\\sin\\left(3x-\\frac{\\pi}{6}\\right)\\ge \\frac12$. 于是 $h(x)\\le \\frac{\\sqrt3}{2}-1<0$. 当 $x\\mathrm{i}n\\left[\\frac{\\pi}{2},\\frac{2\\pi}{3}\\right]$ 时，$\\sin x\\ge \\frac{\\sqrt3}{2}$，且 $3x-\\frac{\\pi}{6}\\mathrm{i}n\\left[\\frac{4\\pi}{3},\\frac{11\\pi}{6}\\right]$，从而 $\\sin\\left(3x-\\frac{\\pi}{6}\\right)\\le -\\frac12$. 于是 $h(x)\\ge \\frac{\\sqrt3}{2}+1>0$. 当 $x\\mathrm{i}n\\left[\\frac{5\\pi}{6},\\pi\\right]$ 时，$\\sin x\\le \\frac12$，且 $3x-\\frac{\\pi}{6}\\mathrm{i}n\\left[\\frac{7\\pi}{3},\\frac{17\\pi}{6}\\right]$，其正弦值不小于 $\\frac12$，于是 $h(x)\\le \\frac12-1<0$. [图] } 再看三个剩余区间： $h(0)=1>0$，$h\\left(\\frac{\\pi}{6}\\right)=\\frac12-\\sqrt3<0$， $h\\left(\\frac{\\pi}{3}\\right)=\\frac{\\sqrt3}{2}-1<0$，$h\\left(\\frac{\\pi}{2}\\right)=1+\\sqrt3>0$， $h\\left(\\frac{2\\pi}{3}\\right)=1+\\frac{\\sqrt3}{2}>0$，$h\\left(\\frac{5\\pi}{6}\\right)=\\frac12-\\sqrt3<0$. 由介值定理，方程 $h(x)=0$ 在 $\\left(0,\\frac{\\pi}{6}\\right)$，$\\left(\\frac{\\pi}{3},\\frac{\\pi}{2}\\right)$，$\\left(\\frac{2\\pi}{3},\\frac{5\\pi}{6}\\right)$ 内各有一个解，而在其余部分没有解，所以在 $[0,\\pi]$ 上共有 $3$ 个解. 再由 $h(x+\\pi)=-h(x)$，得到 $[\\pi,2\\pi]$ 上对应地也有 $3$ 个解. 因此两个曲线在 $[0,2\\pi]$ 上共有 $6$ 个交点. 故选 C.",
+    "analysis_source": "pinned_reference_solution",
+    "reference_solution": "设 $h(x)=\\sin x-2\\sin\\left(3x-\\frac{\\pi}{6}\\right)$. 题目所求即为方程 $h(x)=0$ 在 $[0,2\\pi]$ 上解的个数. 因为 $h(x+\\pi)=\\sin(x+\\pi)-2\\sin\\left(3x+\\frac{17\\pi}{6}\\right)=-h(x)$， 所以 $h(x)=0$ 的解关于平移 $\\pi$ 成对出现，只需考察区间 $[0,\\pi]$. 当 $x\\mathrm{i}n\\left[\\frac{\\pi}{6},\\frac{\\pi}{3}\\right]$ 时，$\\sin x\\le \\frac{\\sqrt3}{2}$，且 $3x-\\frac{\\pi}{6}\\mathrm{i}n\\left[\\frac{\\pi}{3},\\frac{5\\pi}{6}\\right]$，从而 $\\sin\\left(3x-\\frac{\\pi}{6}\\right)\\ge \\frac12$. 于是 $h(x)\\le \\frac{\\sqrt3}{2}-1<0$. 当 $x\\mathrm{i}n\\left[\\frac{\\pi}{2},\\frac{2\\pi}{3}\\right]$ 时，$\\sin x\\ge \\frac{\\sqrt3}{2}$，且 $3x-\\frac{\\pi}{6}\\mathrm{i}n\\left[\\frac{4\\pi}{3},\\frac{11\\pi}{6}\\right]$，从而 $\\sin\\left(3x-\\frac{\\pi}{6}\\right)\\le -\\frac12$. 于是 $h(x)\\ge \\frac{\\sqrt3}{2}+1>0$. 当 $x\\mathrm{i}n\\left[\\frac{5\\pi}{6},\\pi\\right]$ 时，$\\sin x\\le \\frac12$，且 $3x-\\frac{\\pi}{6}\\mathrm{i}n\\left[\\frac{7\\pi}{3},\\frac{17\\pi}{6}\\right]$，其正弦值不小于 $\\frac12$，于是 $h(x)\\le \\frac12-1<0$. [图] } 再看三个剩余区间： $h(0)=1>0$，$h\\left(\\frac{\\pi}{6}\\right)=\\frac12-\\sqrt3<0$， $h\\left(\\frac{\\pi}{3}\\right)=\\frac{\\sqrt3}{2}-1<0$，$h\\left(\\frac{\\pi}{2}\\right)=1+\\sqrt3>0$， $h\\left(\\frac{2\\pi}{3}\\right)=1+\\frac{\\sqrt3}{2}>0$，$h\\left(\\frac{5\\pi}{6}\\right)=\\frac12-\\sqrt3<0$. 由介值定理，方程 $h(x)=0$ 在 $\\left(0,\\frac{\\pi}{6}\\right)$，$\\left(\\frac{\\pi}{3},\\frac{\\pi}{2}\\right)$，$\\left(\\frac{2\\pi}{3},\\frac{5\\pi}{6}\\right)$ 内各有一个解，而在其余部分没有解，所以在 $[0,\\pi]$ 上共有 $3$ 个解. 再由 $h(x+\\pi)=-h(x)$，得到 $[\\pi,2\\pi]$ 上对应地也有 $3$ 个解. 因此两个曲线在 $[0,2\\pi]$ 上共有 $6$ 个交点. 故选 C.",
+    "reference_solution_latex": "设\n\\(h(x)=\\sin x-2\\sin\\left(3x-\\frac{\\pi}{6}\\right)\\).\n题目所求即为方程 \\(h(x)=0\\) 在 \\([0,2\\pi]\\) 上解的个数.\n\n因为\n\\(h(x+\\pi)=\\sin(x+\\pi)-2\\sin\\left(3x+\\frac{17\\pi}{6}\\right)=-h(x)\\)，\n所以 \\(h(x)=0\\) 的解关于平移 \\(\\pi\\) 成对出现，只需考察区间 \\([0,\\pi]\\).\n\n当 \\(x\\in\\left[\\frac{\\pi}{6},\\frac{\\pi}{3}\\right]\\) 时，\\(\\sin x\\le \\frac{\\sqrt3}{2}\\)，且 \\(3x-\\frac{\\pi}{6}\\in\\left[\\frac{\\pi}{3},\\frac{5\\pi}{6}\\right]\\)，从而 \\(\\sin\\left(3x-\\frac{\\pi}{6}\\right)\\ge \\frac12\\). 于是\n\\(h(x)\\le \\frac{\\sqrt3}{2}-1<0\\).\n当 \\(x\\in\\left[\\frac{\\pi}{2},\\frac{2\\pi}{3}\\right]\\) 时，\\(\\sin x\\ge \\frac{\\sqrt3}{2}\\)，且 \\(3x-\\frac{\\pi}{6}\\in\\left[\\frac{4\\pi}{3},\\frac{11\\pi}{6}\\right]\\)，从而 \\(\\sin\\left(3x-\\frac{\\pi}{6}\\right)\\le -\\frac12\\). 于是\n\\(h(x)\\ge \\frac{\\sqrt3}{2}+1>0\\).\n当 \\(x\\in\\left[\\frac{5\\pi}{6},\\pi\\right]\\) 时，\\(\\sin x\\le \\frac12\\)，且 \\(3x-\\frac{\\pi}{6}\\in\\left[\\frac{7\\pi}{3},\\frac{17\\pi}{6}\\right]\\)，其正弦值不小于 \\(\\frac12\\)，于是\n\\(h(x)\\le \\frac12-1<0\\).\n\n\\solutionfigure{\\bitmapfigure[max width=6.8cm]{img/2024/new_gaokao_paper_1/q7_fig1.png}}\n\n再看三个剩余区间：\n\\(h(0)=1>0\\)，\\(h\\left(\\frac{\\pi}{6}\\right)=\\frac12-\\sqrt3<0\\)，\n\\(h\\left(\\frac{\\pi}{3}\\right)=\\frac{\\sqrt3}{2}-1<0\\)，\\(h\\left(\\frac{\\pi}{2}\\right)=1+\\sqrt3>0\\)，\n\\(h\\left(\\frac{2\\pi}{3}\\right)=1+\\frac{\\sqrt3}{2}>0\\)，\\(h\\left(\\frac{5\\pi}{6}\\right)=\\frac12-\\sqrt3<0\\).\n由介值定理，方程 \\(h(x)=0\\) 在\n\\(\\left(0,\\frac{\\pi}{6}\\right)\\)，\\(\\left(\\frac{\\pi}{3},\\frac{\\pi}{2}\\right)\\)，\\(\\left(\\frac{2\\pi}{3},\\frac{5\\pi}{6}\\right)\\)\n内各有一个解，而在其余部分没有解，所以在 \\([0,\\pi]\\) 上共有 \\(3\\) 个解.\n\n再由 \\(h(x+\\pi)=-h(x)\\)，得到 \\([\\pi,2\\pi]\\) 上对应地也有 \\(3\\) 个解. 因此两个曲线在 \\([0,2\\pi]\\) 上共有 \\(6\\) 个交点. 故选 C.",
+    "reference_solution_figure_refs": [
+      "img/2024/new_gaokao_paper_1/q7_fig1.png"
+    ],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2024/new_gaokao_paper_1.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "77b974d8d692363d60c8d436b6c8624428bb0108",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2024-new-gaokao-1-08",
+    "analysis": "由题设得 $f(1)=1$，$f(2)=2$. 由递推式 $f(x)>f(x-1)+f(x-2)$ 可得 $f(3)>3$，$f(4)>5$，$f(5)>8$，$f(6)>13$，$\\dots$，逐项递增且均大于对应斐波那契数，故 $f(10)>89$，$f(20)>1597>1000$. 故 $f(20)>1000$ 正确，其他不一定. 故选 B.",
+    "analysis_source": "existing_analysis_checked_against_reference",
+    "reference_solution": "由题设得 $f(1)=1$，$f(2)=2$. 由递推式 $f(x)>f(x-1)+f(x-2)$ 可得 $f(3)>3$，$f(4)>5$，$f(5)>8$，$f(6)>13$，$\\dots$，逐项递增且均大于对应斐波那契数，故 $f(10)>89$，$f(20)>1597>1000$. 故 $f(20)>1000$ 正确，其他不一定. 故选 B.",
+    "reference_solution_latex": "由题设得 \\(f(1)=1\\)，\\(f(2)=2\\). 由递推式 \\(f(x)>f(x-1)+f(x-2)\\) 可得 \\(f(3)>3\\)，\\(f(4)>5\\)，\\(f(5)>8\\)，\\(f(6)>13\\)，\\(\\dots\\)，逐项递增且均大于对应斐波那契数，故\n\\(f(10)>89\\)，\\(f(20)>1597>1000\\).\n故 \\(f(20)>1000\\) 正确，其他不一定. 故选 B.",
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2024/new_gaokao_paper_1.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "77b974d8d692363d60c8d436b6c8624428bb0108",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2024-new-gaokao-1-09",
+    "analysis": "由 $x=2.1$，$s^2=0.01$，有 $Y\\sim N(2.1,0.1)$. 故 $$ P(Y>2)=P(Y>2.1-0.1)=P(Y<2.1+0.1)\\approx0.8413>0.5 $$ 所以 $C$ 正确，$D$ 错误. 又 $X\\sim N(1.8,0.1)$，故 $$ P(X>2)=P\\left(X>1.8+2\\times0.1\\right)<P\\left(X>1.8+0.1\\right)\\approx1-0.8413=0.1587<0.2 $$ 所以 B 正确，A 错误. 故选 BC.",
+    "analysis_source": "pinned_reference_solution",
+    "reference_solution": "由 $x=2.1$，$s^2=0.01$，有 $Y\\sim N(2.1,0.1)$. 故 $$ P(Y>2)=P(Y>2.1-0.1)=P(Y<2.1+0.1)\\approx0.8413>0.5 $$ 所以 $C$ 正确，$D$ 错误. 又 $X\\sim N(1.8,0.1)$，故 $$ P(X>2)=P\\left(X>1.8+2\\times0.1\\right)<P\\left(X>1.8+0.1\\right)\\approx1-0.8413=0.1587<0.2 $$ 所以 B 正确，A 错误. 故选 BC.",
+    "reference_solution_latex": "由 \\(x=2.1\\)，\\(s^2=0.01\\)，有 \\(Y\\sim N(2.1,0.1)\\). 故\n\\[\nP(Y>2)=P(Y>2.1-0.1)=P(Y<2.1+0.1)\\approx0.8413>0.5\n\\]\n所以 \\(C\\) 正确，\\(D\\) 错误.\n\n又 \\(X\\sim N(1.8,0.1)\\)，故\n\\[\nP(X>2)=P\\left(X>1.8+2\\times0.1\\right)<P\\left(X>1.8+0.1\\right)\\approx1-0.8413=0.1587<0.2\n\\]\n所以 B 正确，A 错误. 故选 BC.",
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2024/new_gaokao_paper_1.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "77b974d8d692363d60c8d436b6c8624428bb0108",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2024-new-gaokao-1-10",
+    "analysis": "设 $x\\mathrm{i}n\\mathbb{R}$， $f'(x)=3(x-1)(x-3)$. 当 $x\\mathrm{i}n(-\\mathrm{i}nfty,1)\\cup(3,+\\mathrm{i}nfty)$ 时 $f'(x)>0$，当 $x\\mathrm{i}n(1,3)$ 时 $f'(x)<0$，故 $x=1$ 是局部极大，$x=3$ 为局部极小；在 $0<x<1$ 时 $f$ 增，故 $f(x)<f(x^2)$ 的说法方向相反，$B$ 错误. 当 $1<x<2$ 时，$2x-1\\mathrm{i}n(1,3)$ 且 $f$ 在 $(1,3)$ 上递减，所以 $f(1)>f(2x-1)>f(3)$，即 $-4<f(2x-1)<0$，故 $C$ 正确. 当 $-1<x<0$， $f(2-x)-f(x)=2(1-x)^3$. 故 $f(2-x)>f(x)$，所以 D 正确. 故选 ACD.",
+    "analysis_source": "pinned_reference_solution",
+    "reference_solution": "设 $x\\mathrm{i}n\\mathbb{R}$， $f'(x)=3(x-1)(x-3)$. 当 $x\\mathrm{i}n(-\\mathrm{i}nfty,1)\\cup(3,+\\mathrm{i}nfty)$ 时 $f'(x)>0$，当 $x\\mathrm{i}n(1,3)$ 时 $f'(x)<0$，故 $x=1$ 是局部极大，$x=3$ 为局部极小；在 $0<x<1$ 时 $f$ 增，故 $f(x)<f(x^2)$ 的说法方向相反，$B$ 错误. 当 $1<x<2$ 时，$2x-1\\mathrm{i}n(1,3)$ 且 $f$ 在 $(1,3)$ 上递减，所以 $f(1)>f(2x-1)>f(3)$，即 $-4<f(2x-1)<0$，故 $C$ 正确. 当 $-1<x<0$， $f(2-x)-f(x)=2(1-x)^3$. 故 $f(2-x)>f(x)$，所以 D 正确. 故选 ACD.",
+    "reference_solution_latex": "设 \\(x\\in\\R\\)，\n\\(f'(x)=3(x-1)(x-3)\\).\n当 \\(x\\in(-\\infty,1)\\cup(3,+\\infty)\\) 时 \\(f'(x)>0\\)，当 \\(x\\in(1,3)\\) 时 \\(f'(x)<0\\)，故 \\(x=1\\) 是局部极大，\\(x=3\\) 为局部极小；在 \\(0<x<1\\) 时 \\(f\\) 增，故 \\(f(x)<f(x^2)\\) 的说法方向相反，\\(B\\) 错误.\n当 \\(1<x<2\\) 时，\\(2x-1\\in(1,3)\\) 且 \\(f\\) 在 \\((1,3)\\) 上递减，所以 \\(f(1)>f(2x-1)>f(3)\\)，即 \\(-4<f(2x-1)<0\\)，故 \\(C\\) 正确.\n当 \\(-1<x<0\\)，\n\\(f(2-x)-f(x)=2(1-x)^3\\).\n故 \\(f(2-x)>f(x)\\)，所以 D 正确. 故选 ACD.",
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2024/new_gaokao_paper_1.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "77b974d8d692363d60c8d436b6c8624428bb0108",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2024-new-gaokao-1-11",
+    "analysis": "设曲线上点为 $P(x,y)$，则 $x>-2$ 且 $\\sqrt{(x-2)^2+y^2}\\cdot |x-a|=4$. 又 $C$ 过 $O$，代入得 $2\\cdot|0-a|=4$，故 $a=-2$. 因此曲线方程可写为 $\\sqrt{(x-2)^2+y^2}\\,(x+2)=4$. 两边平方得 $\\left((x-2)^2+y^2\\right)(x+2)^2=16$. 当 $x=2\\sqrt2$，$y=0$ 时， $\\sqrt{(2\\sqrt2-2)^2+0^2}\\,(2\\sqrt2+2)=2(\\sqrt2-1)\\cdot 2(\\sqrt2+1)=4$， 故点 $(2\\sqrt2,0)$ 在 $C$ 上，$B$ 正确. 又当 $x=\\frac32$ 时， $$ y^2=\\frac{16}{(x+2)^2}-(x-2)^2=\\frac{64}{49}-\\frac14=\\frac{207}{196}>1 $$ 故第一象限上 $y$ 的最大值大于 $1$，所以 $C$ 错. 再由方程可得 $y_0^2=\\frac{16}{(x_0+2)^2}-(x_0-2)^2$. 于是 $y_0^2\\le \\frac{16}{(x_0+2)^2}$. 因为 $x_0+2>0$，所以 $y_0\\le \\frac{4}{x_0+2}$. 故 $D$ 正确.",
+    "analysis_source": "pinned_reference_solution",
+    "reference_solution": "设曲线上点为 $P(x,y)$，则 $x>-2$ 且 $\\sqrt{(x-2)^2+y^2}\\cdot |x-a|=4$. 又 $C$ 过 $O$，代入得 $2\\cdot|0-a|=4$，故 $a=-2$. 因此曲线方程可写为 $\\sqrt{(x-2)^2+y^2}\\,(x+2)=4$. 两边平方得 $\\left((x-2)^2+y^2\\right)(x+2)^2=16$. 当 $x=2\\sqrt2$，$y=0$ 时， $\\sqrt{(2\\sqrt2-2)^2+0^2}\\,(2\\sqrt2+2)=2(\\sqrt2-1)\\cdot 2(\\sqrt2+1)=4$， 故点 $(2\\sqrt2,0)$ 在 $C$ 上，$B$ 正确. 又当 $x=\\frac32$ 时， $$ y^2=\\frac{16}{(x+2)^2}-(x-2)^2=\\frac{64}{49}-\\frac14=\\frac{207}{196}>1 $$ 故第一象限上 $y$ 的最大值大于 $1$，所以 $C$ 错. 再由方程可得 $y_0^2=\\frac{16}{(x_0+2)^2}-(x_0-2)^2$. 于是 $y_0^2\\le \\frac{16}{(x_0+2)^2}$. 因为 $x_0+2>0$，所以 $y_0\\le \\frac{4}{x_0+2}$. 故 $D$ 正确.",
+    "reference_solution_latex": "设曲线上点为 \\(P(x,y)\\)，则 \\(x>-2\\) 且\n\\(\\sqrt{(x-2)^2+y^2}\\cdot |x-a|=4\\).\n又 \\(C\\) 过 \\(O\\)，代入得 \\(2\\cdot|0-a|=4\\)，故 \\(a=-2\\).\n因此曲线方程可写为\n\\(\\sqrt{(x-2)^2+y^2}\\,(x+2)=4\\).\n两边平方得\n\\(\\left((x-2)^2+y^2\\right)(x+2)^2=16\\).\n当 \\(x=2\\sqrt2\\)，\\(y=0\\) 时，\n\\(\\sqrt{(2\\sqrt2-2)^2+0^2}\\,(2\\sqrt2+2)=2(\\sqrt2-1)\\cdot 2(\\sqrt2+1)=4\\)，\n故点 \\((2\\sqrt2,0)\\) 在 \\(C\\) 上，\\(B\\) 正确.\n又当 \\(x=\\frac32\\) 时，\n\\[\ny^2=\\frac{16}{(x+2)^2}-(x-2)^2=\\frac{64}{49}-\\frac14=\\frac{207}{196}>1\n\\]\n故第一象限上 \\(y\\) 的最大值大于 \\(1\\)，所以 \\(C\\) 错.\n再由方程可得\n\\(y_0^2=\\frac{16}{(x_0+2)^2}-(x_0-2)^2\\).\n于是\n\\(y_0^2\\le \\frac{16}{(x_0+2)^2}\\).\n因为 \\(x_0+2>0\\)，所以\n\\(y_0\\le \\frac{4}{x_0+2}\\).\n故 \\(D\\) 正确.",
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2024/new_gaokao_paper_1.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "77b974d8d692363d60c8d436b6c8624428bb0108",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified_with_figure_dependency"
+  },
+  {
+    "question_id": "2024-new-gaokao-1-12",
+    "analysis": "设两交点横坐标均为 $c$. 由方程可得 $y_A=\\frac{b}{a}\\sqrt{c^2-a^2}$，$y_B=-\\frac{b}{a}\\sqrt{c^2-a^2}$. 故 $|AB|=2\\frac{b}{a}\\sqrt{c^2-a^2}=10$，即 $AB=10\\mathbb{R}ightarrow \\frac{b}{a}\\sqrt{c^2-a^2}=5$，并且 $|AF_2|=5$. 又 $F_2$ 到 $F_1$ 的距离为 $2a$，所以 $|AF_1|=|AF_2|+2a=13\\mathbb{R}ightarrow a=4$. 代入 $|AB|=10$ 可得 $b^2=20$. 故离心率 $e=\\sqrt{1+\\frac{b^2}{a^2}}=\\sqrt{1+\\frac{20}{16}}=\\frac32$.",
+    "analysis_source": "pinned_reference_solution",
+    "reference_solution": "设两交点横坐标均为 $c$. 由方程可得 $y_A=\\frac{b}{a}\\sqrt{c^2-a^2}$，$y_B=-\\frac{b}{a}\\sqrt{c^2-a^2}$. 故 $|AB|=2\\frac{b}{a}\\sqrt{c^2-a^2}=10$，即 $AB=10\\mathbb{R}ightarrow \\frac{b}{a}\\sqrt{c^2-a^2}=5$，并且 $|AF_2|=5$. 又 $F_2$ 到 $F_1$ 的距离为 $2a$，所以 $|AF_1|=|AF_2|+2a=13\\mathbb{R}ightarrow a=4$. 代入 $|AB|=10$ 可得 $b^2=20$. 故离心率 $e=\\sqrt{1+\\frac{b^2}{a^2}}=\\sqrt{1+\\frac{20}{16}}=\\frac32$.",
+    "reference_solution_latex": "设两交点横坐标均为 \\(c\\). 由方程可得\n\\(y_A=\\frac{b}{a}\\sqrt{c^2-a^2}\\)，\\(y_B=-\\frac{b}{a}\\sqrt{c^2-a^2}\\).\n故 \\(|AB|=2\\frac{b}{a}\\sqrt{c^2-a^2}=10\\)，即 \\(AB=10\\Rightarrow \\frac{b}{a}\\sqrt{c^2-a^2}=5\\)，并且\n\\(|AF_2|=5\\).\n又 \\(F_2\\) 到 \\(F_1\\) 的距离为 \\(2a\\)，所以\n\\(|AF_1|=|AF_2|+2a=13\\Rightarrow a=4\\).\n代入 \\(|AB|=10\\) 可得 \\(b^2=20\\). 故离心率\n\\(e=\\sqrt{1+\\frac{b^2}{a^2}}=\\sqrt{1+\\frac{20}{16}}=\\frac32\\).",
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2024/new_gaokao_paper_1.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "77b974d8d692363d60c8d436b6c8624428bb0108",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified_with_figure_dependency"
+  },
+  {
+    "question_id": "2024-new-gaokao-1-13",
+    "analysis": "$y=\\mathrm{e}^x+x$ 在 $(0,1)$ 的切线方程是 $y=2x+1$. 设 $y=\\ln(x+1)+a$ 在 $x_0$ 处切于该点且切线与上述相同. 因为该切线斜率是 2，故 $\\frac{1}{x_0+1}=2\\mathbb{R}ightarrow x_0=-\\frac12$. 因此另一切点坐标为 $\\left(-\\frac12,a+\\ln\\frac12\\right)$，其切线 $y=2x+1+a-\\ln2$. 与 $y=2x+1$ 重合得 $a=\\ln2$.",
+    "analysis_source": "pinned_reference_solution",
+    "reference_solution": "$y=\\mathrm{e}^x+x$ 在 $(0,1)$ 的切线方程是 $y=2x+1$. 设 $y=\\ln(x+1)+a$ 在 $x_0$ 处切于该点且切线与上述相同. 因为该切线斜率是 2，故 $\\frac{1}{x_0+1}=2\\mathbb{R}ightarrow x_0=-\\frac12$. 因此另一切点坐标为 $\\left(-\\frac12,a+\\ln\\frac12\\right)$，其切线 $y=2x+1+a-\\ln2$. 与 $y=2x+1$ 重合得 $a=\\ln2$.",
+    "reference_solution_latex": "\\(y=\\e^x+x\\) 在 \\((0,1)\\) 的切线方程是\n\\(y=2x+1\\).\n设 \\(y=\\ln(x+1)+a\\) 在 \\(x_0\\) 处切于该点且切线与上述相同. 因为该切线斜率是 2，故\n\\(\\frac{1}{x_0+1}=2\\Rightarrow x_0=-\\frac12\\).\n因此另一切点坐标为 \\(\\left(-\\frac12,a+\\ln\\frac12\\right)\\)，其切线\n\\(y=2x+1+a-\\ln2\\).\n与 \\(y=2x+1\\) 重合得 \\(a=\\ln2\\).",
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2024/new_gaokao_paper_1.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "77b974d8d692363d60c8d436b6c8624428bb0108",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2024-new-gaokao-1-14",
+    "analysis": "把甲四张卡片的出牌顺序固定，乙的四张卡片按随机顺序依次对应，则共有 $A_4^4=4!$ 种等可能结果. 设甲四轮得分分别为 $X_1$，$X_2$，$X_3$，$X_4$，总分为 $X$. 对任意一轮，甲乙两人该轮出示的牌等可能地组成 $16$ 种有序对，其中甲获胜的有 $6$ 种，所以 $P(X_k=1)=\\frac{6}{16}=\\frac38$（$k=1$，$2$，$3$，$4$）. 因此 $E(X)=\\sum_{k=1}^4 E(X_k)=4\\times\\frac38=\\frac32$. 记 $P(X=j)=p_j$（$j=0$，$1$，$2$，$3$）. 若甲得 $0$ 分，则只能是甲依次出 $1$，$3$，$5$，$7$，乙依次出 $2$，$4$，$6$，$8$，故 $p_0=\\frac1{24}$. 若甲得 $3$ 分，则只能是甲依次出 $1$，$3$，$5$，$7$，乙依次出 $8$，$2$，$4$，$6$，故 $p_3=\\frac1{24}$. 又因为 $X$ 的所有可能取值为 $0$，$1$，$2$，$3$，所以 $p_0+p_1+p_2+p_3=1$， $p_1+2p_2+3p_3=E(X)=\\frac32$. 代入 $p_0=\\frac1{24}$，$p_3=\\frac1{24}$ 得 $p_1+p_2=\\frac{11}{12}$，$p_1+2p_2=\\frac{11}{8}$， 解得 $p_2=\\frac{11}{24}$. 因此 $$ P(X\\ge2)=p_2+p_3=\\frac{11}{24}+\\frac1{24}=\\frac12 $$ 故所求概率为 $\\frac12$.",
+    "analysis_source": "pinned_reference_solution",
+    "reference_solution": "把甲四张卡片的出牌顺序固定，乙的四张卡片按随机顺序依次对应，则共有 $A_4^4=4!$ 种等可能结果. 设甲四轮得分分别为 $X_1$，$X_2$，$X_3$，$X_4$，总分为 $X$. 对任意一轮，甲乙两人该轮出示的牌等可能地组成 $16$ 种有序对，其中甲获胜的有 $6$ 种，所以 $P(X_k=1)=\\frac{6}{16}=\\frac38$（$k=1$，$2$，$3$，$4$）. 因此 $E(X)=\\sum_{k=1}^4 E(X_k)=4\\times\\frac38=\\frac32$. 记 $P(X=j)=p_j$（$j=0$，$1$，$2$，$3$）. 若甲得 $0$ 分，则只能是甲依次出 $1$，$3$，$5$，$7$，乙依次出 $2$，$4$，$6$，$8$，故 $p_0=\\frac1{24}$. 若甲得 $3$ 分，则只能是甲依次出 $1$，$3$，$5$，$7$，乙依次出 $8$，$2$，$4$，$6$，故 $p_3=\\frac1{24}$. 又因为 $X$ 的所有可能取值为 $0$，$1$，$2$，$3$，所以 $p_0+p_1+p_2+p_3=1$， $p_1+2p_2+3p_3=E(X)=\\frac32$. 代入 $p_0=\\frac1{24}$，$p_3=\\frac1{24}$ 得 $p_1+p_2=\\frac{11}{12}$，$p_1+2p_2=\\frac{11}{8}$， 解得 $p_2=\\frac{11}{24}$. 因此 $$ P(X\\ge2)=p_2+p_3=\\frac{11}{24}+\\frac1{24}=\\frac12 $$ 故所求概率为 $\\frac12$.",
+    "reference_solution_latex": "把甲四张卡片的出牌顺序固定，乙的四张卡片按随机顺序依次对应，则共有 \\(A_4^4=4!\\) 种等可能结果.\n设甲四轮得分分别为 \\(X_1\\)，\\(X_2\\)，\\(X_3\\)，\\(X_4\\)，总分为 \\(X\\). 对任意一轮，甲乙两人该轮出示的牌等可能地组成 \\(16\\) 种有序对，其中甲获胜的有 \\(6\\) 种，所以\n\\(P(X_k=1)=\\frac{6}{16}=\\frac38\\)（\\(k=1\\)，\\(2\\)，\\(3\\)，\\(4\\)）.\n因此\n\\(E(X)=\\sum_{k=1}^4 E(X_k)=4\\times\\frac38=\\frac32\\).\n记 \\(P(X=j)=p_j\\)（\\(j=0\\)，\\(1\\)，\\(2\\)，\\(3\\)）. 若甲得 \\(0\\) 分，则只能是甲依次出 \\(1\\)，\\(3\\)，\\(5\\)，\\(7\\)，乙依次出 \\(2\\)，\\(4\\)，\\(6\\)，\\(8\\)，故\n\\(p_0=\\frac1{24}\\).\n若甲得 \\(3\\) 分，则只能是甲依次出 \\(1\\)，\\(3\\)，\\(5\\)，\\(7\\)，乙依次出 \\(8\\)，\\(2\\)，\\(4\\)，\\(6\\)，故\n\\(p_3=\\frac1{24}\\).\n又因为 \\(X\\) 的所有可能取值为 \\(0\\)，\\(1\\)，\\(2\\)，\\(3\\)，所以\n\\(p_0+p_1+p_2+p_3=1\\)，\n\\(p_1+2p_2+3p_3=E(X)=\\frac32\\).\n代入 \\(p_0=\\frac1{24}\\)，\\(p_3=\\frac1{24}\\) 得\n\\(p_1+p_2=\\frac{11}{12}\\)，\\(p_1+2p_2=\\frac{11}{8}\\)，\n解得\n\\(p_2=\\frac{11}{24}\\).\n因此\n\\[\nP(X\\ge2)=p_2+p_3=\\frac{11}{24}+\\frac1{24}=\\frac12\n\\]\n故所求概率为 \\(\\frac12\\).",
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2024/new_gaokao_paper_1.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "77b974d8d692363d60c8d436b6c8624428bb0108",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2024-new-gaokao-1-15",
+    "analysis": "\\mathrm{i}tem 由余弦定理 $a^2+b^2-c^2=2ab\\cos C$. 对比可得 $\\cos C=\\frac{\\sqrt2}{2}$. 又 $C\\mathrm{i}n(0,\\pi)$，故 $\\sin C=\\sqrt{1-\\cos^2C}=\\frac{\\sqrt2}{2}$. 结合 $\\sin C=2\\cos B$，得 $\\cos B=\\frac12$，故 $B=\\frac\\pi3$. \\mathrm{i}tem 由（1）及 $\\cos C=\\frac{\\sqrt2}{2}$ 得 $B=\\frac\\pi3$，$C=\\frac\\pi4$， 从而 $A=\\pi-\\frac\\pi3-\\frac\\pi4=\\frac{5\\pi}{12}$. 根据正弦定理， $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$. 故 $a=\\frac{\\sin A}{\\sin C}c=\\frac{\\frac{\\sqrt6+\\sqrt2}{4}}{\\frac{\\sqrt2}{2}}c=\\frac{\\sqrt3+1}{2}c$，$b=\\frac{\\sin B}{\\sin C}c=\\frac{\\frac{\\sqrt3}{2}}{\\frac{\\sqrt2}{2}}c=\\frac{\\sqrt6}{2}c$. 三角形面积 $S_{\\triangle ABC}=\\frac12 ab\\sin C=\\frac{3+\\sqrt3}{8}c^2$. 已知面积为 $3+\\sqrt3$，则 $\\frac{3+\\sqrt3}{8}c^2=3+\\sqrt3$， 故 $c^2=8$，$c=2\\sqrt2$. 故 $c=2\\sqrt2$. \\mathrm{e}nd{enumerate}",
+    "analysis_source": "pinned_reference_solution",
+    "reference_solution": "\\mathrm{i}tem 由余弦定理 $a^2+b^2-c^2=2ab\\cos C$. 对比可得 $\\cos C=\\frac{\\sqrt2}{2}$. 又 $C\\mathrm{i}n(0,\\pi)$，故 $\\sin C=\\sqrt{1-\\cos^2C}=\\frac{\\sqrt2}{2}$. 结合 $\\sin C=2\\cos B$，得 $\\cos B=\\frac12$，故 $B=\\frac\\pi3$. \\mathrm{i}tem 由（1）及 $\\cos C=\\frac{\\sqrt2}{2}$ 得 $B=\\frac\\pi3$，$C=\\frac\\pi4$， 从而 $A=\\pi-\\frac\\pi3-\\frac\\pi4=\\frac{5\\pi}{12}$. 根据正弦定理， $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$. 故 $a=\\frac{\\sin A}{\\sin C}c=\\frac{\\frac{\\sqrt6+\\sqrt2}{4}}{\\frac{\\sqrt2}{2}}c=\\frac{\\sqrt3+1}{2}c$，$b=\\frac{\\sin B}{\\sin C}c=\\frac{\\frac{\\sqrt3}{2}}{\\frac{\\sqrt2}{2}}c=\\frac{\\sqrt6}{2}c$. 三角形面积 $S_{\\triangle ABC}=\\frac12 ab\\sin C=\\frac{3+\\sqrt3}{8}c^2$. 已知面积为 $3+\\sqrt3$，则 $\\frac{3+\\sqrt3}{8}c^2=3+\\sqrt3$， 故 $c^2=8$，$c=2\\sqrt2$. 故 $c=2\\sqrt2$. \\mathrm{e}nd{enumerate}",
+    "reference_solution_latex": "\\begin{enumerate}\n\\item 由余弦定理\n\\(a^2+b^2-c^2=2ab\\cos C\\).\n对比可得\n\\(\\cos C=\\frac{\\sqrt2}{2}\\).\n又 \\(C\\in(0,\\pi)\\)，故\n\\(\\sin C=\\sqrt{1-\\cos^2C}=\\frac{\\sqrt2}{2}\\).\n结合 \\(\\sin C=2\\cos B\\)，得 \\(\\cos B=\\frac12\\)，故\n\\(B=\\frac\\pi3\\).\n\n\\item 由（1）及 \\(\\cos C=\\frac{\\sqrt2}{2}\\) 得\n\\(B=\\frac\\pi3\\)，\\(C=\\frac\\pi4\\)，\n从而\n\\(A=\\pi-\\frac\\pi3-\\frac\\pi4=\\frac{5\\pi}{12}\\).\n根据正弦定理，\n\\(\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}\\).\n故\n\\(a=\\frac{\\sin A}{\\sin C}c=\\frac{\\frac{\\sqrt6+\\sqrt2}{4}}{\\frac{\\sqrt2}{2}}c=\\frac{\\sqrt3+1}{2}c\\)，\\(b=\\frac{\\sin B}{\\sin C}c=\\frac{\\frac{\\sqrt3}{2}}{\\frac{\\sqrt2}{2}}c=\\frac{\\sqrt6}{2}c\\).\n三角形面积\n\\(S_{\\triangle ABC}=\\frac12 ab\\sin C=\\frac{3+\\sqrt3}{8}c^2\\).\n已知面积为 \\(3+\\sqrt3\\)，则\n\\(\\frac{3+\\sqrt3}{8}c^2=3+\\sqrt3\\)，\n故\n\\(c^2=8\\)，\\(c=2\\sqrt2\\).\n故 \\(c=2\\sqrt2\\).\n\\end{enumerate}",
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2024/new_gaokao_paper_1.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "77b974d8d692363d60c8d436b6c8624428bb0108",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2024-new-gaokao-1-16",
+    "analysis": "\\mathrm{i}tem 由 $A(0,3)\\mathrm{i}n C$ 得 $\\frac{3^2}{b^2}=1$， 所以 $b^2=9$. 再将 $P\\left(3,\\frac32\\right)\\mathrm{i}n C$ 代入得 $\\frac{3^2}{a^2}+\\frac{(3/2)^2}{9}=1 \\mathbb{R}ightarrow \\frac{9}{a^2}+\\frac14=1 \\mathbb{R}ightarrow a^2=12$. 故离心率 $e=\\sqrt{1-\\frac{b^2}{a^2}}=\\sqrt{1-\\frac{9}{12}}=\\frac12$. \\mathrm{i}tem 直线 $AP$ 的方程为 $y=-\\frac12x+3$， 即 $x+2y-6=0$. 设直线 $l$ 与椭圆交于另一点 $B$. 由面积公式 $S_{\\triangle ABP}=9$ 得点 $B$ 到直线 $AP$ 的距离为 $\\frac{2S_{\\triangle ABP}}{|AP|}=\\frac{18}{\\frac{3\\sqrt5}{2}}=\\frac{12}{\\sqrt5}$. 设 $B(x_0,y_0)$. 联立 $\\frac{x_0^2}{12}+\\frac{y_0^2}{9}=1$ 及点到直线 $x+2y-6=0$ 的距离公式 $\\frac{|x_0+2y_0-6|}{\\sqrt5}=\\frac{12}{\\sqrt5}$， 解得 $B=(0,-3)$或$B=\\left(-3,-\\frac32\\right)$. 于是过 $P$ 与这两个点的直线分别为 $3x-2y-6=0$，$x-2y=0$. \\mathrm{e}nd{enumerate}",
+    "analysis_source": "pinned_reference_solution",
+    "reference_solution": "\\mathrm{i}tem 由 $A(0,3)\\mathrm{i}n C$ 得 $\\frac{3^2}{b^2}=1$， 所以 $b^2=9$. 再将 $P\\left(3,\\frac32\\right)\\mathrm{i}n C$ 代入得 $\\frac{3^2}{a^2}+\\frac{(3/2)^2}{9}=1 \\mathbb{R}ightarrow \\frac{9}{a^2}+\\frac14=1 \\mathbb{R}ightarrow a^2=12$. 故离心率 $e=\\sqrt{1-\\frac{b^2}{a^2}}=\\sqrt{1-\\frac{9}{12}}=\\frac12$. \\mathrm{i}tem 直线 $AP$ 的方程为 $y=-\\frac12x+3$， 即 $x+2y-6=0$. 设直线 $l$ 与椭圆交于另一点 $B$. 由面积公式 $S_{\\triangle ABP}=9$ 得点 $B$ 到直线 $AP$ 的距离为 $\\frac{2S_{\\triangle ABP}}{|AP|}=\\frac{18}{\\frac{3\\sqrt5}{2}}=\\frac{12}{\\sqrt5}$. 设 $B(x_0,y_0)$. 联立 $\\frac{x_0^2}{12}+\\frac{y_0^2}{9}=1$ 及点到直线 $x+2y-6=0$ 的距离公式 $\\frac{|x_0+2y_0-6|}{\\sqrt5}=\\frac{12}{\\sqrt5}$， 解得 $B=(0,-3)$或$B=\\left(-3,-\\frac32\\right)$. 于是过 $P$ 与这两个点的直线分别为 $3x-2y-6=0$，$x-2y=0$. \\mathrm{e}nd{enumerate}",
+    "reference_solution_latex": "\\begin{enumerate}\n\\item 由 \\(A(0,3)\\in C\\) 得\n\\(\\frac{3^2}{b^2}=1\\)，\n所以\n\\(b^2=9\\).\n再将 \\(P\\left(3,\\frac32\\right)\\in C\\) 代入得\n\\(\\frac{3^2}{a^2}+\\frac{(3/2)^2}{9}=1 \\Rightarrow \\frac{9}{a^2}+\\frac14=1 \\Rightarrow a^2=12\\).\n故离心率\n\\(e=\\sqrt{1-\\frac{b^2}{a^2}}=\\sqrt{1-\\frac{9}{12}}=\\frac12\\).\n\n\\item 直线 \\(AP\\) 的方程为\n\\(y=-\\frac12x+3\\)，\n即\n\\(x+2y-6=0\\).\n设直线 \\(l\\) 与椭圆交于另一点 \\(B\\). 由面积公式\n\\(S_{\\triangle ABP}=9\\)\n得点 \\(B\\) 到直线 \\(AP\\) 的距离为\n\\(\\frac{2S_{\\triangle ABP}}{|AP|}=\\frac{18}{\\frac{3\\sqrt5}{2}}=\\frac{12}{\\sqrt5}\\).\n设 \\(B(x_0,y_0)\\). 联立\n\\(\\frac{x_0^2}{12}+\\frac{y_0^2}{9}=1\\)\n及点到直线 \\(x+2y-6=0\\) 的距离公式\n\\(\\frac{|x_0+2y_0-6|}{\\sqrt5}=\\frac{12}{\\sqrt5}\\)，\n解得\n\\(B=(0,-3)\\)或\\(B=\\left(-3,-\\frac32\\right)\\).\n于是过 \\(P\\) 与这两个点的直线分别为\n\\(3x-2y-6=0\\)，\\(x-2y=0\\).\n\\end{enumerate}",
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2024/new_gaokao_paper_1.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "77b974d8d692363d60c8d436b6c8624428bb0108",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2024-new-gaokao-1-17",
+    "analysis": "\\mathrm{i}tem 因为 $PA\\perp$ 底面 $ABCD$，且 $AD\\subset$ 底面 $ABCD$，故 $PA\\perp AD$. 已知 $AD\\perp PB$，又 $PA$，$PB$ 是平面 $PAB$ 内两条相交直线，所以 $AD\\perp$ 平面 $PAB$. 因此 $AD\\perp AB$. 又由 $AC^2=AB^2+BC^2$ 由勾股定理逆定理得 $\\triangle ABC$ 是以 $B$ 为直角的直角三角形，从而 $AB\\perp BC$. 因为 $AD$，$BC$ 都在底面 $ABCD$ 内，且都垂直于 $AB$，所以 $AD\\parallel BC$. 又 $BC\\subset$ 平面 $PBC$，故 $AD\\parallel$ 平面 $PBC$. \\mathrm{i}tem 由 $AD\\perp DC$ 且 $AC=2$，设 $AD=x$，则 $CD=\\sqrt{4-x^2}$. 过点 $D$ 作 $DE\\perp AC$ 于 $E$，再过点 $E$ 作 $EF\\perp CP$ 于 $F$，连接 $DF$. [图] } 因为 $PA\\perp$ 底面 $ABCD$，所以平面 $PAC\\perp$ 平面 $ABCD$，且它们的交线为 $AC$. 由 $DE\\perp AC$ 且 $DE\\subset$ 平面 $ABCD$，得 $DE\\perp$ 平面 $PAC$. 又 $EF\\perp CP$，而 $CP\\subset$ 平面 $PAC$，所以 $CP\\perp$ 平面 $DEF$. 因此 $\\angle DFE$ 为二面角 $A-CP-D$ 的平面角. 已知 $\\sin\\angle DFE=\\frac{\\sqrt{42}}{7}$， 故 $\\tan\\angle DFE=\\sqrt6$. 由等面积关系可得 $DE=\\frac{x\\sqrt{4-x^2}}{2}$. 又 $$ CE=\\sqrt{CD^2-DE^2}=\\sqrt{(4-x^2)-\\frac{x^2(4-x^2)}{4}}=\\frac{4-x^2}{2} $$ 在 $\\triangle PAC$ 中，$PA=AC=2$，且 $PA\\perp AC$，所以 $\\angle ACP=\\frac{\\pi}{4}$. 又 $CE\\subset AC$，$CF\\subset CP$，故 $\\angle ECF=\\frac{\\pi}{4}$. 因为 $EF\\perp CP$，所以 $\\angle EFC=\\frac{\\pi}{2}$，从而 $\\triangle EFC$ 是等腰直角三角形，所以 $EF=\\frac{CE}{\\sqrt2}=\\frac{4-x^2}{2\\sqrt2}$. 因此 $$ \\tan\\angle DFE=\\frac{DE}{EF}=\\frac{\\frac{x\\sqrt{4-x^2}}{2}}{\\frac{4-x^2}{2\\sqrt2}}=\\frac{x\\sqrt2}{\\sqrt{4-x^2}}=\\sqrt6 $$ 解得 $x^2=3$. 故 $AD=x=\\sqrt3$. \\mathrm{e}nd{enumerate}",
+    "analysis_source": "pinned_reference_solution",
+    "reference_solution": "\\mathrm{i}tem 因为 $PA\\perp$ 底面 $ABCD$，且 $AD\\subset$ 底面 $ABCD$，故 $PA\\perp AD$. 已知 $AD\\perp PB$，又 $PA$，$PB$ 是平面 $PAB$ 内两条相交直线，所以 $AD\\perp$ 平面 $PAB$. 因此 $AD\\perp AB$. 又由 $AC^2=AB^2+BC^2$ 由勾股定理逆定理得 $\\triangle ABC$ 是以 $B$ 为直角的直角三角形，从而 $AB\\perp BC$. 因为 $AD$，$BC$ 都在底面 $ABCD$ 内，且都垂直于 $AB$，所以 $AD\\parallel BC$. 又 $BC\\subset$ 平面 $PBC$，故 $AD\\parallel$ 平面 $PBC$. \\mathrm{i}tem 由 $AD\\perp DC$ 且 $AC=2$，设 $AD=x$，则 $CD=\\sqrt{4-x^2}$. 过点 $D$ 作 $DE\\perp AC$ 于 $E$，再过点 $E$ 作 $EF\\perp CP$ 于 $F$，连接 $DF$. [图] } 因为 $PA\\perp$ 底面 $ABCD$，所以平面 $PAC\\perp$ 平面 $ABCD$，且它们的交线为 $AC$. 由 $DE\\perp AC$ 且 $DE\\subset$ 平面 $ABCD$，得 $DE\\perp$ 平面 $PAC$. 又 $EF\\perp CP$，而 $CP\\subset$ 平面 $PAC$，所以 $CP\\perp$ 平面 $DEF$. 因此 $\\angle DFE$ 为二面角 $A-CP-D$ 的平面角. 已知 $\\sin\\angle DFE=\\frac{\\sqrt{42}}{7}$， 故 $\\tan\\angle DFE=\\sqrt6$. 由等面积关系可得 $DE=\\frac{x\\sqrt{4-x^2}}{2}$. 又 $$ CE=\\sqrt{CD^2-DE^2}=\\sqrt{(4-x^2)-\\frac{x^2(4-x^2)}{4}}=\\frac{4-x^2}{2} $$ 在 $\\triangle PAC$ 中，$PA=AC=2$，且 $PA\\perp AC$，所以 $\\angle ACP=\\frac{\\pi}{4}$. 又 $CE\\subset AC$，$CF\\subset CP$，故 $\\angle ECF=\\frac{\\pi}{4}$. 因为 $EF\\perp CP$，所以 $\\angle EFC=\\frac{\\pi}{2}$，从而 $\\triangle EFC$ 是等腰直角三角形，所以 $EF=\\frac{CE}{\\sqrt2}=\\frac{4-x^2}{2\\sqrt2}$. 因此 $$ \\tan\\angle DFE=\\frac{DE}{EF}=\\frac{\\frac{x\\sqrt{4-x^2}}{2}}{\\frac{4-x^2}{2\\sqrt2}}=\\frac{x\\sqrt2}{\\sqrt{4-x^2}}=\\sqrt6 $$ 解得 $x^2=3$. 故 $AD=x=\\sqrt3$. \\mathrm{e}nd{enumerate}",
+    "reference_solution_latex": "\\begin{enumerate}\n\\item 因为 \\(PA\\perp\\) 底面 \\(ABCD\\)，且 \\(AD\\subset\\) 底面 \\(ABCD\\)，故 \\(PA\\perp AD\\).\n已知 \\(AD\\perp PB\\)，又 \\(PA\\)，\\(PB\\) 是平面 \\(PAB\\) 内两条相交直线，所以 \\(AD\\perp\\) 平面 \\(PAB\\).\n因此 \\(AD\\perp AB\\). 又由\n\\(AC^2=AB^2+BC^2\\)\n由勾股定理逆定理得 \\(\\triangle ABC\\) 是以 \\(B\\) 为直角的直角三角形，从而 \\(AB\\perp BC\\).\n因为 \\(AD\\)，\\(BC\\) 都在底面 \\(ABCD\\) 内，且都垂直于 \\(AB\\)，所以 \\(AD\\parallel BC\\). 又 \\(BC\\subset\\) 平面 \\(PBC\\)，故 \\(AD\\parallel\\) 平面 \\(PBC\\).\n\n\\item 由 \\(AD\\perp DC\\) 且 \\(AC=2\\)，设 \\(AD=x\\)，则\n\\(CD=\\sqrt{4-x^2}\\).\n过点 \\(D\\) 作 \\(DE\\perp AC\\) 于 \\(E\\)，再过点 \\(E\\) 作 \\(EF\\perp CP\\) 于 \\(F\\)，连接 \\(DF\\).\n\\solutionfigure{\\bitmapfigure[max width=3.6cm]{img/2024/new_gaokao_paper_1/q17_solution_fig1.png}}\n因为 \\(PA\\perp\\) 底面 \\(ABCD\\)，所以平面 \\(PAC\\perp\\) 平面 \\(ABCD\\)，且它们的交线为 \\(AC\\). 由 \\(DE\\perp AC\\) 且 \\(DE\\subset\\) 平面 \\(ABCD\\)，得 \\(DE\\perp\\) 平面 \\(PAC\\).\n又 \\(EF\\perp CP\\)，而 \\(CP\\subset\\) 平面 \\(PAC\\)，所以 \\(CP\\perp\\) 平面 \\(DEF\\). 因此 \\(\\angle DFE\\) 为二面角 \\(A-CP-D\\) 的平面角. 已知\n\\(\\sin\\angle DFE=\\frac{\\sqrt{42}}{7}\\)，\n故\n\\(\\tan\\angle DFE=\\sqrt6\\).\n由等面积关系可得\n\\(DE=\\frac{x\\sqrt{4-x^2}}{2}\\).\n又\n\\[\nCE=\\sqrt{CD^2-DE^2}=\\sqrt{(4-x^2)-\\frac{x^2(4-x^2)}{4}}=\\frac{4-x^2}{2}\n\\]\n在 \\(\\triangle PAC\\) 中，\\(PA=AC=2\\)，且 \\(PA\\perp AC\\)，所以 \\(\\angle ACP=\\frac{\\pi}{4}\\). 又 \\(CE\\subset AC\\)，\\(CF\\subset CP\\)，故 \\(\\angle ECF=\\frac{\\pi}{4}\\). 因为 \\(EF\\perp CP\\)，所以 \\(\\angle EFC=\\frac{\\pi}{2}\\)，从而 \\(\\triangle EFC\\) 是等腰直角三角形，所以\n\\(EF=\\frac{CE}{\\sqrt2}=\\frac{4-x^2}{2\\sqrt2}\\).\n因此\n\\[\n\\tan\\angle DFE=\\frac{DE}{EF}=\\frac{\\frac{x\\sqrt{4-x^2}}{2}}{\\frac{4-x^2}{2\\sqrt2}}=\\frac{x\\sqrt2}{\\sqrt{4-x^2}}=\\sqrt6\n\\]\n解得\n\\(x^2=3\\).\n故\n\\(AD=x=\\sqrt3\\).\n\\end{enumerate}",
+    "reference_solution_figure_refs": [
+      "img/2024/new_gaokao_paper_1/q17_solution_fig1.png"
+    ],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2024/new_gaokao_paper_1.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "77b974d8d692363d60c8d436b6c8624428bb0108",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified_with_figure_dependency"
+  },
+  {
+    "question_id": "2024-new-gaokao-1-18",
+    "analysis": "\\mathrm{i}tem $b=0$ 时 $f'(x)=\\frac{2}{x(2-x)}+a$，$x\\mathrm{i}n(0,2)$. $f'(x)$ 在 $(0,2)$ 的最小值为 $2$（取于 $x=1$），故 $f'(x)\\ge0\\mathrm{i}ff a+2\\ge0$，所以 $a_{\\min}=-2$. \\mathrm{i}tem 对任意 $x\\mathrm{i}n(0,2)$，有 $f(2-x)=\\ln\\frac{2-x}{x}+a(2-x)+b(1-x)^3$ 即 $f(2-x)=-\\ln\\frac{x}{2-x}+2a-ax-b(x-1)^3=2a-f(x)$. 因此当点 $(x,f(x))$ 在图像上时，点 $(2-x,2a-f(x))$ 也在图像上，故曲线 $y=f(x)$ 关于点 $(1,a)$ 中心对称. \\mathrm{i}tem 若 $f(1)=-2$，则 $a=-2$（必要条件）. 此时 $f(x)>-2\\mathrm{i}ff \\ln\\frac{x}{2-x}-2(x-1)+b(x-1)^3>0$. 设 $t=x-1\\mathrm{i}n(0,1)$，等价于 $g(t)=\\ln\\frac{t+1}{1-t}-2t+bt^3>0$，$t\\mathrm{i}n(0,1)$. $g'(t)=\\frac{2}{1-t^2}-2+3bt^2=\\frac{t^2(-3bt^2+2+3b)}{1-t^2}$. 经讨论可得当 $b\\ge-\\frac23$ 时 $g$ 在 $(0,1)$ 上严格增且 $g(t)>g(0)=0$；当 $b<-\\frac23$ 时在 $(0,\\frac13)$ 内可取到 $g'(t)<0$，不满足全区间正值. 故 $b\\ge-\\frac23$. \\mathrm{e}nd{enumerate}",
+    "analysis_source": "pinned_reference_solution",
+    "reference_solution": "\\mathrm{i}tem $b=0$ 时 $f'(x)=\\frac{2}{x(2-x)}+a$，$x\\mathrm{i}n(0,2)$. $f'(x)$ 在 $(0,2)$ 的最小值为 $2$（取于 $x=1$），故 $f'(x)\\ge0\\mathrm{i}ff a+2\\ge0$，所以 $a_{\\min}=-2$. \\mathrm{i}tem 对任意 $x\\mathrm{i}n(0,2)$，有 $f(2-x)=\\ln\\frac{2-x}{x}+a(2-x)+b(1-x)^3$ 即 $f(2-x)=-\\ln\\frac{x}{2-x}+2a-ax-b(x-1)^3=2a-f(x)$. 因此当点 $(x,f(x))$ 在图像上时，点 $(2-x,2a-f(x))$ 也在图像上，故曲线 $y=f(x)$ 关于点 $(1,a)$ 中心对称. \\mathrm{i}tem 若 $f(1)=-2$，则 $a=-2$（必要条件）. 此时 $f(x)>-2\\mathrm{i}ff \\ln\\frac{x}{2-x}-2(x-1)+b(x-1)^3>0$. 设 $t=x-1\\mathrm{i}n(0,1)$，等价于 $g(t)=\\ln\\frac{t+1}{1-t}-2t+bt^3>0$，$t\\mathrm{i}n(0,1)$. $g'(t)=\\frac{2}{1-t^2}-2+3bt^2=\\frac{t^2(-3bt^2+2+3b)}{1-t^2}$. 经讨论可得当 $b\\ge-\\frac23$ 时 $g$ 在 $(0,1)$ 上严格增且 $g(t)>g(0)=0$；当 $b<-\\frac23$ 时在 $(0,\\frac13)$ 内可取到 $g'(t)<0$，不满足全区间正值. 故 $b\\ge-\\frac23$. \\mathrm{e}nd{enumerate}",
+    "reference_solution_latex": "\\begin{enumerate}\n\\item \\(b=0\\) 时\n\\(f'(x)=\\frac{2}{x(2-x)}+a\\)，\\(x\\in(0,2)\\).\n\\(f'(x)\\) 在 \\((0,2)\\) 的最小值为 \\(2\\)（取于 \\(x=1\\)），故 \\(f'(x)\\ge0\\iff a+2\\ge0\\)，所以 \\(a_{\\min}=-2\\).\n\n\\item 对任意 \\(x\\in(0,2)\\)，有\n\\(f(2-x)=\\ln\\frac{2-x}{x}+a(2-x)+b(1-x)^3\\)\n即\n\\(f(2-x)=-\\ln\\frac{x}{2-x}+2a-ax-b(x-1)^3=2a-f(x)\\).\n因此当点 \\((x,f(x))\\) 在图像上时，点 \\((2-x,2a-f(x))\\) 也在图像上，故曲线 \\(y=f(x)\\) 关于点 \\((1,a)\\) 中心对称.\n\n\\item 若 \\(f(1)=-2\\)，则 \\(a=-2\\)（必要条件）. 此时\n\\(f(x)>-2\\iff \\ln\\frac{x}{2-x}-2(x-1)+b(x-1)^3>0\\).\n设 \\(t=x-1\\in(0,1)\\)，等价于\n\\(g(t)=\\ln\\frac{t+1}{1-t}-2t+bt^3>0\\)，\\(t\\in(0,1)\\).\n\\(g'(t)=\\frac{2}{1-t^2}-2+3bt^2=\\frac{t^2(-3bt^2+2+3b)}{1-t^2}\\).\n经讨论可得当 \\(b\\ge-\\frac23\\) 时 \\(g\\) 在 \\((0,1)\\) 上严格增且 \\(g(t)>g(0)=0\\)；当 \\(b<-\\frac23\\) 时在 \\((0,\\frac13)\\) 内可取到 \\(g'(t)<0\\)，不满足全区间正值. 故\n\\(b\\ge-\\frac23\\).\n\\end{enumerate}",
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2024/new_gaokao_paper_1.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "77b974d8d692363d60c8d436b6c8624428bb0108",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2024-new-gaokao-1-19",
+    "analysis": "\\mathrm{i}tem 可将原等差数列按比例平移缩放为 $1$，$2$，$\\dots$，$4m+2$ 的数列讨论. 对 $m=1$ 即 $1$，$\\dots$，$6$，剩下 4 个数必须是 $1$，$2$，$3$，$4$ 或 $2$，$3$，$4$，$5$ 或 $3$，$4$，$5$，$6$，故 $(i,j)$ 仅有 $(1,2)$，$(1,6)$，$(5,6)$. \\mathrm{i}tem 对 $m\\ge3$，去掉 $2,13$ 后，$\\{1,\\dots,4m+2\\}$ 中余下 $4m$ 个数可分成 $\\{1,4,7,10\\}$，$\\{3,6,9,12\\}$，$\\{5,8,11,14\\}$， 及 $\\{15,16,17,18\\}$，$\\{19,20,21,22\\}$，$\\dots$，$\\{4m-1,4m,4m+1,4m+2\\}$ 共 $m$ 组（当 $m=3$ 时无第二类）. 故得证. \\mathrm{i}tem 设 $A=\\{4k+1\\mid k=0,1,\\dots,m\\}$，$B=\\{4k+2\\mid k=0,1,\\dots,m\\}$. 若 $i\\mathrm{i}n A$，$j\\mathrm{i}n B$ 或 $i\\mathrm{i}n B$，$j\\mathrm{i}n A$ 且 $j-i\\ne3$，则该数列一定是 $(i,j)$-可分. 满足该条件的对数至少有 $(m+1)^2-m$ 个. 总对数 $\\binom{4m+2}{2}=(2m+1)(4m+1)$. 故 $P_m\\ge\\frac{(m+1)^2-m}{\\binom{4m+2}{2}} =\\frac{m^2+m+1}{(2m+1)(4m+1)}>\\frac18$. \\mathrm{e}nd{enumerate}",
+    "analysis_source": "pinned_reference_solution",
+    "reference_solution": "\\mathrm{i}tem 可将原等差数列按比例平移缩放为 $1$，$2$，$\\dots$，$4m+2$ 的数列讨论. 对 $m=1$ 即 $1$，$\\dots$，$6$，剩下 4 个数必须是 $1$，$2$，$3$，$4$ 或 $2$，$3$，$4$，$5$ 或 $3$，$4$，$5$，$6$，故 $(i,j)$ 仅有 $(1,2)$，$(1,6)$，$(5,6)$. \\mathrm{i}tem 对 $m\\ge3$，去掉 $2,13$ 后，$\\{1,\\dots,4m+2\\}$ 中余下 $4m$ 个数可分成 $\\{1,4,7,10\\}$，$\\{3,6,9,12\\}$，$\\{5,8,11,14\\}$， 及 $\\{15,16,17,18\\}$，$\\{19,20,21,22\\}$，$\\dots$，$\\{4m-1,4m,4m+1,4m+2\\}$ 共 $m$ 组（当 $m=3$ 时无第二类）. 故得证. \\mathrm{i}tem 设 $A=\\{4k+1\\mid k=0,1,\\dots,m\\}$，$B=\\{4k+2\\mid k=0,1,\\dots,m\\}$. 若 $i\\mathrm{i}n A$，$j\\mathrm{i}n B$ 或 $i\\mathrm{i}n B$，$j\\mathrm{i}n A$ 且 $j-i\\ne3$，则该数列一定是 $(i,j)$-可分. 满足该条件的对数至少有 $(m+1)^2-m$ 个. 总对数 $\\binom{4m+2}{2}=(2m+1)(4m+1)$. 故 $P_m\\ge\\frac{(m+1)^2-m}{\\binom{4m+2}{2}} =\\frac{m^2+m+1}{(2m+1)(4m+1)}>\\frac18$. \\mathrm{e}nd{enumerate}",
+    "reference_solution_latex": "\\begin{enumerate}\n\\item 可将原等差数列按比例平移缩放为 \\(1\\)，\\(2\\)，\\(\\dots\\)，\\(4m+2\\) 的数列讨论. 对 \\(m=1\\) 即 \\(1\\)，\\(\\dots\\)，\\(6\\)，剩下 4 个数必须是 \\(1\\)，\\(2\\)，\\(3\\)，\\(4\\) 或 \\(2\\)，\\(3\\)，\\(4\\)，\\(5\\) 或 \\(3\\)，\\(4\\)，\\(5\\)，\\(6\\)，故 \\((i,j)\\) 仅有\n\\((1,2)\\)，\\((1,6)\\)，\\((5,6)\\).\n\n\\item 对 \\(m\\ge3\\)，去掉 \\(2,13\\) 后，\\(\\{1,\\dots,4m+2\\}\\) 中余下 \\(4m\\) 个数可分成\n\\(\\{1,4,7,10\\}\\)，\\(\\{3,6,9,12\\}\\)，\\(\\{5,8,11,14\\}\\)，\n及\n\\(\\{15,16,17,18\\}\\)，\\(\\{19,20,21,22\\}\\)，\\(\\dots\\)，\\(\\{4m-1,4m,4m+1,4m+2\\}\\)\n共 \\(m\\) 组（当 \\(m=3\\) 时无第二类）. 故得证.\n\n\\item 设\n\\(A=\\{4k+1\\mid k=0,1,\\dots,m\\}\\)，\\(B=\\{4k+2\\mid k=0,1,\\dots,m\\}\\).\n若 \\(i\\in A\\)，\\(j\\in B\\) 或 \\(i\\in B\\)，\\(j\\in A\\) 且 \\(j-i\\ne3\\)，则该数列一定是 \\((i,j)\\)-可分. 满足该条件的对数至少有 \\((m+1)^2-m\\) 个. 总对数 \\(\\binom{4m+2}{2}=(2m+1)(4m+1)\\). 故\n\\(P_m\\ge\\frac{(m+1)^2-m}{\\binom{4m+2}{2}} =\\frac{m^2+m+1}{(2m+1)(4m+1)}>\\frac18\\).\n\\end{enumerate}",
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2024/new_gaokao_paper_1.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "77b974d8d692363d60c8d436b6c8624428bb0108",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  }
 ]

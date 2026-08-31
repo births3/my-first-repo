@@ -2,51 +2,466 @@
   "year": 2026,
   "paper": "全国1卷",
   "scope": "浙江适用数学卷",
+  "status": "verified",
+  "verified_at": "2026-08-31",
+  "question_count": 19,
+  "figure_dependency_count": 1,
   "source_pdf": {
     "repository": "deekur/gaokaomath",
     "file": "普通高考/2026/2026全国1(山东,广东,湖南,湖北,河北,江苏,福建,浙江,河南,江西,安徽).pdf",
-    "sha": "520ab76bc3becadb8246705d261f4562f7d62e12"
+    "blob_sha_expected": "520ab76bc3becadb8246705d261f4562f7d62e12",
+    "blob_sha_actual": "520ab76bc3becadb8246705d261f4562f7d62e12",
+    "git_blob_verified": true,
+    "pdf_magic_verified": true,
+    "page_count_hint": 1
   },
-  "verification_sources": [
-    "deekur/gaokaomath source PDF metadata",
-    "深圳本地宝 2026 全国一卷数学文字版",
-    "考试卷网 2026 全国一卷数学",
-    "四季读书网 2026 全国一卷数学文字版",
-    "独立数学重算"
-  ],
+  "reference_transcription": {
+    "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+    "file": "content/2026/national_paper_1.tex",
+    "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+    "blob_sha": "2a8093472f376aaf762a6567e097d71586794f34",
+    "license": "CC BY-SA 4.0"
+  },
+  "secondary_source": "iamyb/llm-gaokao-math-eval@7b58eaf4574046c73e49cd75590dd4e30bfe3adf",
   "summary": {
-    "question_count": 19,
-    "structure": "8单选+3多选+3填空+5解答",
-    "status": "mostly_verified",
-    "verified_count": 17,
-    "needs_review_count": 2,
-    "reason": "第4、5题仍缺完整四选项；其余题面、答案或关键结论已通过至少两路来源或独立重算。第15题已修正原仓库转录错误。"
+    "secondary_mismatch_count": 0,
+    "secondary_unavailable_count": 5,
+    "hard_error_count": 0,
+    "changed_question_count": 17
   },
-  "question_checks": [
-    {"question_no":1,"status":"verified","notes":"题干、选项、答案B与独立来源一致；排序后中位数为6。"},
-    {"question_no":2,"status":"verified","notes":"已恢复完整A-D选项；向量基底唯一性得x=2,y=-3，答案A。"},
-    {"question_no":3,"status":"verified","notes":"已恢复完整A-D选项；交集为{-1/2,1}，答案C。"},
-    {"question_no":4,"status":"needs_review","notes":"题干与切线结论y=13x-8可独立复核，但仓库仍缺完整A-D选项。"},
-    {"question_no":5,"status":"needs_review","notes":"按题面独立计算两焦点(4,0),(0,1/2)，距离为√65/2；部分第三方速查表误写为5。仓库答案内容正确，但仍缺完整A-D选项。"},
-    {"question_no":6,"status":"verified","notes":"已恢复原函数f(x)=(x+2)/(e^x+a)及四选项；由max(x+2-e^x)=1得a=1，答案B。"},
-    {"question_no":7,"status":"verified","notes":"已恢复完整背景和四选项；构造组和8,12,16,20,24,28，得d=4，答案B。"},
-    {"question_no":8,"status":"verified","notes":"已恢复四选项；利用中心对称，删去P后总和-3，共63点，E(X)=-1/21，答案A。"},
-    {"question_no":9,"status":"verified","notes":"仓库完整选项可逐项重算：A、C、D正确，答案ACD。部分第三方页面的D项转录存在错误，不采用。"},
-    {"question_no":10,"status":"verified","notes":"完整A-D与独立来源一致；截面法得CD≥√3，且C项成立，答案BC。"},
-    {"question_no":11,"status":"verified","notes":"已恢复完整A-D；考试卷网原题文字与仓库一致，答案BCD。D项最大值为2√21/3。"},
-    {"question_no":12,"status":"verified","notes":"e=√(11/6)=√66/6，两种写法等价；部分题库只给其中一种形式。"},
-    {"question_no":13,"status":"verified","notes":"多份独立题源确认原题为f(2π/3)而非f(π/3)；θ=3π/2，函数值1。仓库已修正θ范围为0≤θ<2π。"},
-    {"question_no":14,"status":"verified","notes":"仓库答案∛(3/2)经独立分块推导成立；部分第三方整理误写√2。由S_{3n}-S_{3n-3}=2n，两个相邻完整三项块和之比=q³，最大为6/4=3/2。"},
-    {"question_no":15,"status":"verified","notes":"已确认原题E为A1C1中点，原仓库误写AC1中点；据此第二问距离应为2而非1。题目与解析均已修正。"},
-    {"question_no":16,"status":"verified","notes":"余弦定理得AC=3、cosA=1/3；再由平行与垂直关系求得AE=6，CE=3√5。"},
-    {"question_no":17,"status":"verified","notes":"完整题面与独立来源一致；分布列1/3,2/9,4/27,8/27；P(X>k)=(1-p)^k，无记忆性结论成立。"},
-    {"question_no":18,"status":"verified","notes":"椭圆方程x²/4+y²/3=1；斜率√5/2；tan∠PQR最小值4√3，与独立解析一致。"},
-    {"question_no":19,"status":"verified","notes":"完整新定义题面与独立来源一致；D(-1)=(0,3/2)，后续两问均为证明题。"}
+  "hard_errors": [],
+  "changes": [
+    {
+      "question_id": "2026-national-1-02",
+      "answer_before": "A",
+      "answer_after": "A",
+      "answer_changed": false,
+      "stem_similarity_before_sync": 0.7429,
+      "options_restored": false
+    },
+    {
+      "question_id": "2026-national-1-03",
+      "answer_before": "C",
+      "answer_after": "C",
+      "answer_changed": false,
+      "stem_similarity_before_sync": 0.5191,
+      "options_restored": false
+    },
+    {
+      "question_id": "2026-national-1-04",
+      "answer_before": "D（y=13x-8）",
+      "answer_after": "D",
+      "answer_changed": true,
+      "stem_similarity_before_sync": 1.0,
+      "options_restored": true
+    },
+    {
+      "question_id": "2026-national-1-05",
+      "answer_before": "D（√65/2）",
+      "answer_after": "D",
+      "answer_changed": true,
+      "stem_similarity_before_sync": 0.7358,
+      "options_restored": true
+    },
+    {
+      "question_id": "2026-national-1-06",
+      "answer_before": "B",
+      "answer_after": "B",
+      "answer_changed": false,
+      "stem_similarity_before_sync": 0.9091,
+      "options_restored": false
+    },
+    {
+      "question_id": "2026-national-1-07",
+      "answer_before": "B",
+      "answer_after": "B",
+      "answer_changed": false,
+      "stem_similarity_before_sync": 0.4199,
+      "options_restored": false
+    },
+    {
+      "question_id": "2026-national-1-08",
+      "answer_before": "A",
+      "answer_after": "A",
+      "answer_changed": false,
+      "stem_similarity_before_sync": 0.5787,
+      "options_restored": false
+    },
+    {
+      "question_id": "2026-national-1-10",
+      "answer_before": [
+        "B",
+        "C"
+      ],
+      "answer_after": [
+        "B",
+        "C"
+      ],
+      "answer_changed": false,
+      "stem_similarity_before_sync": 0.9074,
+      "options_restored": false
+    },
+    {
+      "question_id": "2026-national-1-11",
+      "answer_before": [
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_after": [
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_changed": false,
+      "stem_similarity_before_sync": 0.7079,
+      "options_restored": false
+    },
+    {
+      "question_id": "2026-national-1-12",
+      "answer_before": "√(11/6)",
+      "answer_after": "$\\sqrt{\\frac{11}{6}}$",
+      "answer_changed": true,
+      "stem_similarity_before_sync": 0.8571,
+      "options_restored": false
+    },
+    {
+      "question_id": "2026-national-1-13",
+      "answer_before": [
+        "θ=3π/2",
+        "f(2π/3)=1"
+      ],
+      "answer_after": "$\\frac{3\\pi}{2}$，$1$",
+      "answer_changed": true,
+      "stem_similarity_before_sync": 0.507,
+      "options_restored": false
+    },
+    {
+      "question_id": "2026-national-1-14",
+      "answer_before": "∛(3/2)",
+      "answer_after": "$\\sqrt[3]{\\frac{3}{2}}$",
+      "answer_changed": true,
+      "stem_similarity_before_sync": 0.7044,
+      "options_restored": false
+    },
+    {
+      "question_id": "2026-national-1-15",
+      "answer_before": "（1）证明略；（2）2",
+      "answer_after": "（1）证明略；（2）2",
+      "answer_changed": false,
+      "stem_similarity_before_sync": 0.7623,
+      "options_restored": false
+    },
+    {
+      "question_id": "2026-national-1-16",
+      "answer_before": "（1）1/3；（2）3√5",
+      "answer_after": "（1）1/3；（2）3√5",
+      "answer_changed": false,
+      "stem_similarity_before_sync": 0.565,
+      "options_restored": false
+    },
+    {
+      "question_id": "2026-national-1-17",
+      "answer_before": "（1）X=1,2,3,4对应概率1/3,2/9,4/27,8/27；（2）（i）(1-p)^k；（ii）结论成立",
+      "answer_after": "（1）X=1,2,3,4对应概率1/3,2/9,4/27,8/27；（2）（i）(1-p)^k；（ii）结论成立",
+      "answer_changed": false,
+      "stem_similarity_before_sync": 0.5893,
+      "options_restored": false
+    },
+    {
+      "question_id": "2026-national-1-18",
+      "answer_before": "（1）x²/4+y²/3=1；（2）（i）y=(√5/2)(x+1)；（ii）4√3",
+      "answer_after": "（1）x²/4+y²/3=1；（2）（i）y=(√5/2)(x+1)；（ii）4√3",
+      "answer_changed": false,
+      "stem_similarity_before_sync": 0.6066,
+      "options_restored": false
+    },
+    {
+      "question_id": "2026-national-1-19",
+      "answer_before": "（1）(0,3/2)；（2）证明略；（3）（i）f(0)≥1；（ii）证明略",
+      "answer_after": "（1）(0,3/2)；（2）证明略；（3）（i）f(0)≥1；（ii）证明略",
+      "answer_changed": false,
+      "stem_similarity_before_sync": 0.5368,
+      "options_restored": false
+    }
   ],
-  "corrections_applied": [
-    "Q6: 将等价转录(-x+2)/(e^{-x}+a)恢复为原题(x+2)/(e^x+a)，并补全四选项。",
-    "Q11: 补全四个选项，D项为2√21/3。",
-    "Q13: θ范围修正为0≤θ<2π。",
-    "Q15: E由AC1中点修正为A1C1中点；第二问答案1修正为2；同步重写解析。"
+  "question_checks": [
+    {
+      "question_no": 1,
+      "question_id": "2026-national-1-01",
+      "status": "verified",
+      "answer": "B",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 1.0,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "matched",
+      "secondary_answer_excerpt": "B",
+      "figure_dependency": false
+    },
+    {
+      "question_no": 2,
+      "question_id": "2026-national-1-02",
+      "status": "verified",
+      "answer": "A",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.7429,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "matched",
+      "secondary_answer_excerpt": "A",
+      "figure_dependency": false
+    },
+    {
+      "question_no": 3,
+      "question_id": "2026-national-1-03",
+      "status": "verified",
+      "answer": "C",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.5191,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "matched",
+      "secondary_answer_excerpt": "C",
+      "figure_dependency": false
+    },
+    {
+      "question_no": 4,
+      "question_id": "2026-national-1-04",
+      "status": "verified",
+      "answer": "D",
+      "answer_changed_during_sync": true,
+      "stem_similarity_before_sync": 1.0,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "matched",
+      "secondary_answer_excerpt": "D",
+      "figure_dependency": false
+    },
+    {
+      "question_no": 5,
+      "question_id": "2026-national-1-05",
+      "status": "verified",
+      "answer": "D",
+      "answer_changed_during_sync": true,
+      "stem_similarity_before_sync": 0.7358,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "matched",
+      "secondary_answer_excerpt": "D",
+      "figure_dependency": false
+    },
+    {
+      "question_no": 6,
+      "question_id": "2026-national-1-06",
+      "status": "verified",
+      "answer": "B",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.9091,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "matched",
+      "secondary_answer_excerpt": "B",
+      "figure_dependency": false
+    },
+    {
+      "question_no": 7,
+      "question_id": "2026-national-1-07",
+      "status": "verified",
+      "answer": "B",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.4199,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "matched",
+      "secondary_answer_excerpt": "B",
+      "figure_dependency": false
+    },
+    {
+      "question_no": 8,
+      "question_id": "2026-national-1-08",
+      "status": "verified",
+      "answer": "A",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.5787,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "matched",
+      "secondary_answer_excerpt": "A",
+      "figure_dependency": false
+    },
+    {
+      "question_no": 9,
+      "question_id": "2026-national-1-09",
+      "status": "verified",
+      "answer": [
+        "A",
+        "C",
+        "D"
+      ],
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 1.0,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "matched",
+      "secondary_answer_excerpt": "ACD",
+      "figure_dependency": false
+    },
+    {
+      "question_no": 10,
+      "question_id": "2026-national-1-10",
+      "status": "verified",
+      "answer": [
+        "B",
+        "C"
+      ],
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.9074,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "matched",
+      "secondary_answer_excerpt": "BC",
+      "figure_dependency": false
+    },
+    {
+      "question_no": 11,
+      "question_id": "2026-national-1-11",
+      "status": "verified",
+      "answer": [
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.7079,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "matched",
+      "secondary_answer_excerpt": "BCD",
+      "figure_dependency": false
+    },
+    {
+      "question_no": 12,
+      "question_id": "2026-national-1-12",
+      "status": "verified",
+      "answer": "$\\sqrt{\\frac{11}{6}}$",
+      "answer_changed_during_sync": true,
+      "stem_similarity_before_sync": 0.8571,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "present",
+      "secondary_answer_excerpt": "\\frac{\\sqrt{66}}{6}",
+      "figure_dependency": false
+    },
+    {
+      "question_no": 13,
+      "question_id": "2026-national-1-13",
+      "status": "verified",
+      "answer": "$\\frac{3\\pi}{2}$，$1$",
+      "answer_changed_during_sync": true,
+      "stem_similarity_before_sync": 0.507,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "present",
+      "secondary_answer_excerpt": "\\frac{3\\pi}{2}, 1",
+      "figure_dependency": false
+    },
+    {
+      "question_no": 14,
+      "question_id": "2026-national-1-14",
+      "status": "verified",
+      "answer": "$\\sqrt[3]{\\frac{3}{2}}$",
+      "answer_changed_during_sync": true,
+      "stem_similarity_before_sync": 0.7044,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "present",
+      "secondary_answer_excerpt": "\\sqrt[3]{\\frac{3}{2}}",
+      "figure_dependency": false
+    },
+    {
+      "question_no": 15,
+      "question_id": "2026-national-1-15",
+      "status": "verified_with_figure_dependency",
+      "answer": "（1）证明略；（2）2",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.7623,
+      "options_complete": true,
+      "reference_answer_available": false,
+      "reference_solution_available": true,
+      "secondary_status": "unavailable",
+      "secondary_answer_excerpt": null,
+      "figure_dependency": true
+    },
+    {
+      "question_no": 16,
+      "question_id": "2026-national-1-16",
+      "status": "verified",
+      "answer": "（1）1/3；（2）3√5",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.565,
+      "options_complete": true,
+      "reference_answer_available": false,
+      "reference_solution_available": true,
+      "secondary_status": "unavailable",
+      "secondary_answer_excerpt": null,
+      "figure_dependency": false
+    },
+    {
+      "question_no": 17,
+      "question_id": "2026-national-1-17",
+      "status": "verified",
+      "answer": "（1）X=1,2,3,4对应概率1/3,2/9,4/27,8/27；（2）（i）(1-p)^k；（ii）结论成立",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.5893,
+      "options_complete": true,
+      "reference_answer_available": false,
+      "reference_solution_available": true,
+      "secondary_status": "unavailable",
+      "secondary_answer_excerpt": null,
+      "figure_dependency": false
+    },
+    {
+      "question_no": 18,
+      "question_id": "2026-national-1-18",
+      "status": "verified",
+      "answer": "（1）x²/4+y²/3=1；（2）（i）y=(√5/2)(x+1)；（ii）4√3",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.6066,
+      "options_complete": true,
+      "reference_answer_available": false,
+      "reference_solution_available": true,
+      "secondary_status": "unavailable",
+      "secondary_answer_excerpt": null,
+      "figure_dependency": false
+    },
+    {
+      "question_no": 19,
+      "question_id": "2026-national-1-19",
+      "status": "verified",
+      "answer": "（1）(0,3/2)；（2）证明略；（3）（i）f(0)≥1；（ii）证明略",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.5368,
+      "options_complete": true,
+      "reference_answer_available": false,
+      "reference_solution_available": true,
+      "secondary_status": "unavailable",
+      "secondary_answer_excerpt": null,
+      "figure_dependency": false
+    }
   ]
 }

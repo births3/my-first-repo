@@ -1,24 +1,354 @@
 [
-  {"id":"2022-zhejiang-01","analysis":"集合并集取两个集合中所有不重复元素，因此 A∪B={1,2,4,6}。"},
-  {"id":"2022-zhejiang-02","analysis":"由 (b+i)i=bi+i^2=-1+bi，与 a+3i 对应比较实部和虚部，得 a=-1，b=3。"},
-  {"id":"2022-zhejiang-03","analysis":"约束区域由三条直线围成，求交点后代入 z=3x+4y 比较，最大值为18。"},
-  {"id":"2022-zhejiang-04","analysis":"sin x=1 时必有 cos x=0；但 cos x=0 时 sin x 可能为±1，因此是充分不必要条件。"},
-  {"id":"2022-zhejiang-05","analysis":"由三视图拆分几何体为圆柱与圆锥（或等价组合），按体积公式计算得 22π/3。"},
-  {"id":"2022-zhejiang-06","analysis":"y=2sin(3x+π/5)=2sin[3(x+π/15)]。要变为 y=2sin3x，应整体向右平移 π/15。"},
-  {"id":"2022-zhejiang-07","analysis":"2^a=5 ⇒ 4^a=25；log_8 3=b ⇒ 8^b=3 ⇒ 2^{3b}=3 ⇒ 4^{3b}=9，因此 4^{a-3b}=25/9。"},
-  {"id":"2022-zhejiang-08","analysis":"利用正三棱柱建立空间直角坐标系，把 EF 方向向量分别与 AA1、底面法向量、以及二面角相关法向量比较，可得 α≤β≤γ。"},
-  {"id":"2022-zhejiang-09","analysis":"将不等式写为 a|x-b|≥|2x-5|-|x-4|。比较无穷远处斜率得 a≥1；再在折点附近检验可得 b≤3。"},
-  {"id":"2022-zhejiang-10","analysis":"递推式 a_{n+1}=a_n(1-a_n/3)，可构造 1/a_n 的差分并用夹逼估计，得到 5/2<100a_{100}<3。"},
-  {"id":"2022-zhejiang-11","analysis":"直接代入秦九韶公式：S^2=1/4[8-((4+2-3)/2)^2]=23/16，所以 S=√23/4。"},
-  {"id":"2022-zhejiang-12","analysis":"展开 (x+2)(x-1)^4，比较系数得 a2=8；令 x=1，左端为0，所以 a0+a1+...+a5=0，而 a0=2，故 a1+...+a5=-2。"},
-  {"id":"2022-zhejiang-13","analysis":"由 β=π/2-α，有 sinβ=cosα。设 s=sinα,c=cosα，则 3s-c=√10，且 s²+c²=1。解得 s=3√10/10，c=-√10/10，于是 cos2β=-cos2α=4/5。"},
-  {"id":"2022-zhejiang-14","analysis":"先算 f(1/2)=7/4，再代入 x>1 分支得 f(7/4)=7/4+4/7-1=37/28。区间长度最大值由 1≤f(x)≤3 的可行集合总跨度决定，结果为 3+√3。"},
-  {"id":"2022-zhejiang-15","analysis":"从7张中抽3张共 C(7,3)=35 种。最小值为2：不能含1，且至少含一张2，计16种，所以概率16/35。再由 E(ξ)=Σk·P(ξ=k) 计算得12/7。"},
-  {"id":"2022-zhejiang-16","analysis":"设双曲线参数满足 c²=a²+b²，利用过焦点直线与渐近线、双曲线交点的比例 |FB|=3|FA| 建立关于 e=c/a 的方程，解得 e=3√6/4。"},
-  {"id":"2022-zhejiang-17","analysis":"利用正八边形顶点关于圆心对称，Σ|PA_i|² 可化为关于 OP² 的一次式。P 在线段 A1A2 上时 OP² 的最小、最大分别在中点和端点取得，从而范围为 [12+2√2,16]。"},
-  {"id":"2022-zhejiang-18","analysis":"由余弦定理 c²=a²+b²-2ab cosC，结合 4a=√5c、cosC=3/5 求角A，得 sinA=√5/5。再用正弦定理或面积公式，在 b=11 时得面积22。"},
-  {"id":"2022-zhejiang-19","analysis":"建立空间直角坐标系，把各点坐标化。第一问用方向向量点积证明 FN⊥AD；第二问用 BM 方向向量与平面 ADE 法向量求线面角正弦，得5√7/14。"},
-  {"id":"2022-zhejiang-20","analysis":"等差数列 an=-1+(n-1)d。第一问代入条件解得 d=3，从而 Sn=(3n²-5n)/2。第二问把“存在 cn 使三数成等比”转化为关于 cn 的二次方程有实根，要求判别式对任意n非负，最终得1<d≤2。"},
-  {"id":"2022-zhejiang-21","analysis":"第一问对椭圆上点参数化或设坐标，用距离平方函数求最大值，得12√11/11。第二问利用Q在线段AB上建立弦AB条件，再将PA、PB与定直线交点C、D表示为参数函数，最后对|CD|做最值，得6√5/5。"},
-  {"id":"2022-zhejiang-22","analysis":"f'(x)=1/x-e/(2x²)=(2x-e)/(2x²)，故在(0,e/2)递减、(e/2,+∞)递增。第二问把过定点(a,b)的切线条件写成关于切点x的方程，存在三个不同正根；再研究该方程的极值和根间关系，分别在a>e与0<a<e两种情形下推出题设不等式。"}
+  {
+    "question_id": "2022-zhejiang-01",
+    "analysis": "集合并集取两个集合中所有不重复元素，因此 A∪B={1,2,4,6}。",
+    "analysis_source": "existing_analysis_checked_against_reference",
+    "reference_solution": null,
+    "reference_solution_latex": null,
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2022/zhejiang.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "8b79a45e58dd19e5776c15036232a4a4d968a428",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2022-zhejiang-02",
+    "analysis": "由 (b+i)i=bi+i^2=-1+bi，与 a+3i 对应比较实部和虚部，得 a=-1，b=3。",
+    "analysis_source": "existing_analysis_checked_against_reference",
+    "reference_solution": null,
+    "reference_solution_latex": null,
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2022/zhejiang.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "8b79a45e58dd19e5776c15036232a4a4d968a428",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2022-zhejiang-03",
+    "analysis": "约束区域由三条直线围成，求交点后代入 z=3x+4y 比较，最大值为18。",
+    "analysis_source": "existing_analysis_checked_against_reference",
+    "reference_solution": null,
+    "reference_solution_latex": null,
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2022/zhejiang.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "8b79a45e58dd19e5776c15036232a4a4d968a428",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2022-zhejiang-04",
+    "analysis": "sin x=1 时必有 cos x=0；但 cos x=0 时 sin x 可能为±1，因此是充分不必要条件。",
+    "analysis_source": "existing_analysis_checked_against_reference",
+    "reference_solution": null,
+    "reference_solution_latex": null,
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2022/zhejiang.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "8b79a45e58dd19e5776c15036232a4a4d968a428",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2022-zhejiang-05",
+    "analysis": "由三视图拆分几何体为圆柱与圆锥（或等价组合），按体积公式计算得 22π/3。",
+    "analysis_source": "existing_analysis_checked_against_reference",
+    "reference_solution": null,
+    "reference_solution_latex": null,
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2022/zhejiang.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "8b79a45e58dd19e5776c15036232a4a4d968a428",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified_with_figure_dependency"
+  },
+  {
+    "question_id": "2022-zhejiang-06",
+    "analysis": "y=2sin(3x+π/5)=2sin[3(x+π/15)]。要变为 y=2sin3x，应整体向右平移 π/15。",
+    "analysis_source": "existing_analysis_checked_against_reference",
+    "reference_solution": null,
+    "reference_solution_latex": null,
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2022/zhejiang.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "8b79a45e58dd19e5776c15036232a4a4d968a428",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2022-zhejiang-07",
+    "analysis": "2^a=5 ⇒ 4^a=25；log_8 3=b ⇒ 8^b=3 ⇒ 2^{3b}=3 ⇒ 4^{3b}=9，因此 4^{a-3b}=25/9。",
+    "analysis_source": "existing_analysis_checked_against_reference",
+    "reference_solution": null,
+    "reference_solution_latex": null,
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2022/zhejiang.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "8b79a45e58dd19e5776c15036232a4a4d968a428",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2022-zhejiang-08",
+    "analysis": "利用正三棱柱建立空间直角坐标系，把 EF 方向向量分别与 AA1、底面法向量、以及二面角相关法向量比较，可得 α≤β≤γ。",
+    "analysis_source": "existing_analysis_checked_against_reference",
+    "reference_solution": null,
+    "reference_solution_latex": null,
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2022/zhejiang.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "8b79a45e58dd19e5776c15036232a4a4d968a428",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified_with_figure_dependency"
+  },
+  {
+    "question_id": "2022-zhejiang-09",
+    "analysis": "将不等式写为 a|x-b|≥|2x-5|-|x-4|。比较无穷远处斜率得 a≥1；再在折点附近检验可得 b≤3。",
+    "analysis_source": "existing_analysis_checked_against_reference",
+    "reference_solution": null,
+    "reference_solution_latex": null,
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2022/zhejiang.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "8b79a45e58dd19e5776c15036232a4a4d968a428",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2022-zhejiang-10",
+    "analysis": "递推式 a_{n+1}=a_n(1-a_n/3)，可构造 1/a_n 的差分并用夹逼估计，得到 5/2<100a_{100}<3。",
+    "analysis_source": "existing_analysis_checked_against_reference",
+    "reference_solution": null,
+    "reference_solution_latex": null,
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2022/zhejiang.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "8b79a45e58dd19e5776c15036232a4a4d968a428",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2022-zhejiang-11",
+    "analysis": "直接代入秦九韶公式：S^2=1/4[8-((4+2-3)/2)^2]=23/16，所以 S=√23/4。",
+    "analysis_source": "existing_analysis_checked_against_reference",
+    "reference_solution": null,
+    "reference_solution_latex": null,
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2022/zhejiang.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "8b79a45e58dd19e5776c15036232a4a4d968a428",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2022-zhejiang-12",
+    "analysis": "展开 (x+2)(x-1)^4，比较系数得 a2=8；令 x=1，左端为0，所以 a0+a1+...+a5=0，而 a0=2，故 a1+...+a5=-2。",
+    "analysis_source": "existing_analysis_checked_against_reference",
+    "reference_solution": null,
+    "reference_solution_latex": null,
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2022/zhejiang.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "8b79a45e58dd19e5776c15036232a4a4d968a428",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2022-zhejiang-13",
+    "analysis": "由 β=π/2-α，有 sinβ=cosα。设 s=sinα,c=cosα，则 3s-c=√10，且 s²+c²=1。解得 s=3√10/10，c=-√10/10，于是 cos2β=-cos2α=4/5。",
+    "analysis_source": "existing_analysis_checked_against_reference",
+    "reference_solution": null,
+    "reference_solution_latex": null,
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2022/zhejiang.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "8b79a45e58dd19e5776c15036232a4a4d968a428",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2022-zhejiang-14",
+    "analysis": "先算 f(1/2)=7/4，再代入 x>1 分支得 f(7/4)=7/4+4/7-1=37/28。区间长度最大值由 1≤f(x)≤3 的可行集合总跨度决定，结果为 3+√3。",
+    "analysis_source": "existing_analysis_checked_against_reference",
+    "reference_solution": null,
+    "reference_solution_latex": null,
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2022/zhejiang.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "8b79a45e58dd19e5776c15036232a4a4d968a428",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2022-zhejiang-15",
+    "analysis": "从7张中抽3张共 C(7,3)=35 种。最小值为2：不能含1，且至少含一张2，计16种，所以概率16/35。再由 E(ξ)=Σk·P(ξ=k) 计算得12/7。",
+    "analysis_source": "existing_analysis_checked_against_reference",
+    "reference_solution": null,
+    "reference_solution_latex": null,
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2022/zhejiang.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "8b79a45e58dd19e5776c15036232a4a4d968a428",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2022-zhejiang-16",
+    "analysis": "设双曲线参数满足 c²=a²+b²，利用过焦点直线与渐近线、双曲线交点的比例 |FB|=3|FA| 建立关于 e=c/a 的方程，解得 e=3√6/4。",
+    "analysis_source": "existing_analysis_checked_against_reference",
+    "reference_solution": null,
+    "reference_solution_latex": null,
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2022/zhejiang.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "8b79a45e58dd19e5776c15036232a4a4d968a428",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2022-zhejiang-17",
+    "analysis": "利用正八边形顶点关于圆心对称，Σ|PA_i|² 可化为关于 OP² 的一次式。P 在线段 A1A2 上时 OP² 的最小、最大分别在中点和端点取得，从而范围为 [12+2√2,16]。",
+    "analysis_source": "existing_analysis_checked_against_reference",
+    "reference_solution": null,
+    "reference_solution_latex": null,
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2022/zhejiang.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "8b79a45e58dd19e5776c15036232a4a4d968a428",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2022-zhejiang-18",
+    "analysis": "由余弦定理 c²=a²+b²-2ab cosC，结合 4a=√5c、cosC=3/5 求角A，得 sinA=√5/5。再用正弦定理或面积公式，在 b=11 时得面积22。",
+    "analysis_source": "existing_analysis_checked_against_reference",
+    "reference_solution": "短答案： \\mathrm{i}tem $\\sin A=\\frac{\\sqrt5}{5}$. \\mathrm{i}tem 三角形 $ABC$ 的面积为 $22$. \\mathrm{e}nd{enumerate}",
+    "reference_solution_latex": "短答案：\n\n\\begin{enumerate}\n\\item \\(\\sin A=\\dfrac{\\sqrt5}{5}\\).\n\n\\item 三角形 \\(ABC\\) 的面积为 \\(22\\).\n\\end{enumerate}",
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2022/zhejiang.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "8b79a45e58dd19e5776c15036232a4a4d968a428",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2022-zhejiang-19",
+    "analysis": "建立空间直角坐标系，把各点坐标化。第一问用方向向量点积证明 FN⊥AD；第二问用 BM 方向向量与平面 ADE 法向量求线面角正弦，得5√7/14。",
+    "analysis_source": "existing_analysis_checked_against_reference",
+    "reference_solution": "短答案： \\mathrm{i}tem 证明见解析. \\mathrm{i}tem $\\frac{5\\sqrt7}{14}$. \\mathrm{e}nd{enumerate}",
+    "reference_solution_latex": "短答案：\n\n\\begin{enumerate}\n\\item 证明见解析.\n\n\\item \\(\\dfrac{5\\sqrt7}{14}\\).\n\\end{enumerate}",
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2022/zhejiang.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "8b79a45e58dd19e5776c15036232a4a4d968a428",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified_with_figure_dependency"
+  },
+  {
+    "question_id": "2022-zhejiang-20",
+    "analysis": "等差数列 an=-1+(n-1)d。第一问代入条件解得 d=3，从而 Sn=(3n²-5n)/2。第二问把“存在 cn 使三数成等比”转化为关于 cn 的二次方程有实根，要求判别式对任意n非负，最终得1<d≤2。",
+    "analysis_source": "existing_analysis_checked_against_reference",
+    "reference_solution": "短答案： \\mathrm{i}tem $S_n=\\frac{3n^2-5n}{2}$，$n\\mathrm{i}n\\mathbb{N}^*$. \\mathrm{i}tem $1<d\\le 2$. \\mathrm{e}nd{enumerate}",
+    "reference_solution_latex": "短答案：\n\n\\begin{enumerate}\n\\item \\(S_n=\\dfrac{3n^2-5n}{2}\\)，\\(n\\in\\N^*\\).\n\n\\item \\(1<d\\le 2\\).\n\\end{enumerate}",
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2022/zhejiang.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "8b79a45e58dd19e5776c15036232a4a4d968a428",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  },
+  {
+    "question_id": "2022-zhejiang-21",
+    "analysis": "第一问对椭圆上点参数化或设坐标，用距离平方函数求最大值，得12√11/11。第二问利用Q在线段AB上建立弦AB条件，再将PA、PB与定直线交点C、D表示为参数函数，最后对|CD|做最值，得6√5/5。",
+    "analysis_source": "existing_analysis_checked_against_reference",
+    "reference_solution": "短答案： \\mathrm{i}tem $\\frac{12\\sqrt{11}}{11}$. \\mathrm{i}tem $\\frac{6\\sqrt5}{5}$. \\mathrm{e}nd{enumerate}",
+    "reference_solution_latex": "短答案：\n\n\\begin{enumerate}\n\\item \\(\\dfrac{12\\sqrt{11}}{11}\\).\n\n\\item \\(\\dfrac{6\\sqrt5}{5}\\).\n\\end{enumerate}",
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2022/zhejiang.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "8b79a45e58dd19e5776c15036232a4a4d968a428",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified_with_figure_dependency"
+  },
+  {
+    "question_id": "2022-zhejiang-22",
+    "analysis": "f'(x)=1/x-e/(2x²)=(2x-e)/(2x²)，故在(0,e/2)递减、(e/2,+∞)递增。第二问把过定点(a,b)的切线条件写成关于切点x的方程，存在三个不同正根；再研究该方程的极值和根间关系，分别在a>e与0<a<e两种情形下推出题设不等式。",
+    "analysis_source": "existing_analysis_checked_against_reference",
+    "reference_solution": "短答案： \\mathrm{i}tem 减区间为 $\\left(0,\\frac{\\mathrm{e}}{2}\\right)$，增区间为 $\\left(\\frac{\\mathrm{e}}{2},+\\mathrm{i}nfty\\right)$. \\mathrm{i}tem 证明见解析. \\mathrm{e}nd{enumerate}",
+    "reference_solution_latex": "短答案：\n\n\\begin{enumerate}\n\\item 减区间为 \\(\\left(0,\\dfrac{\\e}{2}\\right)\\)，增区间为 \\(\\left(\\dfrac{\\e}{2},+\\infty\\right)\\).\n\n\\item 证明见解析.\n\\end{enumerate}",
+    "reference_solution_figure_refs": [],
+    "reference": {
+      "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+      "file": "content/2022/zhejiang.tex",
+      "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+      "blob_sha": "8b79a45e58dd19e5776c15036232a4a4d968a428",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification_status": "verified"
+  }
 ]

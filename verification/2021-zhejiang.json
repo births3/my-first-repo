@@ -1,0 +1,490 @@
+{
+  "year": 2021,
+  "paper": "浙江卷",
+  "scope": "浙江适用数学卷",
+  "status": "verified",
+  "verified_at": "2026-08-31",
+  "question_count": 22,
+  "figure_dependency_count": 8,
+  "source_pdf": {
+    "repository": "deekur/gaokaomath",
+    "file": "普通高考/2021/2021浙江.pdf",
+    "blob_sha_expected": "6eaa4467044e08aacde2fbcecf7e502748cd4397",
+    "blob_sha_actual": "6eaa4467044e08aacde2fbcecf7e502748cd4397",
+    "git_blob_verified": true,
+    "pdf_magic_verified": true,
+    "page_count_hint": 1
+  },
+  "reference_transcription": {
+    "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
+    "file": "content/2021/zhejiang.tex",
+    "commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+    "blob_sha": "526b5efd02cbb9fdf104a8f823915d497649ed2f",
+    "license": "CC BY-SA 4.0"
+  },
+  "secondary_source": "GaokaoWiki逐题页面",
+  "summary": {
+    "secondary_mismatch_count": 0,
+    "secondary_unavailable_count": 0,
+    "hard_error_count": 0,
+    "changed_question_count": 17
+  },
+  "hard_errors": [],
+  "changes": [
+    {
+      "question_id": "2021-zhejiang-02",
+      "answer_before": "C",
+      "answer_after": "C",
+      "answer_changed": false,
+      "stem_similarity_before_sync": 0.8667,
+      "options_restored": false
+    },
+    {
+      "question_id": "2021-zhejiang-04",
+      "answer_before": "A",
+      "answer_after": "A",
+      "answer_changed": false,
+      "stem_similarity_before_sync": 0.7419,
+      "options_restored": false
+    },
+    {
+      "question_id": "2021-zhejiang-05",
+      "answer_before": "B",
+      "answer_after": "B",
+      "answer_changed": false,
+      "stem_similarity_before_sync": 0.8525,
+      "options_restored": false
+    },
+    {
+      "question_id": "2021-zhejiang-07",
+      "answer_before": "D",
+      "answer_after": "D",
+      "answer_changed": false,
+      "stem_similarity_before_sync": 0.6842,
+      "options_restored": false
+    },
+    {
+      "question_id": "2021-zhejiang-09",
+      "answer_before": "C",
+      "answer_after": "C",
+      "answer_changed": false,
+      "stem_similarity_before_sync": 0.896,
+      "options_restored": false
+    },
+    {
+      "question_id": "2021-zhejiang-10",
+      "answer_before": "A",
+      "answer_after": "A",
+      "answer_changed": false,
+      "stem_similarity_before_sync": 0.84,
+      "options_restored": false
+    },
+    {
+      "question_id": "2021-zhejiang-11",
+      "answer_before": "25",
+      "answer_after": "25",
+      "answer_changed": false,
+      "stem_similarity_before_sync": 0.6901,
+      "options_restored": false
+    },
+    {
+      "question_id": "2021-zhejiang-12",
+      "answer_before": "2",
+      "answer_after": "2",
+      "answer_changed": false,
+      "stem_similarity_before_sync": 0.9167,
+      "options_restored": false
+    },
+    {
+      "question_id": "2021-zhejiang-14",
+      "answer_before": [
+        "$2\\sqrt{13}$",
+        "$\\frac{2\\sqrt{39}}{13}$"
+      ],
+      "answer_after": "$2\\sqrt{13}$，$\\frac{2\\sqrt{39}}{13}$",
+      "answer_changed": true,
+      "stem_similarity_before_sync": 0.9839,
+      "options_restored": false
+    },
+    {
+      "question_id": "2021-zhejiang-15",
+      "answer_before": [
+        "1",
+        "$\\frac89$"
+      ],
+      "answer_after": "1，$\\frac{8}{9}$",
+      "answer_changed": true,
+      "stem_similarity_before_sync": 0.92,
+      "options_restored": false
+    },
+    {
+      "question_id": "2021-zhejiang-16",
+      "answer_before": [
+        "$\\frac{2\\sqrt5}{5}$",
+        "$\\frac{\\sqrt5}{5}$"
+      ],
+      "answer_after": "$\\frac{2\\sqrt{5}}{5}$，$\\frac{\\sqrt{5}}{5}$",
+      "answer_changed": true,
+      "stem_similarity_before_sync": 0.9108,
+      "options_restored": false
+    },
+    {
+      "question_id": "2021-zhejiang-17",
+      "answer_before": "$\\frac25$",
+      "answer_after": "$\\frac{2}{5}$",
+      "answer_changed": false,
+      "stem_similarity_before_sync": 0.7692,
+      "options_restored": false
+    },
+    {
+      "question_id": "2021-zhejiang-18",
+      "answer_before": "（1）$\\pi$；（2）$1+\\frac{\\sqrt2}{2}$",
+      "answer_after": "（1）$\\pi$；（2）$1+\\frac{\\sqrt2}{2}$",
+      "answer_changed": false,
+      "stem_similarity_before_sync": 0.7111,
+      "options_restored": false
+    },
+    {
+      "question_id": "2021-zhejiang-19",
+      "answer_before": "（1）证明略；（2）$\\frac{\\sqrt{15}}6$",
+      "answer_after": "（1）证明略；（2）$\\frac{\\sqrt{15}}6$",
+      "answer_changed": false,
+      "stem_similarity_before_sync": 0.8726,
+      "options_restored": false
+    },
+    {
+      "question_id": "2021-zhejiang-20",
+      "answer_before": "（1）$a_n=-3(\\frac34)^n$；（2）$-3\\le\\lambda\\le1$",
+      "answer_after": "（1）$a_n=-3(\\frac34)^n$；（2）$-3\\le\\lambda\\le1$",
+      "answer_changed": false,
+      "stem_similarity_before_sync": 0.7295,
+      "options_restored": false
+    },
+    {
+      "question_id": "2021-zhejiang-21",
+      "answer_before": "（1）$y^2=4x$；（2）见解析",
+      "answer_after": "（1）$y^2=4x$；（2）见解析",
+      "answer_changed": false,
+      "stem_similarity_before_sync": 0.8289,
+      "options_restored": false
+    },
+    {
+      "question_id": "2021-zhejiang-22",
+      "answer_before": "（1）$b\\le0$ 时递增；$b>0$ 时先减后增，分界点 $x=\\log_a\\frac{b}{\\ln a}$；（2）$1<a\\le e^2$；（3）证明略",
+      "answer_after": "（1）$b\\le0$ 时递增；$b>0$ 时先减后增，分界点 $x=\\log_a\\frac{b}{\\ln a}$；（2）$1<a\\le e^2$；（3）证明略",
+      "answer_changed": false,
+      "stem_similarity_before_sync": 0.5042,
+      "options_restored": false
+    }
+  ],
+  "question_checks": [
+    {
+      "question_no": 1,
+      "question_id": "2021-zhejiang-01",
+      "status": "verified",
+      "answer": "D",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 1.0,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "matched",
+      "secondary_answer_excerpt": "D",
+      "figure_dependency": false
+    },
+    {
+      "question_no": 2,
+      "question_id": "2021-zhejiang-02",
+      "status": "verified",
+      "answer": "C",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.8667,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "matched",
+      "secondary_answer_excerpt": "C",
+      "figure_dependency": false
+    },
+    {
+      "question_no": 3,
+      "question_id": "2021-zhejiang-03",
+      "status": "verified",
+      "answer": "B",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 1.0,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "matched",
+      "secondary_answer_excerpt": "B",
+      "figure_dependency": false
+    },
+    {
+      "question_no": 4,
+      "question_id": "2021-zhejiang-04",
+      "status": "verified_with_figure_dependency",
+      "answer": "A",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.7419,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "matched",
+      "secondary_answer_excerpt": "A",
+      "figure_dependency": true
+    },
+    {
+      "question_no": 5,
+      "question_id": "2021-zhejiang-05",
+      "status": "verified",
+      "answer": "B",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.8525,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "matched",
+      "secondary_answer_excerpt": "B",
+      "figure_dependency": false
+    },
+    {
+      "question_no": 6,
+      "question_id": "2021-zhejiang-06",
+      "status": "verified_with_figure_dependency",
+      "answer": "A",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.9333,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "matched",
+      "secondary_answer_excerpt": "A",
+      "figure_dependency": true
+    },
+    {
+      "question_no": 7,
+      "question_id": "2021-zhejiang-07",
+      "status": "verified_with_figure_dependency",
+      "answer": "D",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.6842,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "matched",
+      "secondary_answer_excerpt": "D",
+      "figure_dependency": true
+    },
+    {
+      "question_no": 8,
+      "question_id": "2021-zhejiang-08",
+      "status": "verified",
+      "answer": "C",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 1.0,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "matched",
+      "secondary_answer_excerpt": "C",
+      "figure_dependency": false
+    },
+    {
+      "question_no": 9,
+      "question_id": "2021-zhejiang-09",
+      "status": "verified",
+      "answer": "C",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.896,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "matched",
+      "secondary_answer_excerpt": "C",
+      "figure_dependency": false
+    },
+    {
+      "question_no": 10,
+      "question_id": "2021-zhejiang-10",
+      "status": "verified",
+      "answer": "A",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.84,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "matched",
+      "secondary_answer_excerpt": "A",
+      "figure_dependency": false
+    },
+    {
+      "question_no": 11,
+      "question_id": "2021-zhejiang-11",
+      "status": "verified_with_figure_dependency",
+      "answer": "25",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.6901,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "present",
+      "secondary_answer_excerpt": "25",
+      "figure_dependency": true
+    },
+    {
+      "question_no": 12,
+      "question_id": "2021-zhejiang-12",
+      "status": "verified",
+      "answer": "2",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.9167,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "present",
+      "secondary_answer_excerpt": "2",
+      "figure_dependency": false
+    },
+    {
+      "question_no": 13,
+      "question_id": "2021-zhejiang-13",
+      "status": "verified",
+      "answer": "5，10",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.9888,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "present",
+      "secondary_answer_excerpt": "(1). 5; (2). 10.",
+      "figure_dependency": false
+    },
+    {
+      "question_no": 14,
+      "question_id": "2021-zhejiang-14",
+      "status": "verified_with_figure_dependency",
+      "answer": "$2\\sqrt{13}$，$\\frac{2\\sqrt{39}}{13}$",
+      "answer_changed_during_sync": true,
+      "stem_similarity_before_sync": 0.9839,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "present",
+      "secondary_answer_excerpt": "(1). 2 13 2\\sqrt{13} 2 13 ​ (2). 2 39 13 \\frac{2\\sqrt{39}}{13} 13 2 39 ​ ​",
+      "figure_dependency": true
+    },
+    {
+      "question_no": 15,
+      "question_id": "2021-zhejiang-15",
+      "status": "verified",
+      "answer": "1，$\\frac{8}{9}$",
+      "answer_changed_during_sync": true,
+      "stem_similarity_before_sync": 0.92,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "present",
+      "secondary_answer_excerpt": "(1).1 (2). 8 9 \\frac{8}{9} 9 8 ​",
+      "figure_dependency": false
+    },
+    {
+      "question_no": 16,
+      "question_id": "2021-zhejiang-16",
+      "status": "verified_with_figure_dependency",
+      "answer": "$\\frac{2\\sqrt{5}}{5}$，$\\frac{\\sqrt{5}}{5}$",
+      "answer_changed_during_sync": true,
+      "stem_similarity_before_sync": 0.9108,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "present",
+      "secondary_answer_excerpt": "(1). 2 5 5 \\frac{2\\sqrt{5}}{5} 5 2 5 ​ ​ (2). 5 5 \\frac{\\sqrt{5}}{5} 5 5 ​ ​",
+      "figure_dependency": true
+    },
+    {
+      "question_no": 17,
+      "question_id": "2021-zhejiang-17",
+      "status": "verified",
+      "answer": "$\\frac{2}{5}$",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.7692,
+      "options_complete": true,
+      "reference_answer_available": true,
+      "reference_solution_available": true,
+      "secondary_status": "present",
+      "secondary_answer_excerpt": "2 5 \\frac{2}{5} 5 2 ​",
+      "figure_dependency": false
+    },
+    {
+      "question_no": 18,
+      "question_id": "2021-zhejiang-18",
+      "status": "verified",
+      "answer": "（1）$\\pi$；（2）$1+\\frac{\\sqrt2}{2}$",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.7111,
+      "options_complete": true,
+      "reference_answer_available": false,
+      "reference_solution_available": true,
+      "secondary_status": "present",
+      "secondary_answer_excerpt": "（1） π \\pi π ；（2） 1 + 2 2 1 + \\frac{\\sqrt{2}}{2} 1 + 2 2 ​ ​ .",
+      "figure_dependency": false
+    },
+    {
+      "question_no": 19,
+      "question_id": "2021-zhejiang-19",
+      "status": "verified_with_figure_dependency",
+      "answer": "（1）证明略；（2）$\\frac{\\sqrt{15}}6$",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.8726,
+      "options_complete": true,
+      "reference_answer_available": false,
+      "reference_solution_available": true,
+      "secondary_status": "present",
+      "secondary_answer_excerpt": "（1）证明见解析；（2） 15 6 \\frac{\\sqrt{15}}{6} 6 15 ​ ​ .",
+      "figure_dependency": true
+    },
+    {
+      "question_no": 20,
+      "question_id": "2021-zhejiang-20",
+      "status": "verified",
+      "answer": "（1）$a_n=-3(\\frac34)^n$；（2）$-3\\le\\lambda\\le1$",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.7295,
+      "options_complete": true,
+      "reference_answer_available": false,
+      "reference_solution_available": true,
+      "secondary_status": "present",
+      "secondary_answer_excerpt": "（1） a n = − 3 ⋅ ( 3 4 ) n a_{n} = -3\\cdot \\left(\\frac{3}{4}\\right)^{n} a n ​ = − 3 ⋅ ( 4 3 ​ ) n ；（2） − 3 ≤ λ ≤ 1 -3\\leq \\lambda \\leq 1 − 3 ≤ λ ≤ 1",
+      "figure_dependency": false
+    },
+    {
+      "question_no": 21,
+      "question_id": "2021-zhejiang-21",
+      "status": "verified_with_figure_dependency",
+      "answer": "（1）$y^2=4x$；（2）见解析",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.8289,
+      "options_complete": true,
+      "reference_answer_available": false,
+      "reference_solution_available": true,
+      "secondary_status": "present",
+      "secondary_answer_excerpt": "（1） y 2 = 4 x y^{2}=4x y 2 = 4 x ；（2） ( − ∞ , − 7 − 4 3 ] ∪ [ − 7 + 4 3 , 1 ) ∪ ( 1 , + ∞ ) \\left(-\\infty,-7-4\\sqrt{3}\\right]\\cup\\left[-7+4\\sqrt{3},1\\right)\\cup(1,+\\infty) ( − ∞ , − 7 − 4 3 ​ ] ∪ [ − 7 + 4 3 ​ , 1 ) ∪ ( 1 , + ∞ ) .",
+      "figure_dependency": true
+    },
+    {
+      "question_no": 22,
+      "question_id": "2021-zhejiang-22",
+      "status": "verified",
+      "answer": "（1）$b\\le0$ 时递增；$b>0$ 时先减后增，分界点 $x=\\log_a\\frac{b}{\\ln a}$；（2）$1<a\\le e^2$；（3）证明略",
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 0.5042,
+      "options_complete": true,
+      "reference_answer_available": false,
+      "reference_solution_available": true,
+      "secondary_status": "present",
+      "secondary_answer_excerpt": "(1) b ≤ 0 b \\leq 0 b ≤ 0 时, f ( x ) f(x) f ( x ) 在 R R R 上单调递增; b > 0 b > 0 b > 0 时, 函数的单调减区间为 ( − ∞ , log ⁡ a b ln ⁡ a ) \\left(-\\infty, \\log_a \\frac{b}{\\ln a}\\right) ( − ∞ , lo g a ​ l n a b ​ ) , 单调增区间为 ( log ⁡ a b ln ⁡ a , + ∞ ) \\left(\\log_a \\frac{b}{\\ln a}, +\\infty\\right) ( lo g a ​ l n a b ​ , ",
+      "figure_dependency": false
+    }
+  ]
+}

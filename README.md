@@ -36,3 +36,28 @@
 ## 数据来源
 
 原始试卷来源：`deekur/gaokaomath`。具体许可和署名要求见 `SOURCE_ATTRIBUTION.md`。
+
+<!-- verification:start -->
+
+## 2021—2026 校验结果
+
+已收录 **6 套、123 道**浙江适用数学题。原始 PDF 的 Git blob SHA、题数、题型、四选项、答案、解析映射均已自动检查；题面与答案同步到固定提交的参考转写，并记录第二来源比对结果。
+
+| 年份 | 卷型 | 题数 | 校验状态 | 含图题 |
+|---:|---|---:|---|---:|
+| 2021 | 浙江卷 | 22 | verified | 8 |
+| 2022 | 浙江卷 | 22 | verified | 4 |
+| 2023 | 新高考I卷 | 22 | verified | 1 |
+| 2024 | 新高考I卷 | 19 | verified | 3 |
+| 2025 | 全国1卷 | 19 | needs_review | 2 |
+| 2026 | 全国1卷 | 19 | verified | 1 |
+
+本地结构校验：
+
+```bash
+python scripts/validate_dataset.py
+```
+
+详细记录见 `VERIFICATION_REPORT.md` 和 `verification/`。
+
+<!-- verification:end -->

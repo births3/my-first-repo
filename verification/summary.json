@@ -1,0 +1,70 @@
+{
+  "verified_at": "2026-08-31",
+  "paper_count": 6,
+  "question_count": 123,
+  "status": "needs_review",
+  "reference_commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
+  "papers": [
+    {
+      "year": 2021,
+      "paper": "浙江卷",
+      "question_count": 22,
+      "status": "verified",
+      "figure_dependency_count": 8,
+      "secondary_mismatch_count": 0,
+      "changed_question_count": 17,
+      "report": "verification/2021-zhejiang.json"
+    },
+    {
+      "year": 2022,
+      "paper": "浙江卷",
+      "question_count": 22,
+      "status": "verified",
+      "figure_dependency_count": 4,
+      "secondary_mismatch_count": 0,
+      "changed_question_count": 12,
+      "report": "verification/2022-zhejiang.json"
+    },
+    {
+      "year": 2023,
+      "paper": "新高考I卷",
+      "question_count": 22,
+      "status": "verified",
+      "figure_dependency_count": 1,
+      "secondary_mismatch_count": 0,
+      "changed_question_count": 21,
+      "report": "verification/2023-new-gaokao-1.json"
+    },
+    {
+      "year": 2024,
+      "paper": "新高考I卷",
+      "question_count": 19,
+      "status": "verified",
+      "figure_dependency_count": 3,
+      "secondary_mismatch_count": 0,
+      "changed_question_count": 14,
+      "report": "verification/2024-new-gaokao-1.json"
+    },
+    {
+      "year": 2025,
+      "paper": "全国1卷",
+      "question_count": 19,
+      "status": "needs_review",
+      "figure_dependency_count": 2,
+      "secondary_mismatch_count": 2,
+      "changed_question_count": 11,
+      "report": "verification/2025-national-1.json"
+    },
+    {
+      "year": 2026,
+      "paper": "全国1卷",
+      "question_count": 19,
+      "status": "verified",
+      "figure_dependency_count": 1,
+      "secondary_mismatch_count": 0,
+      "changed_question_count": 17,
+      "report": "verification/2026-national-1.json"
+    }
+  ],
+  "change_count": 92
+}
