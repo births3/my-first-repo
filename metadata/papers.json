@@ -29,7 +29,9 @@
     "reference_repository": "DxAThing/Gaokao-Math-Problems-Compilation",
     "reference_commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
     "reference_file": "content/2026/national_paper_1.tex",
-    "source_pdf_blob_verified": true
+    "source_pdf_blob_verified": true,
+    "unresolved_secondary_disagreement_count": 0,
+    "resolved_secondary_disagreement_count": 0
   },
   {
     "year": 2025,
@@ -53,7 +55,7 @@
     "source_file": "普通高考/2025/2025全国1(山东,广东,湖南,湖北,河北,江苏,福建,浙江,河南,江西,安徽).pdf",
     "source_sha": "4a5702dda207a470840a62c982ab2392362a404e",
     "status": "questions_extracted_analysis_complete",
-    "verification_status": "needs_review",
+    "verification_status": "verified",
     "verification_report": "verification/2025-national-1.json",
     "question_count": 19,
     "analysis_count": 19,
@@ -61,7 +63,9 @@
     "reference_repository": "DxAThing/Gaokao-Math-Problems-Compilation",
     "reference_commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
     "reference_file": "content/2025/national_paper_1.tex",
-    "source_pdf_blob_verified": true
+    "source_pdf_blob_verified": true,
+    "unresolved_secondary_disagreement_count": 0,
+    "resolved_secondary_disagreement_count": 3
   },
   {
     "year": 2024,
@@ -93,7 +97,9 @@
     "reference_repository": "DxAThing/Gaokao-Math-Problems-Compilation",
     "reference_commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
     "reference_file": "content/2024/new_gaokao_paper_1.tex",
-    "source_pdf_blob_verified": true
+    "source_pdf_blob_verified": true,
+    "unresolved_secondary_disagreement_count": 0,
+    "resolved_secondary_disagreement_count": 0
   },
   {
     "year": 2023,
@@ -122,7 +128,9 @@
     "reference_repository": "DxAThing/Gaokao-Math-Problems-Compilation",
     "reference_commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
     "reference_file": "content/2023/new_gaokao_paper_1.tex",
-    "source_pdf_blob_verified": true
+    "source_pdf_blob_verified": true,
+    "unresolved_secondary_disagreement_count": 0,
+    "resolved_secondary_disagreement_count": 0
   },
   {
     "year": 2022,
@@ -144,7 +152,9 @@
     "reference_repository": "DxAThing/Gaokao-Math-Problems-Compilation",
     "reference_commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
     "reference_file": "content/2022/zhejiang.tex",
-    "source_pdf_blob_verified": true
+    "source_pdf_blob_verified": true,
+    "unresolved_secondary_disagreement_count": 0,
+    "resolved_secondary_disagreement_count": 0
   },
   {
     "year": 2021,
@@ -166,6 +176,8 @@
     "reference_repository": "DxAThing/Gaokao-Math-Problems-Compilation",
     "reference_commit": "4b69f48467d7883e1e9cf816680347ce34583ba8",
     "reference_file": "content/2021/zhejiang.tex",
-    "source_pdf_blob_verified": true
+    "source_pdf_blob_verified": true,
+    "unresolved_secondary_disagreement_count": 0,
+    "resolved_secondary_disagreement_count": 0
   }
 ]

@@ -1,0 +1,18 @@
+{
+  "normalized_at": "2026-08-31",
+  "question_count": 123,
+  "changed_files": {
+    "data/2021/zhejiang.jsonl": 22,
+    "data/2022/zhejiang.jsonl": 22,
+    "data/2023/new-gaokao-1.jsonl": 22,
+    "data/2024/new-gaokao-1.jsonl": 19,
+    "data/2025/national-1.jsonl": 19,
+    "data/2026/national-1.jsonl": 19,
+    "analysis/2021-zhejiang.json": 22,
+    "analysis/2022-zhejiang.json": 5,
+    "analysis/2023-new-gaokao-1.json": 22,
+    "analysis/2024-new-gaokao-1.json": 19,
+    "analysis/2025-national-1.json": 19,
+    "analysis/2026-national-1.json": 19
+  }
+}

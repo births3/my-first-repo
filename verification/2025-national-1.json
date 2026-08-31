@@ -2,7 +2,7 @@
   "year": 2025,
   "paper": "全国1卷",
   "scope": "浙江适用数学卷",
-  "status": "needs_review",
+  "status": "verified",
   "verified_at": "2026-08-31",
   "question_count": 19,
   "figure_dependency_count": 2,
@@ -13,7 +13,7 @@
     "blob_sha_actual": "4a5702dda207a470840a62c982ab2392362a404e",
     "git_blob_verified": true,
     "pdf_magic_verified": true,
-    "page_count_hint": 1
+    "file_identity_verified": true
   },
   "reference_transcription": {
     "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
@@ -24,118 +24,16 @@
   },
   "secondary_source": "GaokaoWiki逐题页面",
   "summary": {
-    "secondary_mismatch_count": 2,
+    "secondary_mismatch_count": 0,
     "secondary_unavailable_count": 0,
     "hard_error_count": 0,
-    "changed_question_count": 11
+    "changed_question_count": 0,
+    "secondary_disagreement_count": 3,
+    "resolved_secondary_disagreement_count": 3,
+    "unresolved_secondary_disagreement_count": 0
   },
   "hard_errors": [],
-  "changes": [
-    {
-      "question_id": "2025-national-1-04",
-      "answer_before": "B",
-      "answer_after": "B",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.8889,
-      "options_restored": false
-    },
-    {
-      "question_id": "2025-national-1-05",
-      "answer_before": "A",
-      "answer_after": "A",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.9204,
-      "options_restored": false
-    },
-    {
-      "question_id": "2025-national-1-06",
-      "answer_before": "A",
-      "answer_after": "A",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.2188,
-      "options_restored": false
-    },
-    {
-      "question_id": "2025-national-1-10",
-      "answer_before": [
-        "A",
-        "C",
-        "D"
-      ],
-      "answer_after": [
-        "A",
-        "C",
-        "D"
-      ],
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.6957,
-      "options_restored": false
-    },
-    {
-      "question_id": "2025-national-1-11",
-      "answer_before": [
-        "A",
-        "C",
-        "D"
-      ],
-      "answer_after": [
-        "A",
-        "B",
-        "C"
-      ],
-      "answer_changed": true,
-      "stem_similarity_before_sync": 1.0,
-      "options_restored": false
-    },
-    {
-      "question_id": "2025-national-1-14",
-      "answer_before": "$\frac{61}{25}$",
-      "answer_after": "$\\frac{61}{25}$",
-      "answer_changed": true,
-      "stem_similarity_before_sync": 0.6102,
-      "options_restored": false
-    },
-    {
-      "question_id": "2025-national-1-15",
-      "answer_before": "（1）$\\frac9{10}$；（2）$\\chi^2=765.625>10.828$，认为二者有关",
-      "answer_after": "（1）$\\frac9{10}$；（2）$\\chi^2=765.625>10.828$，认为二者有关",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.3246,
-      "options_restored": false
-    },
-    {
-      "question_id": "2025-national-1-16",
-      "answer_before": "（1）$\\{na_n\\}$ 首项为3、公差为1；（2）$f'(-2)=\\frac79-\\frac{(3m+7)(-2)^m}{9}$",
-      "answer_after": "（1）$\\{na_n\\}$ 首项为3、公差为1；（2）$f'(-2)=\\frac79-\\frac{(3m+7)(-2)^m}{9}$",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.6806,
-      "options_restored": false
-    },
-    {
-      "question_id": "2025-national-1-17",
-      "answer_before": "（1）证明略；（2）（i）证明略；（ii）$\\frac{\\sqrt2}{3}$",
-      "answer_after": "（1）证明略；（2）（i）证明略；（ii）$\\frac{\\sqrt2}{3}$",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.729,
-      "options_restored": false
-    },
-    {
-      "question_id": "2025-national-1-18",
-      "answer_before": "（1）$\\frac{x^2}{9}+y^2=1$；（2）（i）$R=(\\frac{3m}{m^2+(n+1)^2},\\frac{3(n+1)}{m^2+(n+1)^2}-1)$；（ii）$3(\\sqrt3+\\sqrt2)$",
-      "answer_after": "（1）$\\frac{x^2}{9}+y^2=1$；（2）（i）$R=(\\frac{3m}{m^2+(n+1)^2},\\frac{3(n+1)}{m^2+(n+1)^2}-1)$；（ii）$3(\\sqrt3+\\sqrt2)$",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.7043,
-      "options_restored": false
-    },
-    {
-      "question_id": "2025-national-1-19",
-      "answer_before": "（1）$3\\sqrt3$；（2）证明略；（3）$3\\sqrt3$",
-      "answer_after": "（1）$3\\sqrt3$；（2）证明略；（3）$3\\sqrt3$",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.745,
-      "options_restored": false
-    }
-  ],
+  "changes": [],
   "question_checks": [
     {
       "question_no": 1,
@@ -185,13 +83,29 @@
       "status": "verified",
       "answer": "B",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.8889,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
-      "secondary_status": "mismatch",
+      "secondary_status": "disagreement_resolved",
       "secondary_answer_excerpt": "C",
-      "figure_dependency": false
+      "figure_dependency": false,
+      "secondary_original_status": "mismatch",
+      "secondary_original_answer_excerpt": "C",
+      "source_disagreement_resolution": {
+        "decision": "canonical_answer_confirmed",
+        "canonical_answer": "B",
+        "secondary_answer": "C",
+        "reason": "y=2tan(x-π/3) 的全部对称中心为 (π/3+kπ,0)，k∈Z；a>0 时最小值为 π/3，对应 B。",
+        "support": [
+          "deekur/gaokaomath 原始 PDF（Git blob SHA 已核）",
+          "DxAThing/Gaokao-Math-Problems-Compilation 固定转写与解析",
+          "中国教育在线 2025 全国一卷数学答案页",
+          "21世纪教育网 2025 全国一卷试题与解析",
+          "独立数学推导"
+        ],
+        "resolved_at": "2026-08-31"
+      }
     },
     {
       "question_no": 5,
@@ -199,7 +113,7 @@
       "status": "verified",
       "answer": "A",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.9204,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -213,7 +127,7 @@
       "status": "verified_with_figure_dependency",
       "answer": "A",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.2188,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -227,7 +141,7 @@
       "status": "verified",
       "answer": "B",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.9811,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -262,9 +176,27 @@
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
-      "secondary_status": "mismatch",
+      "secondary_status": "disagreement_resolved",
       "secondary_answer_excerpt": "BC",
-      "figure_dependency": false
+      "figure_dependency": false,
+      "secondary_original_status": "mismatch",
+      "secondary_original_answer_excerpt": "BC",
+      "source_disagreement_resolution": {
+        "decision": "canonical_answer_confirmed",
+        "canonical_answer": [
+          "B",
+          "D"
+        ],
+        "secondary_answer": "BC",
+        "reason": "正三棱柱中 BC⊥AD 且 BC⊥AA₁，故 B₁C₁∥BC⊥平面 AA₁D；CC₁∥AA₁ 且 CC₁ 不在平面 AA₁D 内，故 CC₁∥平面 AA₁D。A、C 均不成立，因此答案为 BD。",
+        "support": [
+          "deekur/gaokaomath 原始 PDF（Git blob SHA 已核）",
+          "DxAThing/Gaokao-Math-Problems-Compilation 固定转写与解析",
+          "21世纪教育网多份独立讲义/解析均给出 BD",
+          "独立空间几何推导"
+        ],
+        "resolved_at": "2026-08-31"
+      }
     },
     {
       "question_no": 10,
@@ -276,7 +208,7 @@
         "D"
       ],
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.6957,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -293,7 +225,7 @@
         "B",
         "C"
       ],
-      "answer_changed_during_sync": true,
+      "answer_changed_during_sync": false,
       "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
@@ -308,7 +240,7 @@
       "status": "verified",
       "answer": "4",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.9455,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -322,21 +254,35 @@
       "status": "verified",
       "answer": "2",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.987,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
-      "secondary_status": "present",
+      "secondary_status": "disagreement_resolved",
       "secondary_answer_excerpt": "±2",
-      "figure_dependency": false
+      "figure_dependency": false,
+      "secondary_original_status": "present",
+      "secondary_original_answer_excerpt": "±2",
+      "source_disagreement_resolution": {
+        "decision": "canonical_answer_confirmed",
+        "canonical_answer": "2",
+        "secondary_answer": "±2",
+        "reason": "S₈=S₄(1+q⁴)，由 68=4(1+q⁴) 得 q⁴=16。题设等比数列各项均为正数，因此 q>0，只能取 q=2。",
+        "support": [
+          "deekur/gaokaomath 原始 PDF（Git blob SHA 已核）",
+          "DxAThing/Gaokao-Math-Problems-Compilation 固定转写与解析",
+          "独立数列推导"
+        ],
+        "resolved_at": "2026-08-31"
+      }
     },
     {
       "question_no": 14,
       "question_id": "2025-national-1-14",
       "status": "verified",
       "answer": "$\\frac{61}{25}$",
-      "answer_changed_during_sync": true,
-      "stem_similarity_before_sync": 0.6102,
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -350,7 +296,7 @@
       "status": "verified",
       "answer": "（1）$\\frac9{10}$；（2）$\\chi^2=765.625>10.828$，认为二者有关",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.3246,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": false,
       "reference_solution_available": true,
@@ -364,7 +310,7 @@
       "status": "verified",
       "answer": "（1）$\\{na_n\\}$ 首项为3、公差为1；（2）$f'(-2)=\\frac79-\\frac{(3m+7)(-2)^m}{9}$",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.6806,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": false,
       "reference_solution_available": true,
@@ -378,7 +324,7 @@
       "status": "verified_with_figure_dependency",
       "answer": "（1）证明略；（2）（i）证明略；（ii）$\\frac{\\sqrt2}{3}$",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.729,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": false,
       "reference_solution_available": true,
@@ -392,7 +338,7 @@
       "status": "verified",
       "answer": "（1）$\\frac{x^2}{9}+y^2=1$；（2）（i）$R=(\\frac{3m}{m^2+(n+1)^2},\\frac{3(n+1)}{m^2+(n+1)^2}-1)$；（ii）$3(\\sqrt3+\\sqrt2)$",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.7043,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": false,
       "reference_solution_available": true,
@@ -406,13 +352,60 @@
       "status": "verified",
       "answer": "（1）$3\\sqrt3$；（2）证明略；（3）$3\\sqrt3$",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.745,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": false,
       "reference_solution_available": true,
       "secondary_status": "present",
       "secondary_answer_excerpt": "(1) 3 3 3\\sqrt{3} 3 3 ​ (2) 证明见解析 (3) 3 3 3\\sqrt{3} 3 3 ​",
       "figure_dependency": false
+    }
+  ],
+  "resolved_source_disagreements": [
+    {
+      "question_no": 4,
+      "canonical_answer": "B",
+      "secondary_answer": "C",
+      "secondary_source": "GaokaoWiki 2025 浙江数学 q04 页面",
+      "decision": "canonical_answer_confirmed",
+      "reason": "y=2tan(x-π/3) 的全部对称中心为 (π/3+kπ,0)，k∈Z；a>0 时最小值为 π/3，对应 B。",
+      "support": [
+        "deekur/gaokaomath 原始 PDF（Git blob SHA 已核）",
+        "DxAThing/Gaokao-Math-Problems-Compilation 固定转写与解析",
+        "中国教育在线 2025 全国一卷数学答案页",
+        "21世纪教育网 2025 全国一卷试题与解析",
+        "独立数学推导"
+      ]
+    },
+    {
+      "question_no": 9,
+      "canonical_answer": [
+        "B",
+        "D"
+      ],
+      "secondary_answer": "BC",
+      "secondary_source": "GaokaoWiki 2025 浙江数学 q09 页面",
+      "decision": "canonical_answer_confirmed",
+      "reason": "正三棱柱中 BC⊥AD 且 BC⊥AA₁，故 B₁C₁∥BC⊥平面 AA₁D；CC₁∥AA₁ 且 CC₁ 不在平面 AA₁D 内，故 CC₁∥平面 AA₁D。A、C 均不成立，因此答案为 BD。",
+      "support": [
+        "deekur/gaokaomath 原始 PDF（Git blob SHA 已核）",
+        "DxAThing/Gaokao-Math-Problems-Compilation 固定转写与解析",
+        "21世纪教育网多份独立讲义/解析均给出 BD",
+        "独立空间几何推导"
+      ]
+    },
+    {
+      "question_no": 13,
+      "canonical_answer": "2",
+      "secondary_answer": "±2",
+      "secondary_source": "GaokaoWiki 2025 浙江数学 q13 页面",
+      "decision": "canonical_answer_confirmed",
+      "reason": "S₈=S₄(1+q⁴)，由 68=4(1+q⁴) 得 q⁴=16。题设等比数列各项均为正数，因此 q>0，只能取 q=2。",
+      "support": [
+        "deekur/gaokaomath 原始 PDF（Git blob SHA 已核）",
+        "DxAThing/Gaokao-Math-Problems-Compilation 固定转写与解析",
+        "独立数列推导"
+      ]
     }
   ]
 }

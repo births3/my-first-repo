@@ -13,7 +13,7 @@
     "blob_sha_actual": "a408f5467da376f7335cdb397855fe07ddc87149",
     "git_blob_verified": true,
     "pdf_magic_verified": true,
-    "page_count_hint": 1
+    "file_identity_verified": true
   },
   "reference_transcription": {
     "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
@@ -27,137 +27,10 @@
     "secondary_mismatch_count": 0,
     "secondary_unavailable_count": 0,
     "hard_error_count": 0,
-    "changed_question_count": 14
+    "changed_question_count": 0
   },
   "hard_errors": [],
-  "changes": [
-    {
-      "question_id": "2024-new-gaokao-1-01",
-      "answer_before": "A",
-      "answer_after": "A",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.8312,
-      "options_restored": false
-    },
-    {
-      "question_id": "2024-new-gaokao-1-03",
-      "answer_before": "D",
-      "answer_after": "D",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.6835,
-      "options_restored": false
-    },
-    {
-      "question_id": "2024-new-gaokao-1-06",
-      "answer_before": "B",
-      "answer_after": "B",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.7761,
-      "options_restored": false
-    },
-    {
-      "question_id": "2024-new-gaokao-1-07",
-      "answer_before": "C",
-      "answer_after": "C",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.8936,
-      "options_restored": false
-    },
-    {
-      "question_id": "2024-new-gaokao-1-09",
-      "answer_before": [
-        "B",
-        "C"
-      ],
-      "answer_after": [
-        "B",
-        "C"
-      ],
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.8497,
-      "options_restored": false
-    },
-    {
-      "question_id": "2024-new-gaokao-1-11",
-      "answer_before": [
-        "A",
-        "B",
-        "D"
-      ],
-      "answer_after": [
-        "A",
-        "B",
-        "D"
-      ],
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.875,
-      "options_restored": false
-    },
-    {
-      "question_id": "2024-new-gaokao-1-12",
-      "answer_before": "$\\frac{3}{2}$",
-      "answer_after": "$\\frac{3}{2}$",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.8508,
-      "options_restored": false
-    },
-    {
-      "question_id": "2024-new-gaokao-1-13",
-      "answer_before": "$\\ln2$",
-      "answer_after": "$\\ln2$",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.7042,
-      "options_restored": false
-    },
-    {
-      "question_id": "2024-new-gaokao-1-14",
-      "answer_before": "$\\frac{1}{2}$",
-      "answer_after": "$\\frac12$",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.5896,
-      "options_restored": false
-    },
-    {
-      "question_id": "2024-new-gaokao-1-15",
-      "answer_before": "（1）$B=\\frac{\\pi}{3}$；（2）$c=2\\sqrt2$",
-      "answer_after": "（1）$B=\\frac{\\pi}{3}$；（2）$c=2\\sqrt2$",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.8205,
-      "options_restored": false
-    },
-    {
-      "question_id": "2024-new-gaokao-1-16",
-      "answer_before": "（1）$\\frac12$；（2）$3x-2y-6=0$ 或 $x-2y=0$",
-      "answer_after": "（1）$\\frac12$；（2）$3x-2y-6=0$ 或 $x-2y=0$",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.781,
-      "options_restored": false
-    },
-    {
-      "question_id": "2024-new-gaokao-1-17",
-      "answer_before": "（1）证明略；（2）$AD=\\sqrt3$",
-      "answer_after": "（1）证明略；（2）$AD=\\sqrt3$",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.8735,
-      "options_restored": false
-    },
-    {
-      "question_id": "2024-new-gaokao-1-18",
-      "answer_before": "（1）$-2$；（2）证明略；（3）$b\\ge-\\frac23$",
-      "answer_after": "（1）$-2$；（2）证明略；（3）$b\\ge-\\frac23$",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.7767,
-      "options_restored": false
-    },
-    {
-      "question_id": "2024-new-gaokao-1-19",
-      "answer_before": "（1）$(1,2),(1,6),(5,6)$；（2）证明略；（3）证明略",
-      "answer_after": "（1）$(1,2),(1,6),(5,6)$；（2）证明略；（3）证明略",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.7347,
-      "options_restored": false
-    }
-  ],
+  "changes": [],
   "question_checks": [
     {
       "question_no": 1,
@@ -165,7 +38,7 @@
       "status": "verified",
       "answer": "A",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.8312,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -193,7 +66,7 @@
       "status": "verified",
       "answer": "D",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.6835,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -235,7 +108,7 @@
       "status": "verified",
       "answer": "B",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.7761,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -249,7 +122,7 @@
       "status": "verified",
       "answer": "C",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.8936,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -263,7 +136,7 @@
       "status": "verified",
       "answer": "B",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.9725,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -280,7 +153,7 @@
         "C"
       ],
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.8497,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -316,7 +189,7 @@
         "D"
       ],
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.875,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -330,7 +203,7 @@
       "status": "verified_with_figure_dependency",
       "answer": "$\\frac{3}{2}$",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.8508,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -344,7 +217,7 @@
       "status": "verified",
       "answer": "$\\ln2$",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.7042,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -358,7 +231,7 @@
       "status": "verified",
       "answer": "$\\frac12$",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.5896,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -372,7 +245,7 @@
       "status": "verified",
       "answer": "（1）$B=\\frac{\\pi}{3}$；（2）$c=2\\sqrt2$",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.8205,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": false,
       "reference_solution_available": true,
@@ -386,7 +259,7 @@
       "status": "verified",
       "answer": "（1）$\\frac12$；（2）$3x-2y-6=0$ 或 $x-2y=0$",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.781,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": false,
       "reference_solution_available": true,
@@ -400,7 +273,7 @@
       "status": "verified_with_figure_dependency",
       "answer": "（1）证明略；（2）$AD=\\sqrt3$",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.8735,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": false,
       "reference_solution_available": true,
@@ -414,7 +287,7 @@
       "status": "verified",
       "answer": "（1）$-2$；（2）证明略；（3）$b\\ge-\\frac23$",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.7767,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": false,
       "reference_solution_available": true,
@@ -428,7 +301,7 @@
       "status": "verified",
       "answer": "（1）$(1,2),(1,6),(5,6)$；（2）证明略；（3）证明略",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.7347,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": false,
       "reference_solution_available": true,

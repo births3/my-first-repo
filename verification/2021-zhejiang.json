@@ -13,7 +13,7 @@
     "blob_sha_actual": "6eaa4467044e08aacde2fbcecf7e502748cd4397",
     "git_blob_verified": true,
     "pdf_magic_verified": true,
-    "page_count_hint": 1
+    "file_identity_verified": true
   },
   "reference_transcription": {
     "repository": "DxAThing/Gaokao-Math-Problems-Compilation",
@@ -27,156 +27,10 @@
     "secondary_mismatch_count": 0,
     "secondary_unavailable_count": 0,
     "hard_error_count": 0,
-    "changed_question_count": 17
+    "changed_question_count": 0
   },
   "hard_errors": [],
-  "changes": [
-    {
-      "question_id": "2021-zhejiang-02",
-      "answer_before": "C",
-      "answer_after": "C",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.8667,
-      "options_restored": false
-    },
-    {
-      "question_id": "2021-zhejiang-04",
-      "answer_before": "A",
-      "answer_after": "A",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.7419,
-      "options_restored": false
-    },
-    {
-      "question_id": "2021-zhejiang-05",
-      "answer_before": "B",
-      "answer_after": "B",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.8525,
-      "options_restored": false
-    },
-    {
-      "question_id": "2021-zhejiang-07",
-      "answer_before": "D",
-      "answer_after": "D",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.6842,
-      "options_restored": false
-    },
-    {
-      "question_id": "2021-zhejiang-09",
-      "answer_before": "C",
-      "answer_after": "C",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.896,
-      "options_restored": false
-    },
-    {
-      "question_id": "2021-zhejiang-10",
-      "answer_before": "A",
-      "answer_after": "A",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.84,
-      "options_restored": false
-    },
-    {
-      "question_id": "2021-zhejiang-11",
-      "answer_before": "25",
-      "answer_after": "25",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.6901,
-      "options_restored": false
-    },
-    {
-      "question_id": "2021-zhejiang-12",
-      "answer_before": "2",
-      "answer_after": "2",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.9167,
-      "options_restored": false
-    },
-    {
-      "question_id": "2021-zhejiang-14",
-      "answer_before": [
-        "$2\\sqrt{13}$",
-        "$\\frac{2\\sqrt{39}}{13}$"
-      ],
-      "answer_after": "$2\\sqrt{13}$，$\\frac{2\\sqrt{39}}{13}$",
-      "answer_changed": true,
-      "stem_similarity_before_sync": 0.9839,
-      "options_restored": false
-    },
-    {
-      "question_id": "2021-zhejiang-15",
-      "answer_before": [
-        "1",
-        "$\\frac89$"
-      ],
-      "answer_after": "1，$\\frac{8}{9}$",
-      "answer_changed": true,
-      "stem_similarity_before_sync": 0.92,
-      "options_restored": false
-    },
-    {
-      "question_id": "2021-zhejiang-16",
-      "answer_before": [
-        "$\\frac{2\\sqrt5}{5}$",
-        "$\\frac{\\sqrt5}{5}$"
-      ],
-      "answer_after": "$\\frac{2\\sqrt{5}}{5}$，$\\frac{\\sqrt{5}}{5}$",
-      "answer_changed": true,
-      "stem_similarity_before_sync": 0.9108,
-      "options_restored": false
-    },
-    {
-      "question_id": "2021-zhejiang-17",
-      "answer_before": "$\\frac25$",
-      "answer_after": "$\\frac{2}{5}$",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.7692,
-      "options_restored": false
-    },
-    {
-      "question_id": "2021-zhejiang-18",
-      "answer_before": "（1）$\\pi$；（2）$1+\\frac{\\sqrt2}{2}$",
-      "answer_after": "（1）$\\pi$；（2）$1+\\frac{\\sqrt2}{2}$",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.7111,
-      "options_restored": false
-    },
-    {
-      "question_id": "2021-zhejiang-19",
-      "answer_before": "（1）证明略；（2）$\\frac{\\sqrt{15}}6$",
-      "answer_after": "（1）证明略；（2）$\\frac{\\sqrt{15}}6$",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.8726,
-      "options_restored": false
-    },
-    {
-      "question_id": "2021-zhejiang-20",
-      "answer_before": "（1）$a_n=-3(\\frac34)^n$；（2）$-3\\le\\lambda\\le1$",
-      "answer_after": "（1）$a_n=-3(\\frac34)^n$；（2）$-3\\le\\lambda\\le1$",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.7295,
-      "options_restored": false
-    },
-    {
-      "question_id": "2021-zhejiang-21",
-      "answer_before": "（1）$y^2=4x$；（2）见解析",
-      "answer_after": "（1）$y^2=4x$；（2）见解析",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.8289,
-      "options_restored": false
-    },
-    {
-      "question_id": "2021-zhejiang-22",
-      "answer_before": "（1）$b\\le0$ 时递增；$b>0$ 时先减后增，分界点 $x=\\log_a\\frac{b}{\\ln a}$；（2）$1<a\\le e^2$；（3）证明略",
-      "answer_after": "（1）$b\\le0$ 时递增；$b>0$ 时先减后增，分界点 $x=\\log_a\\frac{b}{\\ln a}$；（2）$1<a\\le e^2$；（3）证明略",
-      "answer_changed": false,
-      "stem_similarity_before_sync": 0.5042,
-      "options_restored": false
-    }
-  ],
+  "changes": [],
   "question_checks": [
     {
       "question_no": 1,
@@ -198,7 +52,7 @@
       "status": "verified",
       "answer": "C",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.8667,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -226,7 +80,7 @@
       "status": "verified_with_figure_dependency",
       "answer": "A",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.7419,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -240,7 +94,7 @@
       "status": "verified",
       "answer": "B",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.8525,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -254,7 +108,7 @@
       "status": "verified_with_figure_dependency",
       "answer": "A",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.9333,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -268,7 +122,7 @@
       "status": "verified_with_figure_dependency",
       "answer": "D",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.6842,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -296,7 +150,7 @@
       "status": "verified",
       "answer": "C",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.896,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -310,7 +164,7 @@
       "status": "verified",
       "answer": "A",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.84,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -324,7 +178,7 @@
       "status": "verified_with_figure_dependency",
       "answer": "25",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.6901,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -338,7 +192,7 @@
       "status": "verified",
       "answer": "2",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.9167,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -352,7 +206,7 @@
       "status": "verified",
       "answer": "5，10",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.9888,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -365,8 +219,8 @@
       "question_id": "2021-zhejiang-14",
       "status": "verified_with_figure_dependency",
       "answer": "$2\\sqrt{13}$，$\\frac{2\\sqrt{39}}{13}$",
-      "answer_changed_during_sync": true,
-      "stem_similarity_before_sync": 0.9839,
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -379,8 +233,8 @@
       "question_id": "2021-zhejiang-15",
       "status": "verified",
       "answer": "1，$\\frac{8}{9}$",
-      "answer_changed_during_sync": true,
-      "stem_similarity_before_sync": 0.92,
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -393,8 +247,8 @@
       "question_id": "2021-zhejiang-16",
       "status": "verified_with_figure_dependency",
       "answer": "$\\frac{2\\sqrt{5}}{5}$，$\\frac{\\sqrt{5}}{5}$",
-      "answer_changed_during_sync": true,
-      "stem_similarity_before_sync": 0.9108,
+      "answer_changed_during_sync": false,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -408,7 +262,7 @@
       "status": "verified",
       "answer": "$\\frac{2}{5}$",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.7692,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": true,
       "reference_solution_available": true,
@@ -422,7 +276,7 @@
       "status": "verified",
       "answer": "（1）$\\pi$；（2）$1+\\frac{\\sqrt2}{2}$",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.7111,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": false,
       "reference_solution_available": true,
@@ -436,7 +290,7 @@
       "status": "verified_with_figure_dependency",
       "answer": "（1）证明略；（2）$\\frac{\\sqrt{15}}6$",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.8726,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": false,
       "reference_solution_available": true,
@@ -450,7 +304,7 @@
       "status": "verified",
       "answer": "（1）$a_n=-3(\\frac34)^n$；（2）$-3\\le\\lambda\\le1$",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.7295,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": false,
       "reference_solution_available": true,
@@ -464,7 +318,7 @@
       "status": "verified_with_figure_dependency",
       "answer": "（1）$y^2=4x$；（2）见解析",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.8289,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": false,
       "reference_solution_available": true,
@@ -478,7 +332,7 @@
       "status": "verified",
       "answer": "（1）$b\\le0$ 时递增；$b>0$ 时先减后增，分界点 $x=\\log_a\\frac{b}{\\ln a}$；（2）$1<a\\le e^2$；（3）证明略",
       "answer_changed_during_sync": false,
-      "stem_similarity_before_sync": 0.5042,
+      "stem_similarity_before_sync": 1.0,
       "options_complete": true,
       "reference_answer_available": false,
       "reference_solution_available": true,

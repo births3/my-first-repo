@@ -275,7 +275,7 @@
     "question_id": "2022-zhejiang-18",
     "analysis": "由余弦定理 c²=a²+b²-2ab cosC，结合 4a=√5c、cosC=3/5 求角A，得 sinA=√5/5。再用正弦定理或面积公式，在 b=11 时得面积22。",
     "analysis_source": "existing_analysis_checked_against_reference",
-    "reference_solution": "短答案： \\mathrm{i}tem $\\sin A=\\frac{\\sqrt5}{5}$. \\mathrm{i}tem 三角形 $ABC$ 的面积为 $22$. \\mathrm{e}nd{enumerate}",
+    "reference_solution": "短答案： ； $ \\sin A=\\frac{\\sqrt5}{5} $. ； 三角形 $ ABC $ 的面积为 $ 22 $.",
     "reference_solution_latex": "短答案：\n\n\\begin{enumerate}\n\\item \\(\\sin A=\\dfrac{\\sqrt5}{5}\\).\n\n\\item 三角形 \\(ABC\\) 的面积为 \\(22\\).\n\\end{enumerate}",
     "reference_solution_figure_refs": [],
     "reference": {
@@ -291,7 +291,7 @@
     "question_id": "2022-zhejiang-19",
     "analysis": "建立空间直角坐标系，把各点坐标化。第一问用方向向量点积证明 FN⊥AD；第二问用 BM 方向向量与平面 ADE 法向量求线面角正弦，得5√7/14。",
     "analysis_source": "existing_analysis_checked_against_reference",
-    "reference_solution": "短答案： \\mathrm{i}tem 证明见解析. \\mathrm{i}tem $\\frac{5\\sqrt7}{14}$. \\mathrm{e}nd{enumerate}",
+    "reference_solution": "短答案： ； 证明见解析. ； $ \\frac{5\\sqrt7}{14} $.",
     "reference_solution_latex": "短答案：\n\n\\begin{enumerate}\n\\item 证明见解析.\n\n\\item \\(\\dfrac{5\\sqrt7}{14}\\).\n\\end{enumerate}",
     "reference_solution_figure_refs": [],
     "reference": {
@@ -307,7 +307,7 @@
     "question_id": "2022-zhejiang-20",
     "analysis": "等差数列 an=-1+(n-1)d。第一问代入条件解得 d=3，从而 Sn=(3n²-5n)/2。第二问把“存在 cn 使三数成等比”转化为关于 cn 的二次方程有实根，要求判别式对任意n非负，最终得1<d≤2。",
     "analysis_source": "existing_analysis_checked_against_reference",
-    "reference_solution": "短答案： \\mathrm{i}tem $S_n=\\frac{3n^2-5n}{2}$，$n\\mathrm{i}n\\mathbb{N}^*$. \\mathrm{i}tem $1<d\\le 2$. \\mathrm{e}nd{enumerate}",
+    "reference_solution": "短答案： ； $ S_n=\\frac{3n^2-5n}{2} $，$ n\\in\\mathbb{N}^* $. ； $ 1<d\\le 2 $.",
     "reference_solution_latex": "短答案：\n\n\\begin{enumerate}\n\\item \\(S_n=\\dfrac{3n^2-5n}{2}\\)，\\(n\\in\\N^*\\).\n\n\\item \\(1<d\\le 2\\).\n\\end{enumerate}",
     "reference_solution_figure_refs": [],
     "reference": {
@@ -323,7 +323,7 @@
     "question_id": "2022-zhejiang-21",
     "analysis": "第一问对椭圆上点参数化或设坐标，用距离平方函数求最大值，得12√11/11。第二问利用Q在线段AB上建立弦AB条件，再将PA、PB与定直线交点C、D表示为参数函数，最后对|CD|做最值，得6√5/5。",
     "analysis_source": "existing_analysis_checked_against_reference",
-    "reference_solution": "短答案： \\mathrm{i}tem $\\frac{12\\sqrt{11}}{11}$. \\mathrm{i}tem $\\frac{6\\sqrt5}{5}$. \\mathrm{e}nd{enumerate}",
+    "reference_solution": "短答案： ； $ \\frac{12\\sqrt{11}}{11} $. ； $ \\frac{6\\sqrt5}{5} $.",
     "reference_solution_latex": "短答案：\n\n\\begin{enumerate}\n\\item \\(\\dfrac{12\\sqrt{11}}{11}\\).\n\n\\item \\(\\dfrac{6\\sqrt5}{5}\\).\n\\end{enumerate}",
     "reference_solution_figure_refs": [],
     "reference": {
@@ -339,7 +339,7 @@
     "question_id": "2022-zhejiang-22",
     "analysis": "f'(x)=1/x-e/(2x²)=(2x-e)/(2x²)，故在(0,e/2)递减、(e/2,+∞)递增。第二问把过定点(a,b)的切线条件写成关于切点x的方程，存在三个不同正根；再研究该方程的极值和根间关系，分别在a>e与0<a<e两种情形下推出题设不等式。",
     "analysis_source": "existing_analysis_checked_against_reference",
-    "reference_solution": "短答案： \\mathrm{i}tem 减区间为 $\\left(0,\\frac{\\mathrm{e}}{2}\\right)$，增区间为 $\\left(\\frac{\\mathrm{e}}{2},+\\mathrm{i}nfty\\right)$. \\mathrm{i}tem 证明见解析. \\mathrm{e}nd{enumerate}",
+    "reference_solution": "短答案： ； 减区间为 $ \\left(0,\\frac{\\mathrm{e}}{2}\\right) $，增区间为 $ \\left(\\frac{\\mathrm{e}}{2},+\\infty\\right) $. ； 证明见解析.",
     "reference_solution_latex": "短答案：\n\n\\begin{enumerate}\n\\item 减区间为 \\(\\left(0,\\dfrac{\\e}{2}\\right)\\)，增区间为 \\(\\left(\\dfrac{\\e}{2},+\\infty\\right)\\).\n\n\\item 证明见解析.\n\\end{enumerate}",
     "reference_solution_figure_refs": [],
     "reference": {

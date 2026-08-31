@@ -49,7 +49,7 @@
 | 2022 | 浙江卷 | 22 | verified | 4 |
 | 2023 | 新高考I卷 | 22 | verified | 1 |
 | 2024 | 新高考I卷 | 19 | verified | 3 |
-| 2025 | 全国1卷 | 19 | needs_review | 2 |
+| 2025 | 全国1卷 | 19 | verified | 2 |
 | 2026 | 全国1卷 | 19 | verified | 1 |
 
 本地结构校验：
@@ -59,5 +59,7 @@ python scripts/validate_dataset.py
 ```
 
 详细记录见 `VERIFICATION_REPORT.md` 和 `verification/`。
+
+2025 年第 4、9、13 题曾与单一第三方题库发生答案分歧，现已依据原卷、固定参考转写、其他独立答案源及数学推导完成裁决；原冲突保留在 `verification/secondary-source-resolutions.json`。
 
 <!-- verification:end -->

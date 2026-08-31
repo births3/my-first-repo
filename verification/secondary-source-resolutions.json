@@ -1,0 +1,55 @@
+{
+  "resolved_at": "2026-08-31",
+  "status": "all_resolved",
+  "policy": "单一 C 级来源与 A 级原卷/固定转写冲突时，必须增加至少一份独立来源并进行 D 级数学复核；证据链一致后方可标记 resolved。",
+  "resolutions": [
+    {
+      "question_id": "2025-national-1-04",
+      "question_no": 4,
+      "canonical_answer": "B",
+      "secondary_answer": "C",
+      "secondary_source": "GaokaoWiki 2025 浙江数学 q04 页面",
+      "decision": "canonical_answer_confirmed",
+      "reason": "y=2tan(x-π/3) 的全部对称中心为 (π/3+kπ,0)，k∈Z；a>0 时最小值为 π/3，对应 B。",
+      "support": [
+        "deekur/gaokaomath 原始 PDF（Git blob SHA 已核）",
+        "DxAThing/Gaokao-Math-Problems-Compilation 固定转写与解析",
+        "中国教育在线 2025 全国一卷数学答案页",
+        "21世纪教育网 2025 全国一卷试题与解析",
+        "独立数学推导"
+      ]
+    },
+    {
+      "question_id": "2025-national-1-09",
+      "question_no": 9,
+      "canonical_answer": [
+        "B",
+        "D"
+      ],
+      "secondary_answer": "BC",
+      "secondary_source": "GaokaoWiki 2025 浙江数学 q09 页面",
+      "decision": "canonical_answer_confirmed",
+      "reason": "正三棱柱中 BC⊥AD 且 BC⊥AA₁，故 B₁C₁∥BC⊥平面 AA₁D；CC₁∥AA₁ 且 CC₁ 不在平面 AA₁D 内，故 CC₁∥平面 AA₁D。A、C 均不成立，因此答案为 BD。",
+      "support": [
+        "deekur/gaokaomath 原始 PDF（Git blob SHA 已核）",
+        "DxAThing/Gaokao-Math-Problems-Compilation 固定转写与解析",
+        "21世纪教育网多份独立讲义/解析均给出 BD",
+        "独立空间几何推导"
+      ]
+    },
+    {
+      "question_id": "2025-national-1-13",
+      "question_no": 13,
+      "canonical_answer": "2",
+      "secondary_answer": "±2",
+      "secondary_source": "GaokaoWiki 2025 浙江数学 q13 页面",
+      "decision": "canonical_answer_confirmed",
+      "reason": "S₈=S₄(1+q⁴)，由 68=4(1+q⁴) 得 q⁴=16。题设等比数列各项均为正数，因此 q>0，只能取 q=2。",
+      "support": [
+        "deekur/gaokaomath 原始 PDF（Git blob SHA 已核）",
+        "DxAThing/Gaokao-Math-Problems-Compilation 固定转写与解析",
+        "独立数列推导"
+      ]
+    }
+  ]
+}
