@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/sync-and-validate.yml"
+      - "scripts/verifier.bundle.part*"
       - "scripts/sync_and_validate.py.gz.b64"
       - "scripts/sync_and_validate.py"
 
@@ -35,7 +36,12 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          if [[ -f scripts/sync_and_validate.py.gz.b64 ]]; then
+          shopt -s nullglob
+          parts=(scripts/verifier.bundle.part*)
+          if (( ${#parts[@]} > 0 )); then
+            cat "${parts[@]}" | base64 --decode | gzip --decompress > scripts/sync_and_validate.py
+            chmod +x scripts/sync_and_validate.py
+          elif [[ -f scripts/sync_and_validate.py.gz.b64 ]]; then
             base64 --decode scripts/sync_and_validate.py.gz.b64 | gzip --decompress > scripts/sync_and_validate.py
             chmod +x scripts/sync_and_validate.py
           fi
@@ -52,8 +58,10 @@ jobs:
         run: |
           set -euo pipefail
           git diff --check
-          if [[ -f scripts/sync_and_validate.py.gz.b64 ]]; then
-            git rm scripts/sync_and_validate.py.gz.b64
+          shopt -s nullglob
+          temporary=(scripts/verifier.bundle.part* scripts/sync_and_validate.py.gz.b64)
+          if (( ${#temporary[@]} > 0 )); then
+            git rm --ignore-unmatch "${temporary[@]}"
           fi
           git add README.md SOURCE_ATTRIBUTION.md DATA_LICENSE.md VERIFICATION_REPORT.md \
             schema.json metadata data analysis verification scripts .github/workflows/sync-and-validate.yml
