@@ -7,6 +7,7 @@ on:
     paths:
       - ".github/workflows/sync-and-validate.yml"
       - "scripts/verifier.bundle.part*"
+      - "scripts/finalizer.bundle.part*"
       - "scripts/sync_and_validate.py.gz.b64"
       - "scripts/sync_and_validate.py"
       - "scripts/finalize_verification.py.gz.b64"
@@ -49,10 +50,16 @@ jobs:
             chmod +x scripts/sync_and_validate.py
           fi
 
-          if [[ -f scripts/finalize_verification.py.gz.b64 ]]; then
+          finalizer_parts=(scripts/finalizer.bundle.part*)
+          if (( ${#finalizer_parts[@]} > 0 )); then
+            cat "${finalizer_parts[@]}" | base64 --decode | gzip --decompress > scripts/finalize_verification.py
+            chmod +x scripts/finalize_verification.py
+          elif [[ -f scripts/finalize_verification.py.gz.b64 ]]; then
             base64 --decode scripts/finalize_verification.py.gz.b64 | gzip --decompress > scripts/finalize_verification.py
             chmod +x scripts/finalize_verification.py
           fi
+
+          echo "cca0e5dd168a6ed27a53b00391c5b7b87b3ba4f41dd074da1eb66759ef28fc70  scripts/finalize_verification.py" | sha256sum -c -
 
           python - <<'PY'
           from pathlib import Path
@@ -83,6 +90,7 @@ jobs:
           shopt -s nullglob
           temporary=(
             scripts/verifier.bundle.part*
+            scripts/finalizer.bundle.part*
             scripts/sync_and_validate.py.gz.b64
             scripts/finalize_verification.py.gz.b64
           )
