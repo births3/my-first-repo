@@ -1,0 +1,42 @@
+{
+  "year": 2025,
+  "paper": "全国1卷",
+  "scope": "浙江适用数学卷",
+  "source_pdf": {
+    "repository": "deekur/gaokaomath",
+    "file": "普通高考/2025/2025全国1(山东,广东,湖南,湖北,河北,江苏,福建,浙江,河南,江西,安徽).pdf",
+    "sha": "4a5702dda207a470840a62c982ab2392362a404e"
+  },
+  "verification_sources": [
+    "deekur/gaokaomath source PDF metadata",
+    "GaokaoHub 2025 新高考一卷数学",
+    "independent mathematical recomputation"
+  ],
+  "summary": {
+    "question_count": 19,
+    "structure": "8单选+3多选+3填空+5解答",
+    "status": "needs_review",
+    "reason": "部分多选题题干被摘要化，且 options 为 null；需要按原卷补全后才能整卷标记 verified"
+  },
+  "question_checks": [
+    {"question_no":1,"status":"verified","notes":"题干、四选项与独立题源一致；计算 (1+5i)i=-5+i，虚部为1，答案C。"},
+    {"question_no":2,"status":"verified","notes":"题干、四选项一致；补集元素数为5，答案C。"},
+    {"question_no":3,"status":"verified","notes":"b/a=√7，e=√(1+b²/a²)=2√2，答案D。"},
+    {"question_no":4,"status":"verified","notes":"正切函数对称中心横坐标满足 x-π/3=kπ/2；最小正值为π/3，答案B。"},
+    {"question_no":5,"status":"verified","notes":"周期性与偶性可独立复核答案A。"},
+    {"question_no":6,"status":"verified_with_figure_dependency","notes":"文字结构与答案已交叉核对，但完整作答依赖题图中的向量数值/比例。"},
+    {"question_no":7,"status":"verified","notes":"可通过圆心到两条平行距离轨迹独立复核区间与答案B。"},
+    {"question_no":8,"status":"verified","notes":"可令公共值为t，将x,y,z写成指数形式比较；答案B与独立来源一致。"},
+    {"question_no":9,"status":"needs_review","notes":"当前仓库 options=null，题干为摘要式，不能仅凭答案BD判定完整题目已校验。"},
+    {"question_no":10,"status":"needs_review","notes":"当前仓库 options=null，需从原卷恢复A-D四个完整结论后再逐项验证。"},
+    {"question_no":11,"status":"needs_review","notes":"当前仓库题干摘要且答案ABC与独立题源参考答案ACD发生冲突；必须回原始PDF逐项复核。"},
+    {"question_no":12,"status":"verified","notes":"切点满足e^x+1=2，得x=0，再由切线过(0,5)得a=4。"},
+    {"question_no":13,"status":"verified","notes":"S8/S4=17=1+q^4，q>0，得q=2。"},
+    {"question_no":14,"status":"needs_review","notes":"需继续按原卷与至少一份独立文字题源复核题面和答案。"},
+    {"question_no":15,"status":"needs_review","notes":"解答题需校验题面所有条件、最终结论和解析步骤。"},
+    {"question_no":16,"status":"needs_review","notes":"解答题需校验题面所有条件、最终结论和解析步骤。"},
+    {"question_no":17,"status":"needs_review","notes":"解答题需校验题面所有条件、最终结论和解析步骤。"},
+    {"question_no":18,"status":"needs_review","notes":"解答题需校验题面所有条件、最终结论和解析步骤。"},
+    {"question_no":19,"status":"needs_review","notes":"压轴题需逐条件核对原卷并重新推导。"}
+  ]
+}
