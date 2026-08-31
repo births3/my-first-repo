@@ -1,0 +1,24 @@
+name: Validate independent solution audit
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "independent-verification/**"
+      - "scripts/validate_independent_verification.py"
+      - ".github/workflows/validate-independent-verification.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate JSONL, IDs and statuses
+        run: python scripts/validate_independent_verification.py
