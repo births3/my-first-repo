@@ -1,0 +1,67 @@
+name: Sync and validate Gaokao dataset
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/sync-and-validate.yml"
+      - "scripts/sync_and_validate.py.gz.b64"
+      - "scripts/sync_and_validate.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-gaokao-dataset
+  cancel-in-progress: false
+
+jobs:
+  sync-and-validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Restore verifier source
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -f scripts/sync_and_validate.py.gz.b64 ]]; then
+            base64 --decode scripts/sync_and_validate.py.gz.b64 | gzip --decompress > scripts/sync_and_validate.py
+            chmod +x scripts/sync_and_validate.py
+          fi
+          python -m py_compile scripts/sync_and_validate.py
+
+      - name: Synchronize and cross-check all six papers
+        run: python scripts/sync_and_validate.py
+
+      - name: Run repository-level structural validation
+        run: python scripts/validate_dataset.py
+
+      - name: Commit verified dataset
+        shell: bash
+        run: |
+          set -euo pipefail
+          git diff --check
+          if [[ -f scripts/sync_and_validate.py.gz.b64 ]]; then
+            git rm scripts/sync_and_validate.py.gz.b64
+          fi
+          git add README.md SOURCE_ATTRIBUTION.md DATA_LICENSE.md VERIFICATION_REPORT.md \
+            schema.json metadata data analysis verification scripts .github/workflows/sync-and-validate.yml
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Sync and verify 2021-2026 dataset [skip ci]"
+          git push
