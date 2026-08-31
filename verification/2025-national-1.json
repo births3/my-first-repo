@@ -10,34 +10,43 @@
   "verification_sources": [
     "deekur/gaokaomath source PDF metadata",
     "GaokaoHub 2025 新高考一卷数学",
-    "21世纪教育网/高考复习资料中的2025全国I卷原题",
+    "21世纪教育网/高考复习资料中的2025全国I卷原题与解析",
+    "教习网/良师宝等独立完整题源",
     "independent mathematical recomputation"
   ],
   "summary": {
     "question_count": 19,
     "structure": "8单选+3多选+3填空+5解答",
-    "status": "needs_review",
-    "reason": "第9-11题已完成题面恢复与答案复核；剩余第14-19题仍需按原卷与独立来源继续核验"
+    "verified_count": 18,
+    "figure_dependent_count": 1,
+    "status": "needs_figure_review",
+    "reason": "除第6题需直接核对原卷题图中的向量数值/比例外，其余18题已完成题面、答案及关键推导的交叉验证"
   },
   "question_checks": [
     {"question_no":1,"status":"verified","notes":"题干、四选项与独立题源一致；计算 (1+5i)i=-5+i，虚部为1，答案C。"},
     {"question_no":2,"status":"verified","notes":"题干、四选项一致；补集元素数为5，答案C。"},
     {"question_no":3,"status":"verified","notes":"b/a=√7，e=√(1+b²/a²)=2√2，答案D。"},
-    {"question_no":4,"status":"verified","notes":"正切函数对称中心横坐标满足 x-π/3=kπ/2；最小正值为π/3，答案B。"},
-    {"question_no":5,"status":"verified","notes":"周期性与偶性可独立复核答案A。"},
-    {"question_no":6,"status":"verified_with_figure_dependency","notes":"文字结构与答案已交叉核对，但完整作答依赖题图中的向量数值/比例。"},
-    {"question_no":7,"status":"verified","notes":"可通过圆心到两条平行距离轨迹独立复核区间与答案B。"},
-    {"question_no":8,"status":"verified","notes":"可令公共值为t，将x,y,z写成指数形式比较；答案B与独立来源一致。"},
+    {"question_no":4,"status":"verified","notes":"正切函数对称中心横坐标最小正值为π/3，答案B。"},
+    {"question_no":5,"status":"verified","notes":"周期性与偶性独立复核得到-1/2，答案A。"},
+    {"question_no":6,"status":"verified_with_figure_dependency","notes":"文字结构与答案已交叉核对；最高级验证仍需直接查看原卷题图中的向量数值/比例。"},
+    {"question_no":7,"status":"verified","notes":"圆心到直线距离为2，平行线与圆的交点数分析得1<r<3，答案B。"},
+    {"question_no":8,"status":"verified","notes":"令公共值为t并比较三个指数表达式，可排除x>z>y，答案B。"},
     {"question_no":9,"status":"verified","notes":"已恢复完整A-D选项；多份独立题源与几何判定均给BD。"},
     {"question_no":10,"status":"verified","notes":"已恢复完整A-D选项；抛物线定义、焦点弦最短值及独立解析均给ACD。"},
-    {"question_no":11,"status":"verified","notes":"已修正题干转录错误：应为cos2A+cos2B+2sinC=2，而非cos²A+cos²B。完整选项与独立题源一致，逐项复核答案为ACD；原仓库ABC已修正。"},
-    {"question_no":12,"status":"verified","notes":"切点满足e^x+1=2，得x=0，再由切线过(0,5)得a=4。"},
-    {"question_no":13,"status":"verified","notes":"S8/S4=17=1+q^4，q>0，得q=2。"},
-    {"question_no":14,"status":"needs_review","notes":"需继续按原卷与至少一份独立文字题源复核题面和答案。"},
-    {"question_no":15,"status":"needs_review","notes":"解答题需校验题面所有条件、最终结论和解析步骤。"},
-    {"question_no":16,"status":"needs_review","notes":"解答题需校验题面所有条件、最终结论和解析步骤。"},
-    {"question_no":17,"status":"needs_review","notes":"解答题需校验题面所有条件、最终结论和解析步骤。"},
-    {"question_no":18,"status":"needs_review","notes":"解答题需校验题面所有条件、最终结论和解析步骤。"},
-    {"question_no":19,"status":"needs_review","notes":"压轴题需逐条件核对原卷并重新推导。"}
+    {"question_no":11,"status":"verified","notes":"修正题干：应为cos2A+cos2B+2sinC=2。完整选项与逐项推导均给ACD；原仓库ABC已修正。"},
+    {"question_no":12,"status":"verified","notes":"切点斜率条件得x=0，再代入切线得a=4。"},
+    {"question_no":13,"status":"verified","notes":"S8/S4=17=1+q^4，正项等比数列得q=2。"},
+    {"question_no":14,"status":"verified","notes":"指示变量法：5×[1-(4/5)^3]=61/25，与独立题源题面一致。"},
+    {"question_no":15,"status":"verified","notes":"题面列联表与独立原题一致；p=180/200=9/10，按给定公式重算χ²=765.625>10.828。"},
+    {"question_no":16,"status":"verified","notes":"原递推为a_{n+1}/n=a_n/(n+1)+1/[n(n+1)]，与仓库等价形式一致；重算得na_n=n+2及f'(-2)=7/9-((3m+7)(-2)^m)/9。"},
+    {"question_no":17,"status":"verified","notes":"完整题面确认PA=AB=√2、AD=1+√3、BC=2；坐标法重算夹角余弦为√2/3，原仓库2/3已修正。"},
+    {"question_no":18,"status":"verified","notes":"题面与R坐标表达均与独立题源一致；完整独立解析给|PM|max=3(√3+√2)，原仓库3+3√3已修正。"},
+    {"question_no":19,"status":"verified","notes":"完整题面由多份独立来源一致确认；第(1)(3)问重算及独立解析均给3√3，第(2)问存在性命题一致。"}
+  ],
+  "corrections_applied": [
+    {"question_no":11,"field":"stem","from":"cos²A+cos²B+2sinC=2（摘要转录）","to":"cos2A+cos2B+2sinC=2"},
+    {"question_no":11,"field":"answer","from":"ABC","to":"ACD"},
+    {"question_no":17,"field":"answer","from":"2/3","to":"√2/3"},
+    {"question_no":18,"field":"answer","from":"3+3√3","to":"3(√3+√2)"}
   ]
 }
