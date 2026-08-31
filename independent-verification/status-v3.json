@@ -1,0 +1,34 @@
+{
+  "scope": "2021-2026 浙江适用高考数学",
+  "total_questions": 123,
+  "independently_verified_or_proof_checked": 105,
+  "mismatches_found_against_current_answers": 0,
+  "remaining": 18,
+  "remaining_questions": [
+    "2021-zhejiang-04",
+    "2021-zhejiang-07",
+    "2021-zhejiang-13",
+    "2021-zhejiang-14",
+    "2021-zhejiang-15",
+    "2021-zhejiang-16",
+    "2021-zhejiang-17",
+    "2021-zhejiang-18",
+    "2021-zhejiang-19",
+    "2021-zhejiang-20",
+    "2021-zhejiang-21",
+    "2021-zhejiang-22",
+    "2022-zhejiang-05",
+    "2025-national-1-06",
+    "2025-national-1-09",
+    "2025-national-1-10",
+    "2025-national-1-11",
+    "2026-national-1-11"
+  ],
+  "resolved_by_additional_derivation": [
+    "2022-zhejiang-08",
+    "2022-zhejiang-22",
+    "2026-national-1-19"
+  ],
+  "overall_status": "in_progress",
+  "claim": "105/123 questions currently have a written independent derivation. The audit is not yet complete."
+}
