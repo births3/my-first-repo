@@ -8,7 +8,9 @@
     "source_repository": "deekur/gaokaomath",
     "source_file": "普通高考/2026/2026全国1(山东,广东,湖南,湖北,河北,江苏,福建,浙江,河南,江西,安徽).pdf",
     "source_sha": "520ab76bc3becadb8246705d261f4562f7d62e12",
-    "status": "questions_extracted_analysis_complete"
+    "status": "questions_extracted_analysis_complete",
+    "verification_status": "needs_review",
+    "verification_report": "verification/2026-national-1.json"
   },
   {
     "year": 2025,
@@ -19,7 +21,9 @@
     "source_repository": "deekur/gaokaomath",
     "source_file": "普通高考/2025/2025全国1(山东,广东,湖南,湖北,河北,江苏,福建,浙江,河南,江西,安徽).pdf",
     "source_sha": "4a5702dda207a470840a62c982ab2392362a404e",
-    "status": "questions_extracted_analysis_complete"
+    "status": "questions_extracted_analysis_complete",
+    "verification_status": "needs_review",
+    "verification_report": "verification/2025-national-1.json"
   },
   {
     "year": 2024,
@@ -30,7 +34,8 @@
     "source_repository": "deekur/gaokaomath",
     "source_file": "普通高考/2024/2024新高考1(山东,广东,湖南,湖北,河北,江苏,福建,浙江,河南,江西,安徽).pdf",
     "source_sha": "a408f5467da376f7335cdb397855fe07ddc87149",
-    "status": "questions_extracted_analysis_complete"
+    "status": "questions_extracted_analysis_complete",
+    "verification_status": "pending"
   },
   {
     "year": 2023,
@@ -41,7 +46,8 @@
     "source_repository": "deekur/gaokaomath",
     "source_file": "普通高考/2023/2023新高考1(山东,广东,湖南,湖北,河北,江苏,福建,浙江).pdf",
     "source_sha": "90505e1146e12c0ed0fc296b3568a1ab5e82482c",
-    "status": "questions_extracted_analysis_complete"
+    "status": "questions_extracted_analysis_complete",
+    "verification_status": "pending"
   },
   {
     "year": 2022,
@@ -52,7 +58,8 @@
     "source_repository": "deekur/gaokaomath",
     "source_file": "普通高考/2022/2022浙江.pdf",
     "source_sha": "754cf398b650e7148a5b5cd66118113271d8abb8",
-    "status": "questions_extracted_analysis_complete"
+    "status": "questions_extracted_analysis_complete",
+    "verification_status": "pending"
   },
   {
     "year": 2021,
@@ -63,6 +70,7 @@
     "source_repository": "deekur/gaokaomath",
     "source_file": "普通高考/2021/2021浙江.pdf",
     "source_sha": "6eaa4467044e08aacde2fbcecf7e502748cd4397",
-    "status": "questions_extracted_analysis_complete"
+    "status": "questions_extracted_analysis_complete",
+    "verification_status": "pending"
   }
 ]
