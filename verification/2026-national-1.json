@@ -1,0 +1,43 @@
+{
+  "year": 2026,
+  "paper": "全国1卷",
+  "scope": "浙江适用数学卷",
+  "source_pdf": {
+    "repository": "deekur/gaokaomath",
+    "file": "普通高考/2026/2026全国1(山东,广东,湖南,湖北,河北,江苏,福建,浙江,河南,江西,安徽).pdf",
+    "sha": "520ab76bc3becadb8246705d261f4562f7d62e12"
+  },
+  "verification_sources": [
+    "deekur/gaokaomath source PDF metadata",
+    "深圳本地宝 2026 全国一卷数学文字版",
+    "天材教育 2026 全国I卷数学解析",
+    "independent mathematical recomputation"
+  ],
+  "summary": {
+    "question_count": 19,
+    "structure": "8单选+3多选+3填空+5解答",
+    "status": "needs_review",
+    "reason": "题目数量与结构已确认，但当前仓库多道单选/多选缺完整选项；部分题需恢复公式显示后才能做逐字级校验"
+  },
+  "question_checks": [
+    {"question_no":1,"status":"verified","notes":"6,8,4,5,12排序为4,5,6,8,12，中位数6，答案B；题干和选项与独立来源一致。"},
+    {"question_no":2,"status":"needs_review","notes":"数学结论x=2,y=-3可由向量基底唯一性复核，但当前仓库 options=null，需恢复完整A-D选项。"},
+    {"question_no":3,"status":"verified","notes":"sin(7π/6)=-1/2, cos(5π/3)=1/2, tan(5π/4)=1，因此交集为{-1/2,1}，答案C；独立来源同为C。"},
+    {"question_no":4,"status":"needs_review","notes":"切线结论可由导数复核，但当前仓库 options=null；且需确认原题点坐标/函数公式在网页文字转录中无丢失。"},
+    {"question_no":5,"status":"needs_review","notes":"焦点距离结果可复核，但当前仓库 options=null，需按原卷补四选项。"},
+    {"question_no":6,"status":"needs_review","notes":"答案a=1需继续用完整函数定义域和原选项核对；当前 options=null。"},
+    {"question_no":7,"status":"needs_review","notes":"构造结果d=4可独立验证，但当前仓库缺四个选项及完整背景题面。"},
+    {"question_no":8,"status":"needs_review","notes":"期望-1/21可用对称性独立复核，但当前仓库 options=null，需恢复完整选项。"},
+    {"question_no":9,"status":"verified","notes":"z=3+2i；共轭3-2i正确，|z|=√13非5，z²=5+12i，(z+3)/(z-i)为实数；答案ACD，与独立来源一致。"},
+    {"question_no":10,"status":"verified","notes":"独立来源完整给出A-D并参考答案BC；与仓库答案BC一致。"},
+    {"question_no":11,"status":"needs_review","notes":"仓库答案BCD与独立来源一致，但仓库 options=null；需要恢复完整四个弦长命题后才可标verified。"},
+    {"question_no":12,"status":"verified","notes":"5x²-6y²=1化为x²/(1/5)-y²/(1/6)=1，e=√((1/5+1/6)/(1/5))=√(11/6)。"},
+    {"question_no":13,"status":"needs_review","notes":"当前题面含参数a∈Z和单调性条件，需从原卷核对参数符号及答案对；网页公式显示存在丢失风险。"},
+    {"question_no":14,"status":"needs_review","notes":"需恢复完整题面并做独立推导。"},
+    {"question_no":15,"status":"needs_review","notes":"立体几何解答题；结构已由独立解析来源确认，但需逐条件/结论核对。"},
+    {"question_no":16,"status":"needs_review","notes":"解三角形综合；需逐条件、数值和最终答案核对。"},
+    {"question_no":17,"status":"needs_review","notes":"概率与条件概率；需核分布列、条件概率结论和解析严密性。"},
+    {"question_no":18,"status":"needs_review","notes":"椭圆综合；需逐式核对面积比/角度最值及答案。"},
+    {"question_no":19,"status":"needs_review","notes":"集合新定义与函数性质压轴题；必须按原卷完整题面逐项重推。"}
+  ]
+}
