@@ -1,0 +1,27 @@
+name: Export source figures
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/download_figures.py"
+      - ".github/workflows/export-figures.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/download_figures.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: source-figures
+          path: working/figures
+          if-no-files-found: error
