@@ -10,13 +10,14 @@
   "verification_sources": [
     "deekur/gaokaomath source PDF metadata",
     "GaokaoHub 2025 新高考一卷数学",
+    "21世纪教育网/高考复习资料中的2025全国I卷原题",
     "independent mathematical recomputation"
   ],
   "summary": {
     "question_count": 19,
     "structure": "8单选+3多选+3填空+5解答",
     "status": "needs_review",
-    "reason": "部分多选题题干被摘要化，且 options 为 null；需要按原卷补全后才能整卷标记 verified"
+    "reason": "第9-11题已完成题面恢复与答案复核；剩余第14-19题仍需按原卷与独立来源继续核验"
   },
   "question_checks": [
     {"question_no":1,"status":"verified","notes":"题干、四选项与独立题源一致；计算 (1+5i)i=-5+i，虚部为1，答案C。"},
@@ -27,9 +28,9 @@
     {"question_no":6,"status":"verified_with_figure_dependency","notes":"文字结构与答案已交叉核对，但完整作答依赖题图中的向量数值/比例。"},
     {"question_no":7,"status":"verified","notes":"可通过圆心到两条平行距离轨迹独立复核区间与答案B。"},
     {"question_no":8,"status":"verified","notes":"可令公共值为t，将x,y,z写成指数形式比较；答案B与独立来源一致。"},
-    {"question_no":9,"status":"needs_review","notes":"当前仓库 options=null，题干为摘要式，不能仅凭答案BD判定完整题目已校验。"},
-    {"question_no":10,"status":"needs_review","notes":"当前仓库 options=null，需从原卷恢复A-D四个完整结论后再逐项验证。"},
-    {"question_no":11,"status":"needs_review","notes":"当前仓库题干摘要且答案ABC与独立题源参考答案ACD发生冲突；必须回原始PDF逐项复核。"},
+    {"question_no":9,"status":"verified","notes":"已恢复完整A-D选项；多份独立题源与几何判定均给BD。"},
+    {"question_no":10,"status":"verified","notes":"已恢复完整A-D选项；抛物线定义、焦点弦最短值及独立解析均给ACD。"},
+    {"question_no":11,"status":"verified","notes":"已修正题干转录错误：应为cos2A+cos2B+2sinC=2，而非cos²A+cos²B。完整选项与独立题源一致，逐项复核答案为ACD；原仓库ABC已修正。"},
     {"question_no":12,"status":"verified","notes":"切点满足e^x+1=2，得x=0，再由切线过(0,5)得a=4。"},
     {"question_no":13,"status":"verified","notes":"S8/S4=17=1+q^4，q>0，得q=2。"},
     {"question_no":14,"status":"needs_review","notes":"需继续按原卷与至少一份独立文字题源复核题面和答案。"},
